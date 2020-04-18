@@ -1,4 +1,0 @@
-[13.578s] [01m[K/home/latte/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:[m[K In member function ‘[01m[Kvoid realsense::RealSenseBase::calculateTFAndPublish(const rs2::stream_profile&, const rs2::stream_profile&)[m[K’:
-[13.579s] [01m[K/home/latte/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:279:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzero_trans[m[K’ [[01;35m[K-Wunused-variable[m[K]
-[13.579s]    Float3 [01;35m[Kzero_trans[m[K{0, 0, 0};
-[13.580s]           [01;35m[K^~~~~~~~~~[m[K

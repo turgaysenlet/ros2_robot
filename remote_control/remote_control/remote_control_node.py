@@ -21,6 +21,7 @@ class RemoteControl(Node):
     MAX_STEERING = 1
     MIN_STEERING_TARGET = 5000
     MAX_STEERING_TARGET = 7000
+    STEERING_MULTIPLIER = 2.0
 
     MIN_DEADZONE = -0.02
     MAX_DEADZONE = 0.02
@@ -31,8 +32,9 @@ class RemoteControl(Node):
     STOP_SPEED_TARGET = 6000
     MIN_SPEED = -1
     MAX_SPEED = 1
-    MIN_SPEED_TARGET = 5700
-    MAX_SPEED_TARGET = 6200
+    MIN_SPEED_TARGET = 5300
+    MAX_SPEED_TARGET = 6800
+    SPEED_MULTIPLIER = 1.0
 
     IGNITION_MIN_SPEED_TARGET = 4400
     IGNITION_MED_SPEED_TARGET = 6000
@@ -76,8 +78,8 @@ class RemoteControl(Node):
         if msg.angular.z == 0 and msg.linear.x == 0:
             self.stop()
         else:
-            self.setSpeed(msg.linear.x * 2.0)
-            self.setSteering(msg.angular.z * 2.0)
+            self.setSpeed(msg.linear.x * self.SPEED_MULTIPLIER)
+            self.setSteering(msg.angular.z * self.STEERING_MULTIPLIER)
     
     def joyListenerCallback(self, msg):                
         # self.get_logger().info('Received joy: "%s" "%s"' % (msg.axes, msg.buttons))
@@ -95,8 +97,8 @@ class RemoteControl(Node):
         # if msg.angular.z == 0 and msg.linear.x == 0:
         #     self.stop()
         # else:
-        #     self.setSpeed(msg.linear.x * 2.0)
-        #     self.setSteering(msg.angular.z * 2.0)
+        #     self.setSpeed(msg.linear.x * self.SPEED_MULTIPLIER)
+        #     self.setSteering(msg.angular.z * self.STEERING_MULTIPLIER)
         self.buttons_old = msg.buttons
     def speak(self, text, async):
         if async:
