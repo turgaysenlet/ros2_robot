@@ -1,0 +1,47 @@
+[0.074s] Invoking command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros -- -j4 -l4
+[0.231s] [35m[1mScanning dependencies of target realsense_t265_ros[0m
+[0.355s] [  7%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_t265.cpp.o[0m
+[6.239s] [ 14%] [32m[1mLinking CXX shared library librealsense_t265_ros.so[0m
+[7.695s] [ 42%] Built target realsense_t265_ros
+[7.740s] [ 57%] Built target gtest_main
+[7.741s] [ 71%] Built target gtest
+[7.799s] [ 78%] [32m[1mLinking CXX executable unittest_function[0m
+[9.141s] [ 85%] Built target unittest_function
+[9.222s] [ 92%] [32m[1mLinking CXX executable camera_core[0m
+[11.218s] [100%] Built target camera_core
+[11.238s] Invoked command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros -- -j4 -l4
+[11.323s] Invoking command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros --target install -- -j4 -l4
+[11.441s] [ 14%] Built target gtest
+[11.491s] [ 28%] Built target gtest_main
+[11.499s] [ 71%] Built target realsense_t265_ros
+[11.571s] [ 85%] Built target unittest_function
+[11.642s] [100%] Built target camera_core
+[11.686s] [36mInstall the project...[0m
+[11.705s] -- Install configuration: ""
+[11.706s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/librealsense_t265_ros.so
+[11.714s] -- Set runtime path of "/home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/librealsense_t265_ros.so" to ""
+[11.714s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include
+[11.715s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense
+[11.715s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_t265.hpp
+[11.715s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_constants.hpp
+[11.715s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_base.hpp
+[11.715s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435.hpp
+[11.716s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435i.hpp
+[11.716s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_factory.hpp
+[11.716s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_factory.hpp
+[11.716s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/library_path.sh
+[11.717s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/package_run_dependencies/realsense_t265_ros
+[11.717s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/parent_prefix_path/realsense_t265_ros
+[11.717s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/ament_prefix_path.sh
+[11.717s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/path.sh
+[11.718s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.bash
+[11.718s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.sh
+[11.718s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.zsh
+[11.718s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/packages/realsense_t265_ros
+[11.718s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/rclcpp_components/realsense_t265_ros
+[11.719s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.719s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[11.719s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig.cmake
+[11.719s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig-version.cmake
+[11.720s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.xml
+[11.724s] Invoked command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros --target install -- -j4 -l4

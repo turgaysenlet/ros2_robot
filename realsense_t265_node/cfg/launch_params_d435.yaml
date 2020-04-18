@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    base_frame_id: d435_link
+    dense_pointcloud: true
+    enable_pointcloud: true
+    serial_no: 746612070147

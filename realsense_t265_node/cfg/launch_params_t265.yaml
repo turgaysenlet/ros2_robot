@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    base_frame_id: t265_link
+    serial_no: 943222110753
+    resolution: [848,800]
+    fps: 30

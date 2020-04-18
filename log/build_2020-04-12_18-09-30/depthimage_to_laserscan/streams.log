@@ -1,0 +1,48 @@
+[0.068s] Invoking command in '/home/latte/dev_ws/src/ros2_robot/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/depthimage_to_laserscan -- -j4 -l4
+[0.218s] [ 16%] Built target DepthImageToLaserScan
+[0.284s] [ 33%] Built target gtest_main
+[0.377s] [ 50%] Built target DepthImageToLaserScanROS
+[0.434s] [ 66%] Built target gtest
+[0.519s] [ 83%] Built target depthimage_to_laserscan_node
+[0.587s] [100%] Built target depthimage_to_laserscan-test
+[0.653s] Invoked command in '/home/latte/dev_ws/src/ros2_robot/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/depthimage_to_laserscan -- -j4 -l4
+[0.744s] Invoking command in '/home/latte/dev_ws/src/ros2_robot/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/depthimage_to_laserscan --target install -- -j4 -l4
+[0.898s] [ 16%] Built target DepthImageToLaserScan
+[0.955s] [ 33%] Built target gtest_main
+[1.049s] [ 50%] Built target DepthImageToLaserScanROS
+[1.105s] [ 66%] Built target gtest
+[1.198s] [ 83%] Built target depthimage_to_laserscan_node
+[1.267s] [100%] Built target depthimage_to_laserscan-test
+[1.327s] [36mInstall the project...[0m
+[1.355s] -- Install configuration: ""
+[1.355s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/include
+[1.355s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/include/depthimage_to_laserscan
+[1.356s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depth_traits.hpp
+[1.356s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScan.hpp
+[1.357s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScanROS.hpp
+[1.358s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch
+[1.358s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan_composed-launch.py
+[1.359s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan-launch.py
+[1.359s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg
+[1.359s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg/param.yaml
+[1.360s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so
+[1.360s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so
+[1.360s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node
+[1.361s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScan_export.h
+[1.361s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScanROS_export.h
+[1.361s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.sh
+[1.361s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/ament_index/resource_index/package_run_dependencies/depthimage_to_laserscan
+[1.361s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/ament_index/resource_index/parent_prefix_path/depthimage_to_laserscan
+[1.362s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.sh
+[1.362s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.sh
+[1.362s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.bash
+[1.362s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.sh
+[1.363s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.zsh
+[1.364s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/ament_index/resource_index/packages/depthimage_to_laserscan
+[1.369s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/ament_index/resource_index/rclcpp_components/depthimage_to_laserscan
+[1.370s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.371s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[1.372s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig.cmake
+[1.372s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig-version.cmake
+[1.373s] -- Up-to-date: /home/latte/dev_ws/src/ros2_robot/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.xml
+[1.374s] Invoked command in '/home/latte/dev_ws/src/ros2_robot/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/depthimage_to_laserscan --target install -- -j4 -l4

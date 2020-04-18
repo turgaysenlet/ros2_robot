@@ -1,0 +1,124 @@
+[0.081s] Invoking command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake /home/latte/dev_ws/src/ros2_robot/realsense_t265_ros -DCMAKE_INSTALL_PREFIX=/home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros
+[0.206s] -- The C compiler identification is GNU 7.5.0
+[0.334s] -- The CXX compiler identification is GNU 7.5.0
+[0.343s] -- Check for working C compiler: /usr/bin/cc
+[0.519s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.519s] -- Detecting C compiler ABI info
+[0.669s] -- Detecting C compiler ABI info - done
+[0.684s] -- Detecting C compile features
+[1.161s] -- Detecting C compile features - done
+[1.170s] -- Check for working CXX compiler: /usr/bin/c++
+[1.336s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.336s] -- Detecting CXX compiler ABI info
+[1.523s] -- Detecting CXX compiler ABI info - done
+[1.530s] -- Detecting CXX compile features
+[2.149s] -- Detecting CXX compile features - done
+[2.150s] -- Create Debug Build.
+[2.157s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.211s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.212s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.605s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.665s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.755s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.763s] -- Looking for pthread.h
+[2.890s] -- Looking for pthread.h - found
+[2.891s] -- Looking for pthread_create
+[3.033s] -- Looking for pthread_create - not found
+[3.033s] -- Looking for pthread_create in pthreads
+[3.147s] -- Looking for pthread_create in pthreads - not found
+[3.147s] -- Looking for pthread_create in pthread
+[3.279s] -- Looking for pthread_create in pthread - found
+[3.280s] -- Found Threads: TRUE  
+[3.354s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[3.368s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[3.401s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[3.454s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[3.480s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[3.519s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[3.530s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[3.663s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[3.670s] -- Found realsense_msgs: 2.0.5 (/opt/robot_devkit/perception/realsense_msgs/share/realsense_msgs/cmake)
+[3.873s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[3.882s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[3.926s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[3.953s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[4.169s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.174s] -- Check if compiler accepts -pthread
+[4.305s] -- Check if compiler accepts -pthread - yes
+[4.858s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[4.863s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.864s] -- Configured cppcheck include dirs: /home/latte/dev_ws/src/ros2_robot/realsense_t265_ros/include
+[4.869s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.870s] -- Added test 'lint_cmake' to check CMake code style
+[4.874s] -- Added test 'uncrustify' to check C / C++ code style
+[4.876s] -- Added test 'xmllint' to check XML markup files
+[4.886s] -- Configuring done
+[5.190s] -- Generating done
+[5.195s] -- Build files have been written to: /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros
+[5.210s] Invoked command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake /home/latte/dev_ws/src/ros2_robot/realsense_t265_ros -DCMAKE_INSTALL_PREFIX=/home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros
+[5.212s] Invoking command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros -- -j4 -l4
+[5.357s] [35m[1mScanning dependencies of target gtest[0m
+[5.366s] [35m[1mScanning dependencies of target gtest_main[0m
+[5.402s] [35m[1mScanning dependencies of target realsense_t265_ros[0m
+[5.503s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.514s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.877s] [ 21%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_base.cpp.o[0m
+[5.888s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_factory.cpp.o[0m
+[7.951s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.140s] [ 35%] Built target gtest_main
+[8.213s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_d435.cpp.o[0m
+[13.578s] [01m[K/home/latte/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:[m[K In member function ‘[01m[Kvoid realsense::RealSenseBase::calculateTFAndPublish(const rs2::stream_profile&, const rs2::stream_profile&)[m[K’:
+[13.579s] [01m[K/home/latte/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:279:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzero_trans[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[13.579s]    Float3 [01;35m[Kzero_trans[m[K{0, 0, 0};
+[13.580s]           [01;35m[K^~~~~~~~~~[m[K
+[16.049s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.377s] [ 50%] Built target gtest
+[16.444s] [ 57%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_d435i.cpp.o[0m
+[21.835s] [ 64%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_t265.cpp.o[0m
+[31.549s] [ 71%] [32m[1mLinking CXX shared library librealsense_t265_ros.so[0m
+[33.052s] [ 71%] Built target realsense_t265_ros
+[33.077s] [35m[1mScanning dependencies of target camera_core[0m
+[33.078s] [35m[1mScanning dependencies of target unittest_function[0m
+[33.203s] [ 78%] [32mBuilding CXX object CMakeFiles/unittest_function.dir/tests/unittest_function.cpp.o[0m
+[33.210s] [ 85%] [32mBuilding CXX object CMakeFiles/camera_core.dir/tests/camera_core.cpp.o[0m
+[39.264s] [ 92%] [32m[1mLinking CXX executable unittest_function[0m
+[41.421s] [ 92%] Built target unittest_function
+[44.004s] [100%] [32m[1mLinking CXX executable camera_core[0m
+[45.855s] [100%] Built target camera_core
+[45.877s] Invoked command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros -- -j4 -l4
+[45.959s] Invoking command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros --target install -- -j4 -l4
+[46.087s] [ 14%] Built target gtest_main
+[46.103s] [ 28%] Built target gtest
+[46.141s] [ 71%] Built target realsense_t265_ros
+[46.233s] [100%] Built target unittest_function
+[46.233s] [100%] Built target camera_core
+[46.275s] [36mInstall the project...[0m
+[46.299s] -- Install configuration: ""
+[46.299s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/librealsense_t265_ros.so
+[46.304s] -- Set runtime path of "/home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/librealsense_t265_ros.so" to ""
+[46.305s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include
+[46.305s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense
+[46.305s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_t265.hpp
+[46.305s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_constants.hpp
+[46.305s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_base.hpp
+[46.306s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435.hpp
+[46.306s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435i.hpp
+[46.306s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_factory.hpp
+[46.306s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_factory.hpp
+[46.306s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/library_path.sh
+[46.306s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/package_run_dependencies/realsense_t265_ros
+[46.307s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/parent_prefix_path/realsense_t265_ros
+[46.307s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/ament_prefix_path.sh
+[46.307s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/path.sh
+[46.307s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.bash
+[46.307s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.sh
+[46.308s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.zsh
+[46.308s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/packages/realsense_t265_ros
+[46.308s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/rclcpp_components/realsense_t265_ros
+[46.308s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.309s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[46.309s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig.cmake
+[46.309s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig-version.cmake
+[46.309s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.xml
+[46.317s] Invoked command in '/home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/latte/dev_ws/src/ros2_robot/build/realsense_t265_ros --target install -- -j4 -l4
