@@ -1,0 +1,54 @@
+[1.000s] [ 14%] Built target gtest_main
+[1.001s] [ 28%] Built target gtest
+[1.001s] [ 35%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_factory.cpp.o[0m
+[1.001s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_d435.cpp.o[0m
+[1.001s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_base.cpp.o[0m
+[1.002s] [ 57%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_d435i.cpp.o[0m
+[6.995s] [01m[K/home/latte/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:[m[K In member function ‘[01m[Kvoid realsense::RealSenseBase::calculateTFAndPublish(const rs2::stream_profile&, const rs2::stream_profile&)[m[K’:
+[6.996s] [01m[K/home/latte/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:279:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzero_trans[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.996s]    Float3 [01;35m[Kzero_trans[m[K{0, 0, 0};
+[6.997s]           [01;35m[K^~~~~~~~~~[m[K
+[9.547s] [ 64%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_t265.cpp.o[0m
+[18.423s] [ 71%] [32m[1mLinking CXX shared library librealsense_t265_ros.so[0m
+[19.913s] [ 71%] Built target realsense_t265_ros
+[19.934s] [35m[1mScanning dependencies of target camera_core[0m
+[19.934s] [35m[1mScanning dependencies of target unittest_function[0m
+[20.031s] [ 85%] [32mBuilding CXX object CMakeFiles/camera_core.dir/tests/camera_core.cpp.o[0m
+[20.031s] [ 85%] [32mBuilding CXX object CMakeFiles/unittest_function.dir/tests/unittest_function.cpp.o[0m
+[25.480s] [ 92%] [32m[1mLinking CXX executable unittest_function[0m
+[27.112s] [ 92%] Built target unittest_function
+[29.231s] [100%] [32m[1mLinking CXX executable camera_core[0m
+[30.907s] [100%] Built target camera_core
+[31.105s] [ 14%] Built target gtest
+[31.112s] [ 28%] Built target gtest_main
+[31.152s] [ 71%] Built target realsense_t265_ros
+[31.226s] [100%] Built target unittest_function
+[31.226s] [100%] Built target camera_core
+[31.256s] [36mInstall the project...[0m
+[31.271s] -- Install configuration: ""
+[31.272s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/librealsense_t265_ros.so
+[31.278s] -- Set runtime path of "/home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/librealsense_t265_ros.so" to ""
+[31.278s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include
+[31.278s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense
+[31.279s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_t265.hpp
+[31.279s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_constants.hpp
+[31.279s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_base.hpp
+[31.279s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435.hpp
+[31.279s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435i.hpp
+[31.280s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_factory.hpp
+[31.280s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_factory.hpp
+[31.280s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/library_path.sh
+[31.280s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/package_run_dependencies/realsense_t265_ros
+[31.280s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/parent_prefix_path/realsense_t265_ros
+[31.281s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/ament_prefix_path.sh
+[31.281s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/path.sh
+[31.281s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.bash
+[31.281s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.sh
+[31.281s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.zsh
+[31.282s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/packages/realsense_t265_ros
+[31.282s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/rclcpp_components/realsense_t265_ros
+[31.282s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.283s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[31.283s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig.cmake
+[31.283s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig-version.cmake
+[31.283s] -- Installing: /home/latte/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.xml

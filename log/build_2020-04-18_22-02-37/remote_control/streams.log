@@ -1,0 +1,21 @@
+[2.384s] Invoking command in '/home/latte/dev_ws/src/ros2_robot/remote_control': PYTHONPATH=/home/latte/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/latte/dev_ws/src/ros2_robot/build/remote_control build --build-base /home/latte/dev_ws/src/ros2_robot/build/remote_control/build install --prefix /home/latte/dev_ws/src/ros2_robot/install/remote_control --record /home/latte/dev_ws/src/ros2_robot/build/remote_control/install.log --single-version-externally-managed
+[3.999s] running egg_info
+[4.000s] writing /home/latte/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/PKG-INFO
+[4.001s] writing dependency_links to /home/latte/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/dependency_links.txt
+[4.001s] writing entry points to /home/latte/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/entry_points.txt
+[4.001s] writing requirements to /home/latte/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/requires.txt
+[4.002s] writing top-level names to /home/latte/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/top_level.txt
+[4.130s] reading manifest file '/home/latte/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'
+[4.152s] writing manifest file '/home/latte/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'
+[4.154s] running build
+[4.155s] running build_py
+[4.158s] running install
+[4.159s] running install_lib
+[4.164s] running install_data
+[4.165s] running install_egg_info
+[4.181s] removing '/home/latte/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control-0.0.0-py3.6.egg-info' (and everything under it)
+[4.182s] Copying /home/latte/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info to /home/latte/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control-0.0.0-py3.6.egg-info
+[4.184s] running install_scripts
+[4.238s] Installing remote_control_node script to /home/latte/dev_ws/src/ros2_robot/install/remote_control/lib/remote_control
+[4.246s] writing list of installed files to '/home/latte/dev_ws/src/ros2_robot/build/remote_control/install.log'
+[4.334s] Invoked command in '/home/latte/dev_ws/src/ros2_robot/remote_control' returned '0': PYTHONPATH=/home/latte/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/latte/dev_ws/src/ros2_robot/build/remote_control build --build-base /home/latte/dev_ws/src/ros2_robot/build/remote_control/build install --prefix /home/latte/dev_ws/src/ros2_robot/install/remote_control --record /home/latte/dev_ws/src/ros2_robot/build/remote_control/install.log --single-version-externally-managed

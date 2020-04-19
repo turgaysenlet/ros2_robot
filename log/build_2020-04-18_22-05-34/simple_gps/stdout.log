@@ -1,0 +1,19 @@
+[2.034s] running egg_info
+[2.035s] writing /home/latte/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/PKG-INFO
+[2.036s] writing dependency_links to /home/latte/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/dependency_links.txt
+[2.037s] writing entry points to /home/latte/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/entry_points.txt
+[2.037s] writing requirements to /home/latte/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/requires.txt
+[2.037s] writing top-level names to /home/latte/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/top_level.txt
+[2.096s] reading manifest file '/home/latte/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/SOURCES.txt'
+[2.099s] writing manifest file '/home/latte/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/SOURCES.txt'
+[2.099s] running build
+[2.099s] running build_py
+[2.100s] running install
+[2.101s] running install_lib
+[2.104s] running install_data
+[2.105s] running install_egg_info
+[2.106s] removing '/home/latte/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps-0.0.0-py3.6.egg-info' (and everything under it)
+[2.107s] Copying /home/latte/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info to /home/latte/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps-0.0.0-py3.6.egg-info
+[2.114s] running install_scripts
+[2.143s] Installing simple_gps_node script to /home/latte/dev_ws/src/ros2_robot/install/simple_gps/lib/simple_gps
+[2.143s] writing list of installed files to '/home/latte/dev_ws/src/ros2_robot/build/simple_gps/install.log'
