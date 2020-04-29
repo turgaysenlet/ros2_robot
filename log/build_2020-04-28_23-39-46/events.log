@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.001118] (-) JobUnselected: {'identifier': 'realsense_t265_node'}
+[0.001486] (-) JobUnselected: {'identifier': 'realsense_t265_ros'}
+[0.001621] (-) JobUnselected: {'identifier': 'remote_control'}
+[0.001695] (-) JobUnselected: {'identifier': 'simple_gps'}
+[0.001832] (ground_plane_estimator) JobQueued: {'identifier': 'ground_plane_estimator', 'dependencies': OrderedDict()}
+[0.001932] (ground_plane_estimator) JobStarted: {'identifier': 'ground_plane_estimator'}
+[0.019745] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'cmake'}
+[0.021000] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'build'}
+[0.022173] (ground_plane_estimator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', '--', '-j12', '-l12'], 'cwd': '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turgay'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1886'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib:/opt/robot_devkit/tools/rtmonitor/lib:/opt/robot_devkit/tools/rtmonitor_msgs/lib:/opt/robot_devkit/tools/perf_msgs/lib:/opt/robot_devkit/perception/dynamic_vino_lib/lib:/opt/robot_devkit/perception/vino_param_lib/lib:/opt/robot_devkit/perception/robot_interface/lib:/opt/robot_devkit/perception/realsense_ros/lib:/opt/robot_devkit/perception/realsense_msgs/lib:/opt/robot_devkit/perception/pipeline_srv_msgs/lib:/opt/robot_devkit/perception/grasp_ros2/lib:/opt/robot_devkit/perception/people_msgs/lib:/opt/robot_devkit/perception/object_analytics_node/lib:/opt/robot_devkit/perception/object_analytics_msgs/lib:/opt/robot_devkit/perception/moveit_msgs/lib:/opt/robot_devkit/perception/handeye_tf_service/lib:/opt/robot_devkit/perception/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/turgay'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/turgay'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2712'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('COLCON_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install:/opt/robot_devkit/tools:/opt/robot_devkit/perception'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'turgay'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'turgay'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/bin:/opt/robot_devkit/perception/recognize_pick/bin:/opt/robot_devkit/perception/random_pick/bin:/opt/robot_devkit/perception/fixed_position_pick/bin:/opt/robot_devkit/perception/draw_x/bin:/opt/robot_devkit/perception/realsense_node/bin:/opt/robot_devkit/perception/grasp_ros2/bin:/opt/robot_devkit/perception/handeye_dashboard/bin:/opt/ros/dashing/bin:/home/turgay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/turgay/.dotnet/tools'), ('SESSION_MANAGER', 'local/turgaydesktop:@/tmp/.ICE-unix/1791,unix/turgaydesktop:/tmp/.ICE-unix/1791'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LIBVA_DRIVER_NAME', 'iHD'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros:/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('MFX_HOME', '/opt/intel/mediasdk'), ('TERMINATOR_UUID', 'urn:uuid:6ae4a936-d34f-4eda-972f-543f8b458473'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:/opt/robot_devkit/tools/rtmonitor_msgs/lib/python3.6/site-packages:/opt/robot_devkit/tools/rdk_perf/lib/python3.6/site-packages:/opt/robot_devkit/tools/perf_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/realsense_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/pipeline_srv_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/people_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/object_analytics_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/moveit_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_tf_service/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_dashboard/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye/lib/python3.6/site-packages:/opt/robot_devkit/perception/grasp_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/criutils/lib/python3.6/site-packages:/opt/robot_devkit/perception/baldor/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros:/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing')]), 'shell': False}
+[0.098958] (-) TimerEvent: {}
+[0.139110] (ground_plane_estimator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o\x1b[0m\n'}
+[0.199086] (-) TimerEvent: {}
+[0.299665] (-) TimerEvent: {}
+[0.400154] (-) TimerEvent: {}
+[0.500668] (-) TimerEvent: {}
+[0.601182] (-) TimerEvent: {}
+[0.701709] (-) TimerEvent: {}
+[0.802234] (-) TimerEvent: {}
+[0.902748] (-) TimerEvent: {}
+[1.003280] (-) TimerEvent: {}
+[1.103756] (-) TimerEvent: {}
+[1.204267] (-) TimerEvent: {}
+[1.304773] (-) TimerEvent: {}
+[1.405241] (-) TimerEvent: {}
+[1.505746] (-) TimerEvent: {}
+[1.606119] (-) TimerEvent: {}
+[1.706497] (-) TimerEvent: {}
+[1.806980] (-) TimerEvent: {}
+[1.907416] (-) TimerEvent: {}
+[2.007986] (-) TimerEvent: {}
+[2.108459] (-) TimerEvent: {}
+[2.208951] (-) TimerEvent: {}
+[2.309401] (-) TimerEvent: {}
+[2.409769] (-) TimerEvent: {}
+[2.510249] (-) TimerEvent: {}
+[2.610689] (-) TimerEvent: {}
+[2.711108] (-) TimerEvent: {}
+[2.811621] (-) TimerEvent: {}
+[2.912138] (-) TimerEvent: {}
+[3.012618] (-) TimerEvent: {}
+[3.113129] (-) TimerEvent: {}
+[3.213653] (-) TimerEvent: {}
+[3.314151] (-) TimerEvent: {}
+[3.414698] (-) TimerEvent: {}
+[3.515158] (-) TimerEvent: {}
+[3.615642] (-) TimerEvent: {}
+[3.716133] (-) TimerEvent: {}
+[3.816613] (-) TimerEvent: {}
+[3.917067] (-) TimerEvent: {}
+[4.017507] (-) TimerEvent: {}
+[4.117978] (-) TimerEvent: {}
+[4.218396] (-) TimerEvent: {}
+[4.318771] (-) TimerEvent: {}
+[4.419148] (-) TimerEvent: {}
+[4.519604] (-) TimerEvent: {}
+[4.620091] (-) TimerEvent: {}
+[4.720632] (-) TimerEvent: {}
+[4.821102] (-) TimerEvent: {}
+[4.921599] (-) TimerEvent: {}
+[5.022062] (-) TimerEvent: {}
+[5.122589] (-) TimerEvent: {}
+[5.223075] (-) TimerEvent: {}
+[5.323554] (-) TimerEvent: {}
+[5.424026] (-) TimerEvent: {}
+[5.439775] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0\x1b[m\x1b[K:\n'}
+[5.440221] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GroundPlaneEstimatorNode::callback(std_msgs::msg::Header_<std::allocator<void> >::ConstSharedPtr, std_msgs::msg::Header_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.440543] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:91:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.440783] (ground_plane_estimator) StderrLine: {'line': b'     void callback(const std_msgs::msg::Header::ConstSharedPtr \x1b[01;35m\x1b[Kmsg1\x1b[m\x1b[K, const std_msgs::msg::Header::ConstSharedPtr msg2) { std::cout << "callback" << std::endl; };\n'}
+[5.440866] (ground_plane_estimator) StderrLine: {'line': b'                                                               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.440950] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:91:113:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.441031] (ground_plane_estimator) StderrLine: {'line': b'     void callback(const std_msgs::msg::Header::ConstSharedPtr msg1, const std_msgs::msg::Header::ConstSharedPtr \x1b[01;35m\x1b[Kmsg2\x1b[m\x1b[K) { std::cout << "callback" << std::endl; };\n'}
+[5.441107] (ground_plane_estimator) StderrLine: {'line': b'                                                                                                                 \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.524172] (-) TimerEvent: {}
+[5.545666] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GroundPlaneEstimatorNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.546239] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:75:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.546493] (ground_plane_estimator) StderrLine: {'line': b'     image_pub_->publish(msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.546732] (ground_plane_estimator) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.546942] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0\x1b[m\x1b[K,\n'}
+[5.547145] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.547339] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.547531] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.547722] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.547914] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[5.548105] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.548295] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[5.548513] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18\x1b[m\x1b[K,\n'}
+[5.548729] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.548922] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.549109] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const std::shared_ptr<const MessageT> & msg)\n'}
+[5.549296] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.587434] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr GroundPlaneEstimatorNode::showImageWithMark(cv_bridge::CvImagePtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.587939] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:268:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cv::Mat\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwidth\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.588189] (ground_plane_estimator) StderrLine: {'line': b'     cv::Mat roi = poly(cv::Rect(0, 0, cv_ptr->image.\x1b[01;31m\x1b[Kwidth\x1b[m\x1b[K, cv_ptr->image.height));\n'}
+[5.588436] (ground_plane_estimator) StderrLine: {'line': b'                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.588653] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:268:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cv::Mat\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kheight\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.588833] (ground_plane_estimator) StderrLine: {'line': b'     cv::Mat roi = poly(cv::Rect(0, 0, cv_ptr->image.width, cv_ptr->image.\x1b[01;31m\x1b[Kheight\x1b[m\x1b[K));\n'}
+[5.588980] (ground_plane_estimator) StderrLine: {'line': b'                                                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.597784] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GroundPlaneEstimatorNode::imageSegment(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.598175] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:376:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.598410] (ground_plane_estimator) StderrLine: {'line': b'     image_pub_->publish( cv_ptr->toImageMsg() \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.598616] (ground_plane_estimator) StderrLine: {'line': b'                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.598812] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0\x1b[m\x1b[K,\n'}
+[5.599002] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.599191] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.599377] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.599563] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.599749] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[5.599960] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.600259] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[5.600446] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18\x1b[m\x1b[K,\n'}
+[5.600602] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.600751] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.600898] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const std::shared_ptr<const MessageT> & msg)\n'}
+[5.601043] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.624331] (-) TimerEvent: {}
+[5.724832] (-) TimerEvent: {}
+[5.825321] (-) TimerEvent: {}
+[5.925695] (-) TimerEvent: {}
+[6.026306] (-) TimerEvent: {}
+[6.126941] (-) TimerEvent: {}
+[6.227469] (-) TimerEvent: {}
+[6.327962] (-) TimerEvent: {}
+[6.428465] (-) TimerEvent: {}
+[6.529071] (-) TimerEvent: {}
+[6.629511] (-) TimerEvent: {}
+[6.729872] (-) TimerEvent: {}
+[6.830355] (-) TimerEvent: {}
+[6.930843] (-) TimerEvent: {}
+[7.031299] (-) TimerEvent: {}
+[7.131786] (-) TimerEvent: {}
+[7.232306] (-) TimerEvent: {}
+[7.332871] (-) TimerEvent: {}
+[7.432556] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0\x1b[m\x1b[K,\n'}
+[7.432793] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45\x1b[m\x1b[K,\n'}
+[7.432949] (-) TimerEvent: {}
+[7.433077] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49\x1b[m\x1b[K,\n'}
+[7.433218] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:39\x1b[m\x1b[K,\n'}
+[7.433315] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[7.433404] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid __static_initialization_and_destruction_0(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.433523] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpcl::SAC_SAMPLE_SIZE\x1b[m\x1b[K\xe2\x80\x99 is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[7.433637] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;35m\x1b[KSAC_SAMPLE_SIZE\x1b[m\x1b[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));\n'}
+[7.433724] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.433807] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.533101] (-) TimerEvent: {}
+[7.633485] (-) TimerEvent: {}
+[7.733923] (-) TimerEvent: {}
+[7.834338] (-) TimerEvent: {}
+[7.932552] (ground_plane_estimator) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1\n'}
+[7.932881] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed\n"}
+[7.933136] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed\n"}
+[7.933404] (ground_plane_estimator) StderrLine: {'line': b'make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2\n'}
+[7.933701] (ground_plane_estimator) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[7.933874] (ground_plane_estimator) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[7.934396] (-) TimerEvent: {}
+[7.937390] (ground_plane_estimator) CommandEnded: {'returncode': 2}
+[7.938282] (ground_plane_estimator) JobEnded: {'identifier': 'ground_plane_estimator', 'rc': 2}
+[7.948608] (-) EventReactorShutdown: {}

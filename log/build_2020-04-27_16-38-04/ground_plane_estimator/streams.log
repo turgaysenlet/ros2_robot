@@ -1,0 +1,31 @@
+[0.022s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.104s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.153s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.535s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[1.536s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:55:162:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.536s]  nsor_msgs::msg::Image::ConstSharedPtr& msg, const sensor_msgs::msg::PointCloud2::ConstSharedPtr & [01;35m[Kpoint_msg[m[K) {
+[1.536s]                                                                                                    [01;35m[K^~~~~~~~~[m[K
+[3.368s] [100%] [32m[1mLinking CXX executable ground_plane_estimator_node[0m
+[3.914s] /usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.3.4
+[3.915s] /usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[3.915s] /usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[3.937s] [100%] Built target ground_plane_estimator_node
+[3.959s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[4.016s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator --target install -- -j12 -l12
+[4.123s] [100%] Built target ground_plane_estimator_node
+[4.161s] [36mInstall the project...[0m
+[4.170s] -- Install configuration: ""
+[4.171s] -- Execute custom install script
+[4.171s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/lib/ground_plane_estimator/ground_plane_estimator_node
+[4.172s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/package_run_dependencies/ground_plane_estimator
+[4.172s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/parent_prefix_path/ground_plane_estimator
+[4.172s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/ament_prefix_path.sh
+[4.172s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/path.sh
+[4.173s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.bash
+[4.173s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.sh
+[4.173s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.zsh
+[4.174s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/packages/ground_plane_estimator
+[4.174s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig.cmake
+[4.174s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig-version.cmake
+[4.174s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/package.xml
+[4.180s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator --target install -- -j12 -l12

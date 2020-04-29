@@ -1,0 +1,24 @@
+[0.437s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.438s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.349s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.349s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:22:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcustom_qos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.349s]    rmw_qos_profile_t [01;35m[Kcustom_qos[m[K = rmw_qos_profile_default;
+[1.350s]                      [01;35m[K^~~~~~~~~~[m[K
+[3.409s] [100%] [32m[1mLinking CXX executable ground_plane_estimator_node[0m
+[3.701s] [100%] Built target ground_plane_estimator_node
+[3.871s] [100%] Built target ground_plane_estimator_node
+[3.904s] [36mInstall the project...[0m
+[3.914s] -- Install configuration: ""
+[3.914s] -- Execute custom install script
+[3.915s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/lib/ground_plane_estimator/ground_plane_estimator_node
+[3.915s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/package_run_dependencies/ground_plane_estimator
+[3.916s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/parent_prefix_path/ground_plane_estimator
+[3.916s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/ament_prefix_path.sh
+[3.916s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/path.sh
+[3.917s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.bash
+[3.917s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.sh
+[3.917s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.zsh
+[3.918s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/packages/ground_plane_estimator
+[3.918s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig.cmake
+[3.918s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig-version.cmake
+[3.918s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/package.xml

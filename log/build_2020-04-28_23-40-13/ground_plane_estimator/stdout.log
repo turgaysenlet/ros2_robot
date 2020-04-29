@@ -1,0 +1,20 @@
+[0.121s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.214s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[12.308s] [100%] [32m[1mLinking CXX executable ground_plane_estimator_node[0m
+[13.765s] [100%] Built target ground_plane_estimator_node
+[13.947s] [100%] Built target ground_plane_estimator_node
+[13.973s] [36mInstall the project...[0m
+[13.991s] -- Install configuration: ""
+[13.992s] -- Execute custom install script
+[13.993s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/lib/ground_plane_estimator/ground_plane_estimator_node
+[13.994s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/package_run_dependencies/ground_plane_estimator
+[13.995s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/parent_prefix_path/ground_plane_estimator
+[13.995s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/ament_prefix_path.sh
+[13.996s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/path.sh
+[13.997s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.bash
+[13.997s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.sh
+[13.998s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.zsh
+[13.998s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/packages/ground_plane_estimator
+[13.999s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig.cmake
+[13.999s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig-version.cmake
+[14.000s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/package.xml

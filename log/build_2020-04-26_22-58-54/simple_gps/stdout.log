@@ -1,0 +1,35 @@
+[1.018s] running egg_info
+[1.018s] creating /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info
+[1.018s] writing /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/PKG-INFO
+[1.019s] writing dependency_links to /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/dependency_links.txt
+[1.019s] writing entry points to /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/entry_points.txt
+[1.019s] writing requirements to /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/requires.txt
+[1.019s] writing top-level names to /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/top_level.txt
+[1.020s] writing manifest file '/home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/SOURCES.txt'
+[1.051s] reading manifest file '/home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/SOURCES.txt'
+[1.052s] writing manifest file '/home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/SOURCES.txt'
+[1.052s] running build
+[1.052s] running build_py
+[1.053s] creating /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build
+[1.053s] creating /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build/lib
+[1.053s] creating /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build/lib/simple_gps
+[1.053s] copying simple_gps/simple_gps_node.py -> /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build/lib/simple_gps
+[1.054s] copying simple_gps/__init__.py -> /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build/lib/simple_gps
+[1.054s] running install
+[1.054s] running install_lib
+[1.054s] creating /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps
+[1.055s] copying /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build/lib/simple_gps/simple_gps_node.py -> /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps
+[1.055s] copying /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build/lib/simple_gps/__init__.py -> /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps
+[1.055s] byte-compiling /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps/simple_gps_node.py to simple_gps_node.cpython-36.pyc
+[1.056s] byte-compiling /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps/__init__.py to __init__.cpython-36.pyc
+[1.056s] running install_data
+[1.056s] creating /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/ament_index
+[1.057s] creating /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/ament_index/resource_index
+[1.057s] creating /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/ament_index/resource_index/packages
+[1.057s] copying resource/simple_gps -> /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/ament_index/resource_index/packages
+[1.057s] copying package.xml -> /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps
+[1.057s] running install_egg_info
+[1.058s] Copying /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info to /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps-0.0.0-py3.6.egg-info
+[1.058s] running install_scripts
+[1.076s] Installing simple_gps_node script to /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/simple_gps
+[1.076s] writing list of installed files to '/home/turgay/dev_ws/src/ros2_robot/build/simple_gps/install.log'

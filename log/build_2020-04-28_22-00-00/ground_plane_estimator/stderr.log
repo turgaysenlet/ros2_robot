@@ -1,0 +1,16 @@
+[0.789s] ** WARNING ** io features related to ensenso will be disabled
+[0.793s] ** WARNING ** io features related to davidSDK will be disabled
+[0.794s] ** WARNING ** io features related to dssdk will be disabled
+[0.794s] ** WARNING ** io features related to pcap will be disabled
+[0.795s] ** WARNING ** io features related to png will be disabled
+[0.905s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.949s] ** WARNING ** visualization features related to ensenso will be disabled
+[0.959s] ** WARNING ** visualization features related to davidSDK will be disabled
+[0.961s] ** WARNING ** visualization features related to dssdk will be disabled
+[0.964s] ** WARNING ** visualization features related to rssdk will be disabled
+[2.047s] /usr/bin/ld: cannot find -lpcl_range_image
+[2.047s] /usr/bin/ld: cannot find -lpcl_range_image_border_extractor
+[2.048s] collect2: error: ld returned 1 exit status
+[2.050s] make[2]: *** [ground_plane_estimator_node] Error 1
+[2.051s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.052s] make: *** [all] Error 2

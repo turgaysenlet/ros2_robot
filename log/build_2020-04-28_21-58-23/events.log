@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000274] (-) JobUnselected: {'identifier': 'realsense_t265_node'}
+[0.001358] (-) JobUnselected: {'identifier': 'realsense_t265_ros'}
+[0.001462] (-) JobUnselected: {'identifier': 'remote_control'}
+[0.001548] (-) JobUnselected: {'identifier': 'simple_gps'}
+[0.001641] (ground_plane_estimator) JobQueued: {'identifier': 'ground_plane_estimator', 'dependencies': OrderedDict()}
+[0.001750] (ground_plane_estimator) JobStarted: {'identifier': 'ground_plane_estimator'}
+[0.024610] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'cmake'}
+[0.026555] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'build'}
+[0.028377] (ground_plane_estimator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', '--', '-j12', '-l12'], 'cwd': '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turgay'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1886'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/robot_devkit/tools/rtmonitor/lib:/opt/robot_devkit/tools/rtmonitor_msgs/lib:/opt/robot_devkit/tools/perf_msgs/lib:/opt/robot_devkit/perception/dynamic_vino_lib/lib:/opt/robot_devkit/perception/vino_param_lib/lib:/opt/robot_devkit/perception/robot_interface/lib:/opt/robot_devkit/perception/realsense_ros/lib:/opt/robot_devkit/perception/realsense_msgs/lib:/opt/robot_devkit/perception/pipeline_srv_msgs/lib:/opt/robot_devkit/perception/grasp_ros2/lib:/opt/robot_devkit/perception/people_msgs/lib:/opt/robot_devkit/perception/object_analytics_node/lib:/opt/robot_devkit/perception/object_analytics_msgs/lib:/opt/robot_devkit/perception/moveit_msgs/lib:/opt/robot_devkit/perception/handeye_tf_service/lib:/opt/robot_devkit/perception/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/turgay'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.44.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2676'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('COLCON_PREFIX_PATH', '/opt/robot_devkit/tools:/opt/robot_devkit/perception'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'turgay'), ('GTK_IM_MODULE', 'ibus'), ('_', '/snap/code/31/usr/share/code/code'), ('ROS_VERSION', '2'), ('USERNAME', 'turgay'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/turgay/.local/bin:/opt/robot_devkit/perception/recognize_pick/bin:/opt/robot_devkit/perception/random_pick/bin:/opt/robot_devkit/perception/fixed_position_pick/bin:/opt/robot_devkit/perception/draw_x/bin:/opt/robot_devkit/perception/realsense_node/bin:/opt/robot_devkit/perception/grasp_ros2/bin:/opt/robot_devkit/perception/handeye_dashboard/bin:/opt/ros/dashing/bin:/home/turgay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/turgay/.dotnet/tools:/home/turgay/.dotnet/tools'), ('SESSION_MANAGER', 'local/turgaydesktop:@/tmp/.ICE-unix/1791,unix/turgaydesktop:/tmp/.ICE-unix/1791'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000/snap.code'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LIBVA_DRIVER_NAME', 'iHD'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/31/usr/share/glib-2.0/schemas'), ('MFX_HOME', '/opt/intel/mediasdk'), ('AMENT_PREFIX_PATH', '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing'), ('DISABLE_WAYLAND', '1'), ('SHELL', '/bin/bash'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/31/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GDK_PIXBUF_MODULE_FILE', '/home/turgay/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/robot_devkit/tools/rtmonitor_msgs/lib/python3.6/site-packages:/opt/robot_devkit/tools/rdk_perf/lib/python3.6/site-packages:/opt/robot_devkit/tools/perf_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/realsense_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/pipeline_srv_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/people_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/object_analytics_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/moveit_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_tf_service/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_dashboard/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye/lib/python3.6/site-packages:/opt/robot_devkit/perception/grasp_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/criutils/lib/python3.6/site-packages:/opt/robot_devkit/perception/baldor/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing')]), 'shell': False}
+[0.099043] (-) TimerEvent: {}
+[0.112211] (ground_plane_estimator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ground_plane_estimator_node\x1b[0m\n'}
+[0.199184] (-) TimerEvent: {}
+[0.206272] (ground_plane_estimator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o\x1b[0m\n'}
+[0.299290] (-) TimerEvent: {}
+[0.399669] (-) TimerEvent: {}
+[0.500106] (-) TimerEvent: {}
+[0.600608] (-) TimerEvent: {}
+[0.701096] (-) TimerEvent: {}
+[0.801623] (-) TimerEvent: {}
+[0.902071] (-) TimerEvent: {}
+[1.002512] (-) TimerEvent: {}
+[1.102993] (-) TimerEvent: {}
+[1.203470] (-) TimerEvent: {}
+[1.303902] (-) TimerEvent: {}
+[1.404266] (-) TimerEvent: {}
+[1.504638] (-) TimerEvent: {}
+[1.605011] (-) TimerEvent: {}
+[1.705423] (-) TimerEvent: {}
+[1.806013] (-) TimerEvent: {}
+[1.906611] (-) TimerEvent: {}
+[2.007205] (-) TimerEvent: {}
+[2.107772] (-) TimerEvent: {}
+[2.208181] (-) TimerEvent: {}
+[2.308598] (-) TimerEvent: {}
+[2.409026] (-) TimerEvent: {}
+[2.509504] (-) TimerEvent: {}
+[2.610108] (-) TimerEvent: {}
+[2.710560] (-) TimerEvent: {}
+[2.811052] (-) TimerEvent: {}
+[2.911546] (-) TimerEvent: {}
+[3.012126] (-) TimerEvent: {}
+[3.112696] (-) TimerEvent: {}
+[3.213261] (-) TimerEvent: {}
+[3.313752] (-) TimerEvent: {}
+[3.414235] (-) TimerEvent: {}
+[3.514719] (-) TimerEvent: {}
+[3.615171] (-) TimerEvent: {}
+[3.715644] (-) TimerEvent: {}
+[3.816129] (-) TimerEvent: {}
+[3.916619] (-) TimerEvent: {}
+[4.017097] (-) TimerEvent: {}
+[4.117570] (-) TimerEvent: {}
+[4.217932] (-) TimerEvent: {}
+[4.318306] (-) TimerEvent: {}
+[4.418689] (-) TimerEvent: {}
+[4.519061] (-) TimerEvent: {}
+[4.619438] (-) TimerEvent: {}
+[4.719820] (-) TimerEvent: {}
+[4.820197] (-) TimerEvent: {}
+[4.920584] (-) TimerEvent: {}
+[5.020969] (-) TimerEvent: {}
+[5.121354] (-) TimerEvent: {}
+[5.221725] (-) TimerEvent: {}
+[5.322097] (-) TimerEvent: {}
+[5.422465] (-) TimerEvent: {}
+[5.522845] (-) TimerEvent: {}
+[5.623224] (-) TimerEvent: {}
+[5.723600] (-) TimerEvent: {}
+[5.823973] (-) TimerEvent: {}
+[5.924363] (-) TimerEvent: {}
+[6.024743] (-) TimerEvent: {}
+[6.125126] (-) TimerEvent: {}
+[6.225496] (-) TimerEvent: {}
+[6.325887] (-) TimerEvent: {}
+[6.426267] (-) TimerEvent: {}
+[6.526649] (-) TimerEvent: {}
+[6.617916] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0\x1b[m\x1b[K,\n'}
+[6.618313] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45\x1b[m\x1b[K,\n'}
+[6.618497] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49\x1b[m\x1b[K,\n'}
+[6.618673] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34\x1b[m\x1b[K,\n'}
+[6.618856] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[6.619043] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid __static_initialization_and_destruction_0(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.619212] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpcl::SAC_SAMPLE_SIZE\x1b[m\x1b[K\xe2\x80\x99 is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[6.619384] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;35m\x1b[KSAC_SAMPLE_SIZE\x1b[m\x1b[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));\n'}
+[6.619548] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.619709] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.626737] (-) TimerEvent: {}
+[6.727079] (-) TimerEvent: {}
+[6.827507] (-) TimerEvent: {}
+[6.927923] (-) TimerEvent: {}
+[7.028260] (-) TimerEvent: {}
+[7.128730] (-) TimerEvent: {}
+[7.229224] (-) TimerEvent: {}
+[7.329655] (-) TimerEvent: {}
+[7.430047] (-) TimerEvent: {}
+[7.530440] (-) TimerEvent: {}
+[7.630834] (-) TimerEvent: {}
+[7.731224] (-) TimerEvent: {}
+[7.831610] (-) TimerEvent: {}
+[7.932015] (-) TimerEvent: {}
+[8.032405] (-) TimerEvent: {}
+[8.132797] (-) TimerEvent: {}
+[8.233190] (-) TimerEvent: {}
+[8.333599] (-) TimerEvent: {}
+[8.434045] (-) TimerEvent: {}
+[8.534577] (-) TimerEvent: {}
+[8.635117] (-) TimerEvent: {}
+[8.659013] (ground_plane_estimator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ground_plane_estimator_node\x1b[0m\n'}
+[8.735266] (-) TimerEvent: {}
+[8.835900] (-) TimerEvent: {}
+[8.936450] (-) TimerEvent: {}
+[9.037001] (-) TimerEvent: {}
+[9.137587] (-) TimerEvent: {}
+[9.195288] (ground_plane_estimator) StderrLine: {'line': b'/usr/bin/ld: cannot find -lpcl_range_image\n'}
+[9.195925] (ground_plane_estimator) StderrLine: {'line': b'/usr/bin/ld: cannot find -lpcl_range_image_border_extractor\n'}
+[9.196248] (ground_plane_estimator) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.198141] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/build.make:252: recipe for target 'ground_plane_estimator_node' failed\n"}
+[9.198675] (ground_plane_estimator) StderrLine: {'line': b'make[2]: *** [ground_plane_estimator_node] Error 1\n'}
+[9.199110] (ground_plane_estimator) StderrLine: {'line': b'make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2\n'}
+[9.199469] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed\n"}
+[9.199783] (ground_plane_estimator) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[9.200034] (ground_plane_estimator) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[9.202701] (ground_plane_estimator) CommandEnded: {'returncode': 2}
+[9.204352] (ground_plane_estimator) JobEnded: {'identifier': 'ground_plane_estimator', 'rc': 2}
+[9.213972] (-) EventReactorShutdown: {}

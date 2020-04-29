@@ -1,0 +1,527 @@
+[0.919s] ** WARNING ** io features related to ensenso will be disabled
+[0.924s] ** WARNING ** io features related to davidSDK will be disabled
+[0.926s] ** WARNING ** io features related to dssdk will be disabled
+[0.926s] ** WARNING ** io features related to pcap will be disabled
+[0.927s] ** WARNING ** io features related to png will be disabled
+[1.058s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.100s] ** WARNING ** visualization features related to ensenso will be disabled
+[1.104s] ** WARNING ** visualization features related to davidSDK will be disabled
+[1.105s] ** WARNING ** visualization features related to dssdk will be disabled
+[1.106s] ** WARNING ** visualization features related to rssdk will be disabled
+[7.340s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[7.340s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::callback(std_msgs::msg::Header_<std::allocator<void> >::ConstSharedPtr, std_msgs::msg::Header_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[7.341s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:86:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[7.341s]      void callback(const std_msgs::msg::Header::ConstSharedPtr [01;35m[Kmsg1[m[K, const std_msgs::msg::Header::ConstSharedPtr msg2) { std::cout << "callback" << std::endl; };
+[7.341s]                                                                [01;35m[K^~~~[m[K
+[7.341s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:86:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[7.341s]      void callback(const std_msgs::msg::Header::ConstSharedPtr msg1, const std_msgs::msg::Header::ConstSharedPtr [01;35m[Kmsg2[m[K) { std::cout << "callback" << std::endl; };
+[7.342s]                                                                                                                  [01;35m[K^~~~[m[K
+[7.436s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.436s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:74:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.437s]      image_pub_->publish(msg[01;35m[K)[m[K;
+[7.437s]                             [01;35m[K^[m[K
+[7.437s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[7.437s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[7.437s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[7.438s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[7.438s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[7.438s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[7.438s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[7.438s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.439s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[7.439s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.439s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.439s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[7.439s]    [01;36m[K^~~~~~~[m[K
+[7.488s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageSegment(const ConstSharedPtr&)[m[K’:
+[7.488s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:371:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.489s]      image_pub_->publish( cv_ptr->toImageMsg() [01;35m[K)[m[K;
+[7.489s]                                                [01;35m[K^[m[K
+[7.489s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[7.489s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[7.489s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[7.489s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[7.490s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[7.490s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[7.490s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[7.490s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.490s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[7.491s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.491s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.491s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[7.491s]    [01;36m[K^~~~~~~[m[K
+[7.989s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[7.990s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[7.992s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[7.993s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.993s] /opt/ros/dashing/include/message_filters/signal9.h: In instantiation of ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’:
+[7.993s] [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:298:40:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>; Policy = message_filters::sync_policies::ExactTime<std_msgs::msg::Header_<std::allocator<void> >, std_msgs::msg::Header_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>][m[K’
+[7.994s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:34:146:[m[K   required from here
+[7.994s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Signal9<std_msgs::msg::Header_<std::allocator<void> >, std_msgs::msg::Header_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<const M0ConstPtr&, const M1ConstPtr&, const M2ConstPtr&, const M3ConstPtr&, const M4ConstPtr&, const M5ConstPtr&, const M6ConstPtr&, const M7ConstPtr&, const M8ConstPtr&>(std::_Bind_helper<false, const std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type)[m[K’
+[7.994s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[7.994s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.994s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[7.994s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.994s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[7.994s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.994s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[7.995s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.995s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[7.995s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.995s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[7.995s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.995s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[7.995s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.995s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[7.995s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.996s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[7.996s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.996s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[7.996s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[7.996s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[7.996s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.996s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:170:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7, class P8> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; P8 = P8; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[7.996s]    Connection [01;36m[KaddCallback[m[K(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback)
+[7.996s]               [01;36m[K^~~~~~~~~~~[m[K
+[7.996s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:170:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.996s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[7.996s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[7.997s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[7.997s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.997s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = const std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>&; _BoundArgs = {const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind<std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>](std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, const std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type {aka std::_Bind<std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>}[m[K’) to type ‘[01m[Kconst std::function<void(const std::shared_ptr<const std_msgs::msg::Header_<std::allocator<void> > >&, const std::shared_ptr<const std_msgs::msg::Header_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)>&[m[K’
+[7.997s]      return [01;36m[KaddCallback<const M0ConstPtr&,[m[K
+[7.997s]             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.997s]  [01;36m[K                     const M1ConstPtr&,[m[K
+[7.997s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.997s]  [01;36m[K                     const M2ConstPtr&,[m[K
+[7.997s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.997s]  [01;36m[K                     const M3ConstPtr&,[m[K
+[7.997s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.997s]  [01;36m[K                     const M4ConstPtr&,[m[K
+[7.997s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.997s]  [01;36m[K                     const M5ConstPtr&,[m[K
+[7.998s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.998s]  [01;36m[K                     const M6ConstPtr&,[m[K
+[7.998s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.998s]  [01;36m[K                     const M7ConstPtr&,[m[K
+[7.998s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.998s]  [01;36m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[7.998s]                       [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.998s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[7.998s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[7.998s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[7.998s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.998s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1)) [with P0 = P0; P1 = P1; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[7.998s]    Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1))
+[7.999s]               [01;36m[K^~~~~~~~~~~[m[K
+[7.999s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.999s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[7.999s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[7.999s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[7.999s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.999s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 2)
+[7.999s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[7.999s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.999s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[7.999s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.999s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[7.999s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[7.999s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.000s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.000s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.000s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.000s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.000s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.000s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.000s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.000s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.000s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.000s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.001s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.001s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.001s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.001s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.001s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.001s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2)) [with P0 = P0; P1 = P1; P2 = P2; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.001s]    Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2))
+[8.001s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.001s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.001s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.001s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.002s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.002s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.002s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 3)
+[8.002s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.002s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.002s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.002s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.002s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.002s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.002s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.002s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.003s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.003s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.003s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.003s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.003s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.003s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.003s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.003s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.003s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.003s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.003s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.004s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.004s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.004s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.004s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.004s]    Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3))
+[8.004s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.004s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.004s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.004s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.004s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.005s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.005s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 4)
+[8.005s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.005s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.005s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.005s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.005s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.005s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.005s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.005s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.005s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.005s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.006s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.006s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.006s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.006s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.006s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.006s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.006s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.006s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.006s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.006s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.006s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.007s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.007s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.007s]    Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4))
+[8.007s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.007s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.007s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.007s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.007s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.007s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.008s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 5)
+[8.008s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.008s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.008s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.008s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.008s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.008s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.008s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.008s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.008s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.008s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.009s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.009s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.009s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.009s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.009s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.009s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.009s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.009s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.009s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.009s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.009s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.010s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.010s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.010s]    Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5))
+[8.010s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.010s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.010s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.010s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.010s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.010s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.010s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 6)
+[8.010s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.010s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.011s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.011s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.011s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.011s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.011s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.011s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.011s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.011s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.011s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.011s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.011s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.012s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.012s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.012s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.012s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.012s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.012s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.012s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.012s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.013s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.013s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.013s]    Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6))
+[8.013s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.013s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.013s] In file included from [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:47:0[m[K,
+[8.013s]                  from [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:41[m[K,
+[8.013s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29[m[K,
+[8.013s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.013s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 7)
+[8.014s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.014s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.014s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.014s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.014s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.014s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.014s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.014s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.014s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.014s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.014s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.014s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.015s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.015s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.015s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.015s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.015s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.015s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.015s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.015s]    Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))
+[8.015s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.015s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.015s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 8)
+[8.015s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.016s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.016s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.016s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.016s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.016s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.016s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.016s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.016s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.017s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.017s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.017s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.017s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.017s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.017s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.017s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.018s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.018s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.018s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:222:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7, class P8> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7, P8)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; P8 = P8; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.018s]    Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8))
+[8.018s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.018s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:222:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.018s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = const std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>&; _BoundArgs = {const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind<std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>](std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, const std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type {aka std::_Bind<std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>}[m[K’) to type ‘[01m[Kvoid (*)(const std::shared_ptr<const std_msgs::msg::Header_<std::allocator<void> > >&, const std::shared_ptr<const std_msgs::msg::Header_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)[m[K’
+[8.019s]      return [01;36m[KaddCallback<const M0ConstPtr&,[m[K
+[8.019s]             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.019s]  [01;36m[K                     const M1ConstPtr&,[m[K
+[8.019s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.019s]  [01;36m[K                     const M2ConstPtr&,[m[K
+[8.019s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.020s]  [01;36m[K                     const M3ConstPtr&,[m[K
+[8.020s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.020s]  [01;36m[K                     const M4ConstPtr&,[m[K
+[8.020s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.020s]  [01;36m[K                     const M5ConstPtr&,[m[K
+[8.020s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.020s]  [01;36m[K                     const M6ConstPtr&,[m[K
+[8.020s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.020s]  [01;36m[K                     const M7ConstPtr&,[m[K
+[8.021s]                       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.021s]  [01;36m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.021s]                       [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.021s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:228:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T, class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1), T*) [with T = T; P0 = P0; P1 = P1; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.021s]    Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1), T* t)
+[8.021s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.021s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:228:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.022s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 3)
+[8.022s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.022s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.022s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.022s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.022s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.022s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.022s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.022s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.022s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.022s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.023s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.023s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.023s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.023s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.023s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.023s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.023s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.023s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.023s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:234:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T, class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.023s]    Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2), T* t)
+[8.023s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.023s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:234:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.024s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 4)
+[8.024s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.024s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.024s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.024s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.024s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.024s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.024s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.024s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.024s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.024s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.024s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.025s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.025s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.025s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.025s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.025s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.025s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.025s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.025s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:240:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T, class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.025s]    Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3), T* t)
+[8.025s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.025s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:240:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.025s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 5)
+[8.025s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.025s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.026s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.026s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.026s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.026s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.026s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.026s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.026s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.026s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.026s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.026s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.026s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.026s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.026s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.027s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.027s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.027s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.027s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:246:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T, class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.027s]    Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4), T* t)
+[8.027s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.027s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:246:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.027s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 6)
+[8.027s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.027s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.027s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.027s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.027s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.028s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.028s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.028s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.028s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.028s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.028s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.028s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.028s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.028s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.028s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.028s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.028s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.029s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.029s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:252:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T, class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.029s]    Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5), T* t)
+[8.029s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.029s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:252:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.029s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 7)
+[8.029s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.030s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.030s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.030s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.030s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.030s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.030s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.031s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.031s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.031s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.031s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.031s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.031s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.031s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.032s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.032s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.032s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.032s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.032s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:258:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.033s]    Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6), T* t)
+[8.033s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.033s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:258:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.033s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 8)
+[8.033s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.033s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.034s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.034s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.034s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.034s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.034s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.034s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.035s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.035s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.035s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.035s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.035s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.035s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.036s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.036s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.036s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.036s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.036s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:264:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.036s]    Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6, P7), T* t)
+[8.036s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.037s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:264:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.037s] /opt/ros/dashing/include/message_filters/signal9.h: In substitution of ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<std_msgs::msg::Header_<std::allocator<void> >, std_msgs::msg::Header_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<T, P0, P1, P2, P3, P4, P5, P6, P7>(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [with T = const std::shared_ptr<const std_msgs::msg::Header_<std::allocator<void> > >&; P0 = const std::shared_ptr<const std_msgs::msg::Header_<std::allocator<void> > >&; P1 = const std::shared_ptr<const message_filters::NullType>&; P2 = const std::shared_ptr<const message_filters::NullType>&; P3 = const std::shared_ptr<const message_filters::NullType>&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&][m[K’:
+[8.037s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+[8.037s] [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:298:40:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>; Policy = message_filters::sync_policies::ExactTime<std_msgs::msg::Header_<std::allocator<void> >, std_msgs::msg::Header_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>][m[K’
+[8.037s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:34:146:[m[K   required from here
+[8.038s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:264:14:[m[K [01;31m[Kerror: [m[Kforming pointer to reference type ‘[01m[Kconst std::shared_ptr<const std_msgs::msg::Header_<std::allocator<void> > >&[m[K’
+[8.038s] /opt/ros/dashing/include/message_filters/signal9.h: In instantiation of ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’:
+[8.038s] [01m[K/opt/ros/dashing/include/message_filters/synchronizer.h:298:40:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (GroundPlaneEstimatorNode::*(GroundPlaneEstimatorNode*, std::_Placeholder<1>, std::_Placeholder<2>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)>; Policy = message_filters::sync_policies::ExactTime<std_msgs::msg::Header_<std::allocator<void> >, std_msgs::msg::Header_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>][m[K’
+[8.038s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:34:146:[m[K   required from here
+[8.038s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = C; M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]
+[8.038s]    Connection [01;36m[KaddCallback[m[K( C& callback)
+[8.039s]               [01;36m[K^~~~~~~~~~~[m[K
+[8.039s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.039s] [01m[K/opt/ros/dashing/include/message_filters/signal9.h:280:40:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 1)
+[8.039s]      return [01;31m[KaddCallback<const M0ConstPtr&,[m[K
+[8.039s]             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.039s]  [01;31m[K                     const M1ConstPtr&,[m[K
+[8.040s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.040s]  [01;31m[K                     const M2ConstPtr&,[m[K
+[8.040s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.040s]  [01;31m[K                     const M3ConstPtr&,[m[K
+[8.040s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.040s]  [01;31m[K                     const M4ConstPtr&,[m[K
+[8.041s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.041s]  [01;31m[K                     const M5ConstPtr&,[m[K
+[8.041s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.041s]  [01;31m[K                     const M6ConstPtr&,[m[K
+[8.041s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.041s]  [01;31m[K                     const M7ConstPtr&,[m[K
+[8.042s]                       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K 
+[8.042s]  [01;31m[K                     const M8ConstPtr&>(std::bind(callback, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9))[m[K;
+[8.042s]                       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.124s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[9.125s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[9.125s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[9.125s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:39[m[K,
+[9.125s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[9.125s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[9.125s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[9.126s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[9.126s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[9.126s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.625s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[9.625s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[9.626s] make: *** [all] Error 2

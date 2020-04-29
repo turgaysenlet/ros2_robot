@@ -1,0 +1,22 @@
+[0.070s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.435s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.435s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.281s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.282s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:20:51:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope
+[1.282s]    auto sub = image_transport::create_subscription([01;31m[Knode_[m[K.get(), "in_image_base_topic", image_callback, "raw", custom_qos);
+[1.282s]                                                    [01;31m[K^~~~~[m[K
+[1.282s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:20:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KNode[m[K’
+[1.282s]    auto sub = image_transport::create_subscription([01;36m[Knode_[m[K.get(), "in_image_base_topic", image_callback, "raw", custom_qos);
+[1.283s]                                                    [01;36m[K^~~~~[m[K
+[1.283s]                                                    [32m[KNode[m[K
+[1.301s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(const ConstSharedPtr&)[m[K’:
+[1.301s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:37:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.301s]  void GroundPlaneEstimatorNode::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr & [01;35m[Kmsg[m[K) {
+[1.301s]                                                                                                [01;35m[K^~~[m[K
+[2.044s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.045s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.045s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.045s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.046s] make: *** [all] Error 2
+[2.046s] Makefile:140: recipe for target 'all' failed
+[2.049s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12

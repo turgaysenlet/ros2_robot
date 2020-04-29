@@ -1,0 +1,3 @@
+[0.812s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Interrupt
+[0.818s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Interrupt
+[0.818s] make: *** [all] Interrupt

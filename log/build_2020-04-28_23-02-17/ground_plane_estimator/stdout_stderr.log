@@ -1,0 +1,80 @@
+[0.110s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.183s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[5.628s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[5.629s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::callback(std_msgs::msg::Header_<std::allocator<void> >::ConstSharedPtr, std_msgs::msg::Header_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[5.629s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:86:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.629s]      void callback(const std_msgs::msg::Header::ConstSharedPtr [01;35m[Kmsg1[m[K, const std_msgs::msg::Header::ConstSharedPtr msg2) { std::cout << "callback" << std::endl; };
+[5.629s]                                                                [01;35m[K^~~~[m[K
+[5.630s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:86:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.630s]      void callback(const std_msgs::msg::Header::ConstSharedPtr msg1, const std_msgs::msg::Header::ConstSharedPtr [01;35m[Kmsg2[m[K) { std::cout << "callback" << std::endl; };
+[5.630s]                                                                                                                  [01;35m[K^~~~[m[K
+[5.659s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[5.659s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:31:41:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[5.660s]      cam_sub_ = std::make_unique<camSub>([01;31m[Knode[m[K, "/publisher1");
+[5.660s]                                          [01;31m[K^~~~[m[K
+[5.660s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:31:41:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[5.660s] In file included from [01m[K/usr/include/boost/unordered/detail/map.hpp:6:0[m[K,
+[5.661s]                  from [01m[K/usr/include/boost/unordered/unordered_map.hpp:21[m[K,
+[5.661s]                  from [01m[K/usr/include/boost/unordered_map.hpp:17[m[K,
+[5.662s]                  from [01m[K/usr/include/pcl-1.8/pcl/filters/boost.h:55[m[K,
+[5.662s]                  from [01m[K/usr/include/pcl-1.8/pcl/filters/filter.h:46[m[K,
+[5.662s]                  from [01m[K/usr/include/pcl-1.8/pcl/filters/filter_indices.h:43[m[K,
+[5.662s]                  from [01m[K/usr/include/pcl-1.8/pcl/filters/extract_indices.h:43[m[K,
+[5.663s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:38[m[K,
+[5.663s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[5.663s] [01m[K/usr/include/boost/unordered/detail/implementation.hpp:217:42:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::unordered::detail::node[m[K’
+[5.663s]  template <typename A, typename T> struct [01;36m[Knode[m[K;
+[5.664s]                                           [01;36m[K^~~~[m[K
+[5.692s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:34:44:[m[K [01;31m[Kerror: [m[K‘[01m[KMessageFilterTest[m[K’ has not been declared
+[5.693s]      sync_sub_->registerCallback(std::bind(&[01;31m[KMessageFilterTest[m[K::callback, this, std::placeholders::_1, std::placeholders::_2));
+[5.693s]                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.728s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.728s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:74:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.729s]      image_pub_->publish(msg[01;35m[K)[m[K;
+[5.729s]                             [01;35m[K^[m[K
+[5.729s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[5.729s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[5.729s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.729s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.729s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[5.730s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[5.730s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[5.730s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[5.730s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[5.730s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[5.730s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.730s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[5.730s]    [01;36m[K^~~~~~~[m[K
+[5.794s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageSegment(const ConstSharedPtr&)[m[K’:
+[5.795s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:371:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.795s]      image_pub_->publish( cv_ptr->toImageMsg() [01;35m[K)[m[K;
+[5.795s]                                                [01;35m[K^[m[K
+[5.795s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[5.796s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[5.796s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.796s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.796s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[5.796s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[5.796s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[5.797s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[5.797s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[5.797s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[5.797s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.797s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[5.798s]    [01;36m[K^~~~~~~[m[K
+[7.268s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[7.268s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[7.268s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[7.269s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:39[m[K,
+[7.269s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.269s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[7.270s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.270s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[7.270s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.271s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.790s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[7.790s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[7.791s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[7.791s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[7.791s] Makefile:140: recipe for target 'all' failed
+[7.791s] make: *** [all] Error 2

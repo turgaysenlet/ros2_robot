@@ -1,0 +1,137 @@
+[0.819s] ** WARNING ** io features related to ensenso will be disabled
+[0.823s] ** WARNING ** io features related to davidSDK will be disabled
+[0.824s] ** WARNING ** io features related to dssdk will be disabled
+[0.824s] ** WARNING ** io features related to pcap will be disabled
+[0.824s] ** WARNING ** io features related to png will be disabled
+[0.928s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.970s] ** WARNING ** visualization features related to ensenso will be disabled
+[0.975s] ** WARNING ** visualization features related to davidSDK will be disabled
+[0.976s] ** WARNING ** visualization features related to dssdk will be disabled
+[0.977s] ** WARNING ** visualization features related to rssdk will be disabled
+[6.822s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[6.823s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::TimeSynchronizer<std_msgs::msg::Header_<std::allocator<void> >, std_msgs::msg::Header_<std::allocator<void> > >::TimeSynchronizer()[m[K’
+[6.823s]  : Node("ground_plane_estimator_node"), count_(0[01;31m[K)[m[K
+[6.824s]                                                 [01;31m[K^[m[K
+[6.824s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0[m[K,
+[6.824s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.824s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:170:3:[m[K [01;36m[Knote: [m[Kcandidate: message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(uint32_t) [with M0 = std_msgs::msg::Header_<std::allocator<void> >; M1 = std_msgs::msg::Header_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType; uint32_t = unsigned int]
+[6.824s]    [01;36m[KTimeSynchronizer[m[K(uint32_t queue_size)
+[6.824s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.824s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:170:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[6.824s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:164:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class F0, class F1, class F2, class F3, class F4, class F5, class F6, class F7, class F8> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, F5&, F6&, F7&, F8&, uint32_t)
+[6.824s]    [01;36m[KTimeSynchronizer[m[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, F5& f5, F6& f6, F7& f7, F8& f8, uint32_t queue_size)
+[6.824s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.824s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:164:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.824s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 0 provided
+[6.824s]  : Node("ground_plane_estimator_node"), count_(0[01;36m[K)[m[K
+[6.825s]                                                 [01;36m[K^[m[K
+[6.825s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0[m[K,
+[6.825s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.825s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:157:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class F0, class F1, class F2, class F3, class F4, class F5, class F6, class F7> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, F5&, F6&, F7&, uint32_t)
+[6.825s]    [01;36m[KTimeSynchronizer[m[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, F5& f5, F6& f6, F7& f7, uint32_t queue_size)
+[6.825s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.825s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:157:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.825s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;36m[Knote: [m[K  candidate expects 9 arguments, 0 provided
+[6.825s]  : Node("ground_plane_estimator_node"), count_(0[01;36m[K)[m[K
+[6.825s]                                                 [01;36m[K^[m[K
+[6.825s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0[m[K,
+[6.825s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.825s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:150:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class F0, class F1, class F2, class F3, class F4, class F5, class F6> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, F5&, F6&, uint32_t)
+[6.826s]    [01;36m[KTimeSynchronizer[m[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, F5& f5, F6& f6, uint32_t queue_size)
+[6.826s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.826s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:150:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.826s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[6.826s]  : Node("ground_plane_estimator_node"), count_(0[01;36m[K)[m[K
+[6.826s]                                                 [01;36m[K^[m[K
+[6.826s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0[m[K,
+[6.826s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.826s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:143:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class F0, class F1, class F2, class F3, class F4, class F5> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, F5&, uint32_t)
+[6.826s]    [01;36m[KTimeSynchronizer[m[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, F5& f5, uint32_t queue_size)
+[6.826s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.826s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:143:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.826s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+[6.827s]  : Node("ground_plane_estimator_node"), count_(0[01;36m[K)[m[K
+[6.827s]                                                 [01;36m[K^[m[K
+[6.827s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0[m[K,
+[6.827s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.827s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:136:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class F0, class F1, class F2, class F3, class F4> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, uint32_t)
+[6.827s]    [01;36m[KTimeSynchronizer[m[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, uint32_t queue_size)
+[6.827s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.827s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:136:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.827s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 0 provided
+[6.827s]  : Node("ground_plane_estimator_node"), count_(0[01;36m[K)[m[K
+[6.827s]                                                 [01;36m[K^[m[K
+[6.827s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0[m[K,
+[6.827s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.827s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:129:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class F0, class F1, class F2, class F3> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, uint32_t)
+[6.828s]    [01;36m[KTimeSynchronizer[m[K(F0& f0, F1& f1, F2& f2, F3& f3, uint32_t queue_size)
+[6.828s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.828s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:129:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.828s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[6.828s]  : Node("ground_plane_estimator_node"), count_(0[01;36m[K)[m[K
+[6.828s]                                                 [01;36m[K^[m[K
+[6.828s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0[m[K,
+[6.828s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.828s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:122:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class F0, class F1, class F2> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, uint32_t)
+[6.828s]    [01;36m[KTimeSynchronizer[m[K(F0& f0, F1& f1, F2& f2, uint32_t queue_size)
+[6.828s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.828s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:122:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.828s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[6.829s]  : Node("ground_plane_estimator_node"), count_(0[01;36m[K)[m[K
+[6.829s]                                                 [01;36m[K^[m[K
+[6.829s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0[m[K,
+[6.829s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.829s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:115:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class F0, class F1> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, uint32_t)
+[6.829s]    [01;36m[KTimeSynchronizer[m[K(F0& f0, F1& f1, uint32_t queue_size)
+[6.829s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.829s] [01m[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:115:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.829s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[6.829s]  : Node("ground_plane_estimator_node"), count_(0[01;36m[K)[m[K
+[6.829s]                                                 [01;36m[K^[m[K
+[6.870s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.870s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:62:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.870s]      image_pub_->publish(msg[01;35m[K)[m[K;
+[6.871s]                             [01;35m[K^[m[K
+[6.871s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[6.871s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[6.871s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.871s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.872s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[6.872s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[6.872s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[6.872s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[6.873s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[6.873s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.873s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.873s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[6.874s]    [01;36m[K^~~~~~~[m[K
+[6.916s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageSegment(const ConstSharedPtr&)[m[K’:
+[6.916s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:359:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.917s]      image_pub_->publish( cv_ptr->toImageMsg() [01;35m[K)[m[K;
+[6.917s]                                                [01;35m[K^[m[K
+[6.917s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[6.917s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[6.917s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.917s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.917s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[6.917s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[6.918s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[6.918s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[6.918s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[6.918s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.918s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.918s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[6.919s]    [01;36m[K^~~~~~~[m[K
+[8.180s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[8.180s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[8.180s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[8.181s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:39[m[K,
+[8.181s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.181s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[8.181s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.181s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[8.182s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.182s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.650s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[8.650s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[8.651s] make: *** [all] Error 2

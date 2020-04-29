@@ -1,0 +1,41 @@
+[0.385s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros -- -j12 -l12
+[1.793s] [ 14%] Built target gtest
+[1.794s] [ 28%] Built target gtest_main
+[2.402s] [ 71%] Built target realsense_t265_ros
+[2.529s] [ 85%] Built target camera_core
+[2.643s] [100%] Built target unittest_function
+[2.660s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros -- -j12 -l12
+[2.756s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros --target install -- -j12 -l12
+[2.842s] [ 14%] Built target gtest
+[2.853s] [ 28%] Built target gtest_main
+[2.880s] [ 71%] Built target realsense_t265_ros
+[2.936s] [ 85%] Built target unittest_function
+[2.949s] [100%] Built target camera_core
+[2.986s] [36mInstall the project...[0m
+[2.997s] -- Install configuration: ""
+[3.053s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/librealsense_t265_ros.so
+[3.053s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include
+[3.054s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense
+[3.054s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_base.hpp
+[3.055s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_t265.hpp
+[3.055s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435i.hpp
+[3.056s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_factory.hpp
+[3.056s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435.hpp
+[3.056s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_constants.hpp
+[3.056s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_factory.hpp
+[3.057s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/library_path.sh
+[3.057s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/package_run_dependencies/realsense_t265_ros
+[3.057s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/parent_prefix_path/realsense_t265_ros
+[3.057s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/ament_prefix_path.sh
+[3.058s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/path.sh
+[3.058s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.bash
+[3.058s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.sh
+[3.058s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.zsh
+[3.058s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/packages/realsense_t265_ros
+[3.059s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/rclcpp_components/realsense_t265_ros
+[3.059s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.059s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[3.059s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig.cmake
+[3.059s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig-version.cmake
+[3.060s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.xml
+[3.063s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros --target install -- -j12 -l12

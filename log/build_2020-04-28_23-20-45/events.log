@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000908] (-) JobUnselected: {'identifier': 'realsense_t265_node'}
+[0.000979] (-) JobUnselected: {'identifier': 'realsense_t265_ros'}
+[0.001024] (-) JobUnselected: {'identifier': 'remote_control'}
+[0.001064] (-) JobUnselected: {'identifier': 'simple_gps'}
+[0.001117] (ground_plane_estimator) JobQueued: {'identifier': 'ground_plane_estimator', 'dependencies': OrderedDict()}
+[0.001165] (ground_plane_estimator) JobStarted: {'identifier': 'ground_plane_estimator'}
+[0.018934] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'cmake'}
+[0.020049] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'build'}
+[0.021075] (ground_plane_estimator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', '--', '-j12', '-l12'], 'cwd': '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turgay'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1886'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib:/opt/robot_devkit/tools/rtmonitor/lib:/opt/robot_devkit/tools/rtmonitor_msgs/lib:/opt/robot_devkit/tools/perf_msgs/lib:/opt/robot_devkit/perception/dynamic_vino_lib/lib:/opt/robot_devkit/perception/vino_param_lib/lib:/opt/robot_devkit/perception/robot_interface/lib:/opt/robot_devkit/perception/realsense_ros/lib:/opt/robot_devkit/perception/realsense_msgs/lib:/opt/robot_devkit/perception/pipeline_srv_msgs/lib:/opt/robot_devkit/perception/grasp_ros2/lib:/opt/robot_devkit/perception/people_msgs/lib:/opt/robot_devkit/perception/object_analytics_node/lib:/opt/robot_devkit/perception/object_analytics_msgs/lib:/opt/robot_devkit/perception/moveit_msgs/lib:/opt/robot_devkit/perception/handeye_tf_service/lib:/opt/robot_devkit/perception/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/turgay'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/turgay'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2712'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('COLCON_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install:/opt/robot_devkit/tools:/opt/robot_devkit/perception'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'turgay'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'turgay'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/bin:/opt/robot_devkit/perception/recognize_pick/bin:/opt/robot_devkit/perception/random_pick/bin:/opt/robot_devkit/perception/fixed_position_pick/bin:/opt/robot_devkit/perception/draw_x/bin:/opt/robot_devkit/perception/realsense_node/bin:/opt/robot_devkit/perception/grasp_ros2/bin:/opt/robot_devkit/perception/handeye_dashboard/bin:/opt/ros/dashing/bin:/home/turgay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/turgay/.dotnet/tools'), ('SESSION_MANAGER', 'local/turgaydesktop:@/tmp/.ICE-unix/1791,unix/turgaydesktop:/tmp/.ICE-unix/1791'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LIBVA_DRIVER_NAME', 'iHD'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros:/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('MFX_HOME', '/opt/intel/mediasdk'), ('TERMINATOR_UUID', 'urn:uuid:6ae4a936-d34f-4eda-972f-543f8b458473'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:/opt/robot_devkit/tools/rtmonitor_msgs/lib/python3.6/site-packages:/opt/robot_devkit/tools/rdk_perf/lib/python3.6/site-packages:/opt/robot_devkit/tools/perf_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/realsense_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/pipeline_srv_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/people_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/object_analytics_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/moveit_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_tf_service/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_dashboard/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye/lib/python3.6/site-packages:/opt/robot_devkit/perception/grasp_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/criutils/lib/python3.6/site-packages:/opt/robot_devkit/perception/baldor/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros:/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing')]), 'shell': False}
+[0.099102] (-) TimerEvent: {}
+[0.142635] (ground_plane_estimator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o\x1b[0m\n'}
+[0.199224] (-) TimerEvent: {}
+[0.299730] (-) TimerEvent: {}
+[0.400175] (-) TimerEvent: {}
+[0.500663] (-) TimerEvent: {}
+[0.601306] (-) TimerEvent: {}
+[0.701781] (-) TimerEvent: {}
+[0.802257] (-) TimerEvent: {}
+[0.902701] (-) TimerEvent: {}
+[1.003117] (-) TimerEvent: {}
+[1.103532] (-) TimerEvent: {}
+[1.203910] (-) TimerEvent: {}
+[1.304389] (-) TimerEvent: {}
+[1.404801] (-) TimerEvent: {}
+[1.505164] (-) TimerEvent: {}
+[1.605520] (-) TimerEvent: {}
+[1.706000] (-) TimerEvent: {}
+[1.806476] (-) TimerEvent: {}
+[1.906955] (-) TimerEvent: {}
+[2.007437] (-) TimerEvent: {}
+[2.107887] (-) TimerEvent: {}
+[2.208277] (-) TimerEvent: {}
+[2.308773] (-) TimerEvent: {}
+[2.409227] (-) TimerEvent: {}
+[2.509636] (-) TimerEvent: {}
+[2.610085] (-) TimerEvent: {}
+[2.710619] (-) TimerEvent: {}
+[2.811089] (-) TimerEvent: {}
+[2.911500] (-) TimerEvent: {}
+[3.011952] (-) TimerEvent: {}
+[3.112443] (-) TimerEvent: {}
+[3.212945] (-) TimerEvent: {}
+[3.313503] (-) TimerEvent: {}
+[3.414059] (-) TimerEvent: {}
+[3.514540] (-) TimerEvent: {}
+[3.615039] (-) TimerEvent: {}
+[3.715650] (-) TimerEvent: {}
+[3.816010] (-) TimerEvent: {}
+[3.916456] (-) TimerEvent: {}
+[4.016932] (-) TimerEvent: {}
+[4.117404] (-) TimerEvent: {}
+[4.217820] (-) TimerEvent: {}
+[4.318415] (-) TimerEvent: {}
+[4.418986] (-) TimerEvent: {}
+[4.519438] (-) TimerEvent: {}
+[4.619796] (-) TimerEvent: {}
+[4.720155] (-) TimerEvent: {}
+[4.820637] (-) TimerEvent: {}
+[4.921155] (-) TimerEvent: {}
+[5.021626] (-) TimerEvent: {}
+[5.122163] (-) TimerEvent: {}
+[5.222617] (-) TimerEvent: {}
+[5.322981] (-) TimerEvent: {}
+[5.357346] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0\x1b[m\x1b[K:\n'}
+[5.357834] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GroundPlaneEstimatorNode::callback(std_msgs::msg::Header_<std::allocator<void> >::ConstSharedPtr, std_msgs::msg::Header_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.358139] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:88:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.358374] (ground_plane_estimator) StderrLine: {'line': b'     void callback(const std_msgs::msg::Header::ConstSharedPtr \x1b[01;35m\x1b[Kmsg1\x1b[m\x1b[K, const std_msgs::msg::Header::ConstSharedPtr msg2) { std::cout << "callback" << std::endl; };\n'}
+[5.358588] (ground_plane_estimator) StderrLine: {'line': b'                                                               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.358846] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:88:113:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.359066] (ground_plane_estimator) StderrLine: {'line': b'     void callback(const std_msgs::msg::Header::ConstSharedPtr msg1, const std_msgs::msg::Header::ConstSharedPtr \x1b[01;35m\x1b[Kmsg2\x1b[m\x1b[K) { std::cout << "callback" << std::endl; };\n'}
+[5.359268] (ground_plane_estimator) StderrLine: {'line': b'                                                                                                                 \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.423150] (-) TimerEvent: {}
+[5.462064] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GroundPlaneEstimatorNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.462559] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:75:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.462776] (ground_plane_estimator) StderrLine: {'line': b'     image_pub_->publish(msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.462985] (ground_plane_estimator) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.463175] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0\x1b[m\x1b[K,\n'}
+[5.463363] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.463545] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.463728] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.463909] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.464092] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[5.464274] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.464455] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[5.464636] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18\x1b[m\x1b[K,\n'}
+[5.464798] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.464967] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.465171] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const std::shared_ptr<const MessageT> & msg)\n'}
+[5.465358] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.468720] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.468935] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:80:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.469079] (ground_plane_estimator) StderrLine: {'line': b'     image_pub_->publish(msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.469212] (ground_plane_estimator) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.469297] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0\x1b[m\x1b[K,\n'}
+[5.469377] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.469454] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.469542] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.469664] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.469745] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[5.469822] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.469898] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[5.469973] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18\x1b[m\x1b[K,\n'}
+[5.470049] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.470124] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.470200] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const std::shared_ptr<const MessageT> & msg)\n'}
+[5.470274] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.515060] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GroundPlaneEstimatorNode::imageSegment(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.515499] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:375:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.515699] (ground_plane_estimator) StderrLine: {'line': b'     image_pub_->publish( cv_ptr->toImageMsg() \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.515842] (ground_plane_estimator) StderrLine: {'line': b'                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.515962] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0\x1b[m\x1b[K,\n'}
+[5.516092] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.516210] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.516325] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.516440] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.516568] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[5.516688] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.516814] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[5.516930] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18\x1b[m\x1b[K,\n'}
+[5.517045] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.517205] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.517336] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const std::shared_ptr<const MessageT> & msg)\n'}
+[5.517455] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.523253] (-) TimerEvent: {}
+[5.623614] (-) TimerEvent: {}
+[5.724098] (-) TimerEvent: {}
+[5.740253] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.740651] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.740880] (ground_plane_estimator) StderrLine: {'line': b'/usr/include/c++/7/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = message_filters::TimeSynchronizer<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::PointCloud2_<std::allocator<void> > >; _Args = {message_filters::sync_policies::ExactTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::PointCloud2_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>, message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >&, message_filters::Subscriber<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<message_filters::TimeSynchronizer<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.741136] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:34:83:\x1b[m\x1b[K   required from here\n'}
+[5.741352] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::TimeSynchronizer<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::TimeSynchronizer(message_filters::sync_policies::ExactTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::PointCloud2_<std::allocator<void> > >, message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >&, message_filters::Subscriber<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.741563] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;31m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.741760] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.741954] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0\x1b[m\x1b[K,\n'}
+[5.742169] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.742363] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(uint32_t) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType; uint32_t = unsigned int]\n'}
+[5.742576] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(uint32_t queue_size)\n'}
+[5.742770] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.742974] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[5.743169] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:164:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class F0, class F1, class F2, class F3, class F4, class F5, class F6, class F7, class F8> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, F5&, F6&, F7&, F8&, uint32_t)\n'}
+[5.743371] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, F5& f5, F6& f6, F7& f7, F8& f8, uint32_t queue_size)\n'}
+[5.743586] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.743793] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:164:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.743988] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.744178] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.744368] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 10 arguments, 3 provided\n'}
+[5.744560] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;36m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.744751] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.744937] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0\x1b[m\x1b[K,\n'}
+[5.745139] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.745337] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class F0, class F1, class F2, class F3, class F4, class F5, class F6, class F7> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, F5&, F6&, F7&, uint32_t)\n'}
+[5.745562] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, F5& f5, F6& f6, F7& f7, uint32_t queue_size)\n'}
+[5.745705] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.745814] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.745925] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.746034] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.746145] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 9 arguments, 3 provided\n'}
+[5.746254] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;36m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.746362] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.746469] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0\x1b[m\x1b[K,\n'}
+[5.746577] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.746712] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:150:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class F0, class F1, class F2, class F3, class F4, class F5, class F6> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, F5&, F6&, uint32_t)\n'}
+[5.746872] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, F5& f5, F6& f6, uint32_t queue_size)\n'}
+[5.746992] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.747104] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:150:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.747218] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.747331] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.747450] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 8 arguments, 3 provided\n'}
+[5.747563] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;36m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.747672] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.747781] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0\x1b[m\x1b[K,\n'}
+[5.747904] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.748024] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:143:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class F0, class F1, class F2, class F3, class F4, class F5> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, F5&, uint32_t)\n'}
+[5.748146] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, F5& f5, uint32_t queue_size)\n'}
+[5.748281] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.748450] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:143:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.748567] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.748678] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.748924] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 3 provided\n'}
+[5.749137] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;36m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.749403] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.749658] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0\x1b[m\x1b[K,\n'}
+[5.749917] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.750087] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:136:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class F0, class F1, class F2, class F3, class F4> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, F4&, uint32_t)\n'}
+[5.750222] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(F0& f0, F1& f1, F2& f2, F3& f3, F4& f4, uint32_t queue_size)\n'}
+[5.750341] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.750499] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:136:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.750619] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.750732] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.750845] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 6 arguments, 3 provided\n'}
+[5.750956] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;36m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.751082] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.751195] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0\x1b[m\x1b[K,\n'}
+[5.751309] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.751422] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:129:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class F0, class F1, class F2, class F3> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, F3&, uint32_t)\n'}
+[5.751545] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(F0& f0, F1& f1, F2& f2, F3& f3, uint32_t queue_size)\n'}
+[5.751666] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.751780] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:129:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.751892] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.752002] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.752113] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 3 provided\n'}
+[5.752232] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;36m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.752352] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.752506] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0\x1b[m\x1b[K,\n'}
+[5.752646] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.752761] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:122:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class F0, class F1, class F2> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, F2&, uint32_t)\n'}
+[5.752875] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(F0& f0, F1& f1, F2& f2, uint32_t queue_size)\n'}
+[5.752985] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.753104] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:122:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.753220] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.753331] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.753453] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[5.753567] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;36m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.753679] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.753791] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:29:0\x1b[m\x1b[K,\n'}
+[5.753902] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.754021] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:115:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class F0, class F1> message_filters::TimeSynchronizer<M0, M1, M2, M3, M4, M5, M6, M7, M8>::TimeSynchronizer(F0&, F1&, uint32_t)\n'}
+[5.754167] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K(F0& f0, F1& f1, uint32_t queue_size)\n'}
+[5.754283] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.754395] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/message_filters/time_synchronizer.h:115:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.754508] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.754619] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.754731] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:821:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::forward<message_filters::Subscriber<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&>((* & __args#2))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kuint32_t {aka unsigned int}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.754863] (ground_plane_estimator) StderrLine: {'line': b'     { return unique_ptr<_Tp>(\x1b[01;36m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[5.754975] (ground_plane_estimator) StderrLine: {'line': b'                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.824258] (-) TimerEvent: {}
+[5.924745] (-) TimerEvent: {}
+[6.025179] (-) TimerEvent: {}
+[6.125610] (-) TimerEvent: {}
+[6.226069] (-) TimerEvent: {}
+[6.326566] (-) TimerEvent: {}
+[6.427060] (-) TimerEvent: {}
+[6.527546] (-) TimerEvent: {}
+[6.628044] (-) TimerEvent: {}
+[6.728504] (-) TimerEvent: {}
+[6.828918] (-) TimerEvent: {}
+[6.929326] (-) TimerEvent: {}
+[7.029817] (-) TimerEvent: {}
+[7.083136] (ground_plane_estimator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0\x1b[m\x1b[K,\n'}
+[7.083732] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45\x1b[m\x1b[K,\n'}
+[7.084201] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49\x1b[m\x1b[K,\n'}
+[7.084595] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:39\x1b[m\x1b[K,\n'}
+[7.084983] (ground_plane_estimator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7\x1b[m\x1b[K:\n'}
+[7.085389] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid __static_initialization_and_destruction_0(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.085781] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpcl::SAC_SAMPLE_SIZE\x1b[m\x1b[K\xe2\x80\x99 is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[7.086185] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;35m\x1b[KSAC_SAMPLE_SIZE\x1b[m\x1b[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));\n'}
+[7.086556] (ground_plane_estimator) StderrLine: {'line': b'   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.086916] (ground_plane_estimator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.129994] (-) TimerEvent: {}
+[7.230559] (-) TimerEvent: {}
+[7.331145] (-) TimerEvent: {}
+[7.431723] (-) TimerEvent: {}
+[7.532238] (-) TimerEvent: {}
+[7.553788] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed\n"}
+[7.554231] (ground_plane_estimator) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1\n'}
+[7.554681] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed\n"}
+[7.554886] (ground_plane_estimator) StderrLine: {'line': b'make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2\n'}
+[7.555070] (ground_plane_estimator) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[7.555244] (ground_plane_estimator) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[7.557019] (ground_plane_estimator) CommandEnded: {'returncode': 2}
+[7.558375] (ground_plane_estimator) JobEnded: {'identifier': 'ground_plane_estimator', 'rc': 2}
+[7.568065] (-) EventReactorShutdown: {}

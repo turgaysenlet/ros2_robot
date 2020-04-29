@@ -1,0 +1,36 @@
+[2.093s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[2.094s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.094s]      rclcpp::Subscription<std_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr point_cloud_subscription_;
+[2.094s]                                          [01;31m[K^~~~~~~~~~~[m[K
+[2.094s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.095s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.095s]      rclcpp::Subscription<std_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_subscription_;
+[2.095s]                                                     [01;31m[K^[m[K
+[2.095s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.096s]      rclcpp::Subscription<std_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_subscription_;
+[2.096s]                                                        [01;31m[K^~~~~~~~~[m[K
+[2.102s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.102s]      rclcpp::Subscription<std_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_subscription_[m[K;
+[2.103s]                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.103s]                                                                  [32m[Krcl_subscription_t[m[K
+[2.103s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.103s]      rclcpp::Publisher<std_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr point_cloud_publisher_;
+[2.103s]                                       [01;31m[K^~~~~~~~~~~[m[K
+[2.104s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.104s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.104s]      rclcpp::Publisher<std_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_publisher_;
+[2.104s]                                                  [01;31m[K^[m[K
+[2.104s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.104s]      rclcpp::Publisher<std_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_publisher_;
+[2.105s]                                                     [01;31m[K^~~~~~~~~[m[K
+[2.105s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:52:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint GroundPlaneEstimatorNode::SharedPtr[m[K’
+[2.105s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:55:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint GroundPlaneEstimatorNode::SharedPtr[m[K’
+[2.105s]      rclcpp::Subscription<std_msgs::msg::PointCloud2>::[01;36m[KSharedPtr[m[K point_cloud_subscription_;
+[2.105s]                                                        [01;36m[K^~~~~~~~~[m[K
+[2.111s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_count_publishers[m[K’?
+[2.111s]      rclcpp::Publisher<std_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_publisher_[m[K;
+[2.111s]                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.111s]                                                               [32m[Krmw_count_publishers[m[K
+[2.955s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.956s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.957s] make: *** [all] Error 2

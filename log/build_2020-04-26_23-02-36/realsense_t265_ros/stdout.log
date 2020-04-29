@@ -1,0 +1,5 @@
+[0.417s] [ 14%] Built target gtest_main
+[0.417s] [ 28%] Built target gtest
+[0.418s] [ 71%] Built target realsense_t265_ros
+[0.418s] [ 92%] Built target camera_core
+[0.420s] [100%] Built target unittest_function

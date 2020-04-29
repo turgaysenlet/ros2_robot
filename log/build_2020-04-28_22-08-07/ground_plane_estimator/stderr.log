@@ -1,0 +1,52 @@
+[5.132s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[5.132s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:78:43:[m[K [01;31m[Kerror: [m[K‘[01m[KImageConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[5.133s]      void imageSegment( const sensor_msgs::[01;31m[KImageConstPtr[m[K& msg );
+[5.133s]                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[5.234s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:252:65:[m[K [01;31m[Kerror: [m[K‘[01m[KImageConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[5.234s]  void GroundPlaneEstimatorNode::imageSegment( const sensor_msgs::[01;31m[KImageConstPtr[m[K& msg ) {
+[5.234s]                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[5.235s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageSegment(const int&)[m[K’:
+[5.235s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:255:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const int&, const char [5])[m[K’
+[5.235s]          cv_ptr = cv_bridge::toCvCopy( msg, sensor_msgs::image_encodings::RGB8 [01;31m[K)[m[K;
+[5.235s]                                                                                [01;31m[K^[m[K
+[5.235s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:21:0[m[K,
+[5.236s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[5.236s] [01m[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:175:29:[m[K [01;36m[Knote: [m[Kcandidate: cv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)
+[5.236s]  CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[5.236s]                              [01;36m[K^~~~~~~~[m[K
+[5.236s] [01m[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:175:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr& {aka const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&}[m[K’
+[5.237s] [01m[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:179:29:[m[K [01;36m[Knote: [m[Kcandidate: cv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)
+[5.237s]  CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[5.237s]                              [01;36m[K^~~~~~~~[m[K
+[5.237s] [01m[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:179:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr& {aka const std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&}[m[K’
+[5.237s] [01m[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:202:29:[m[K [01;36m[Knote: [m[Kcandidate: cv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)
+[5.238s]  CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[5.238s]                              [01;36m[K^~~~~~~~[m[K
+[5.238s] [01m[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:202:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst Image& {aka const sensor_msgs::msg::Image_<std::allocator<void> >&}[m[K’
+[5.238s] [01m[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:206:29:[m[K [01;36m[Knote: [m[Kcandidate: cv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)
+[5.238s]  CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[5.239s]                              [01;36m[K^~~~~~~~[m[K
+[5.239s] [01m[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:206:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst CompressedImage& {aka const sensor_msgs::msg::CompressedImage_<std::allocator<void> >&}[m[K’
+[5.239s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:258:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+[5.239s]          [01;31m[KROS_ERROR[m[K( "cv_bridge exception: %s", e.what() );
+[5.239s]          [01;31m[K^~~~~~~~~[m[K
+[5.240s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:258:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KCV_ERROR[m[K’
+[5.240s]          [01;36m[KROS_ERROR[m[K( "cv_bridge exception: %s", e.what() );
+[5.241s]          [01;36m[K^~~~~~~~~[m[K
+[5.241s]          [32m[KCV_ERROR[m[K
+[5.249s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:348:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > > {aka class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Kpublish[m[K’
+[5.249s]      image_pub_.[01;31m[Kpublish[m[K( cv_ptr->toImageMsg() );
+[5.250s]                 [01;31m[K^~~~~~~[m[K
+[6.418s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[6.419s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[6.419s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[6.419s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34[m[K,
+[6.419s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.419s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[6.420s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.420s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[6.420s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.420s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.748s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[6.749s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[6.749s] make: *** [all] Error 2

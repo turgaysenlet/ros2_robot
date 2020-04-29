@@ -1,0 +1,147 @@
+[0.019s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator
+[0.041s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.083s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.330s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.343s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.357s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.388s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.415s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.420s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.422s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.434s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.450s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.462s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.477s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.479s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.524s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[0.542s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[0.558s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.561s] -- Found pcl_msgs: 1.0.0 (/opt/ros/dashing/share/pcl_msgs/cmake)
+[0.661s] -- Boost version: 1.65.1
+[0.661s] -- Found the following Boost libraries:
+[0.661s] --   system
+[0.661s] --   filesystem
+[0.661s] --   thread
+[0.662s] --   chrono
+[0.662s] --   date_time
+[0.662s] --   atomic
+[0.755s] -- Boost version: 1.65.1
+[0.755s] -- Found the following Boost libraries:
+[0.755s] --   system
+[0.756s] --   filesystem
+[0.756s] --   thread
+[0.756s] --   date_time
+[0.756s] --   iostreams
+[0.756s] --   serialization
+[0.756s] --   chrono
+[0.757s] --   atomic
+[0.757s] --   regex
+[0.773s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0.773s] ** WARNING ** io features related to ensenso will be disabled
+[0.777s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0.778s] ** WARNING ** io features related to davidSDK will be disabled
+[0.779s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[0.779s] ** WARNING ** io features related to dssdk will be disabled
+[0.780s] ** WARNING ** io features related to pcap will be disabled
+[0.780s] ** WARNING ** io features related to png will be disabled
+[0.839s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.839s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.840s] but this file does not exist.  Possible reasons include:
+[0.840s] * The file was deleted, renamed, or moved to another location.
+[0.840s] * An install or uninstall procedure did not complete successfully.
+[0.840s] * The installation package was faulty and contained
+[0.840s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.840s] but not all the files it references.
+[0.840s] 
+[0.841s] -- The imported target "vtk" references the file
+[0.841s]    "/usr/bin/vtk"
+[0.841s] but this file does not exist.  Possible reasons include:
+[0.841s] * The file was deleted, renamed, or moved to another location.
+[0.841s] * An install or uninstall procedure did not complete successfully.
+[0.841s] * The installation package was faulty and contained
+[0.842s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.842s] but not all the files it references.
+[0.842s] 
+[0.895s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.933s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0.933s] ** WARNING ** visualization features related to ensenso will be disabled
+[0.936s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0.936s] ** WARNING ** visualization features related to davidSDK will be disabled
+[0.937s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[0.937s] ** WARNING ** visualization features related to dssdk will be disabled
+[0.938s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[0.938s] ** WARNING ** visualization features related to rssdk will be disabled
+[0.984s] -- looking for PCL_COMMON
+[0.985s] -- looking for PCL_OCTREE
+[0.985s] -- looking for PCL_IO
+[0.985s] -- looking for PCL_KDTREE
+[0.986s] -- looking for PCL_SEARCH
+[0.986s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.987s] -- looking for PCL_FILTERS
+[0.987s] -- looking for PCL_2D
+[0.988s] -- looking for PCL_GEOMETRY
+[0.988s] -- looking for PCL_FEATURES
+[0.989s] -- looking for PCL_ML
+[0.989s] -- looking for PCL_SEGMENTATION
+[0.990s] -- looking for PCL_VISUALIZATION
+[0.990s] -- looking for PCL_SURFACE
+[0.991s] -- looking for PCL_REGISTRATION
+[0.992s] -- looking for PCL_KEYPOINTS
+[0.993s] -- looking for PCL_TRACKING
+[0.993s] -- looking for PCL_RECOGNITION
+[0.994s] -- looking for PCL_STEREO
+[0.995s] -- looking for PCL_APPS
+[0.997s] -- looking for PCL_IN_HAND_SCANNER
+[0.998s] -- looking for PCL_MODELER
+[0.998s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.998s] -- looking for PCL_OUTOFCORE
+[0.999s] -- looking for PCL_PEOPLE
+[1.018s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.259s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.261s] -- Configured cppcheck include dirs: /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include
+[1.262s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.263s] -- Added test 'lint_cmake' to check CMake code style
+[1.264s] -- Added test 'uncrustify' to check C / C++ code style
+[1.265s] -- Added test 'xmllint' to check XML markup files
+[1.269s] -- Configuring done
+[1.317s] -- Generating done
+[1.320s] -- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator
+[1.331s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator
+[1.336s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[1.422s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[1.520s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[8.099s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[8.100s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[8.100s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[8.100s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34[m[K,
+[8.100s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[8.100s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[8.101s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.101s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[8.101s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.101s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.030s] [100%] [32m[1mLinking CXX executable ground_plane_estimator_node[0m
+[11.349s] /usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[11.349s] /usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[11.363s] [100%] Built target ground_plane_estimator_node
+[11.378s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[11.445s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator --target install -- -j12 -l12
+[11.558s] [100%] Built target ground_plane_estimator_node
+[11.585s] [36mInstall the project...[0m
+[11.595s] -- Install configuration: ""
+[11.596s] -- Execute custom install script
+[11.597s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/lib/ground_plane_estimator/ground_plane_estimator_node
+[11.597s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/package_run_dependencies/ground_plane_estimator
+[11.598s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/parent_prefix_path/ground_plane_estimator
+[11.598s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/ament_prefix_path.sh
+[11.598s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/path.sh
+[11.599s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.bash
+[11.599s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.sh
+[11.600s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.zsh
+[11.600s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/packages/ground_plane_estimator
+[11.601s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig.cmake
+[11.601s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig-version.cmake
+[11.601s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/package.xml
+[11.606s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator --target install -- -j12 -l12

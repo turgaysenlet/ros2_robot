@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.000784] (-) JobUnselected: {'identifier': 'realsense_t265_node'}
+[0.000905] (-) JobUnselected: {'identifier': 'realsense_t265_ros'}
+[0.001694] (-) JobUnselected: {'identifier': 'remote_control'}
+[0.001809] (-) JobUnselected: {'identifier': 'simple_gps'}
+[0.001947] (ground_plane_estimator) JobQueued: {'identifier': 'ground_plane_estimator', 'dependencies': OrderedDict()}
+[0.002100] (ground_plane_estimator) JobStarted: {'identifier': 'ground_plane_estimator'}
+[0.018068] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'cmake'}
+[0.019511] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'build'}
+[0.020743] (ground_plane_estimator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', '--', '-j12', '-l12'], 'cwd': '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turgay'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1818'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/robot_devkit/tools/rtmonitor/lib:/opt/robot_devkit/tools/rtmonitor_msgs/lib:/opt/robot_devkit/tools/perf_msgs/lib:/opt/robot_devkit/perception/dynamic_vino_lib/lib:/opt/robot_devkit/perception/vino_param_lib/lib:/opt/robot_devkit/perception/robot_interface/lib:/opt/robot_devkit/perception/realsense_ros/lib:/opt/robot_devkit/perception/realsense_msgs/lib:/opt/robot_devkit/perception/pipeline_srv_msgs/lib:/opt/robot_devkit/perception/grasp_ros2/lib:/opt/robot_devkit/perception/people_msgs/lib:/opt/robot_devkit/perception/object_analytics_node/lib:/opt/robot_devkit/perception/object_analytics_msgs/lib:/opt/robot_devkit/perception/moveit_msgs/lib:/opt/robot_devkit/perception/handeye_tf_service/lib:/opt/robot_devkit/perception/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/turgay'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.44.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4752'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('COLCON_PREFIX_PATH', '/opt/robot_devkit/tools:/opt/robot_devkit/perception'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'turgay'), ('GTK_IM_MODULE', 'ibus'), ('_', '/snap/code/31/usr/share/code/code'), ('ROS_VERSION', '2'), ('USERNAME', 'turgay'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/turgay/.local/bin:/opt/robot_devkit/perception/recognize_pick/bin:/opt/robot_devkit/perception/random_pick/bin:/opt/robot_devkit/perception/fixed_position_pick/bin:/opt/robot_devkit/perception/draw_x/bin:/opt/robot_devkit/perception/realsense_node/bin:/opt/robot_devkit/perception/grasp_ros2/bin:/opt/robot_devkit/perception/handeye_dashboard/bin:/opt/ros/dashing/bin:/home/turgay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/turgay/.dotnet/tools:/home/turgay/.dotnet/tools'), ('SESSION_MANAGER', 'local/turgaydesktop:@/tmp/.ICE-unix/1671,unix/turgaydesktop:/tmp/.ICE-unix/1671'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000/snap.code'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LIBVA_DRIVER_NAME', 'iHD'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/31/usr/share/glib-2.0/schemas'), ('MFX_HOME', '/opt/intel/mediasdk'), ('AMENT_PREFIX_PATH', '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing'), ('DISABLE_WAYLAND', '1'), ('SHELL', '/bin/bash'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/31/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GDK_PIXBUF_MODULE_FILE', '/home/turgay/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/robot_devkit/tools/rtmonitor_msgs/lib/python3.6/site-packages:/opt/robot_devkit/tools/rdk_perf/lib/python3.6/site-packages:/opt/robot_devkit/tools/perf_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/realsense_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/pipeline_srv_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/people_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/object_analytics_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/moveit_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_tf_service/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_dashboard/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye/lib/python3.6/site-packages:/opt/robot_devkit/perception/grasp_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/criutils/lib/python3.6/site-packages:/opt/robot_devkit/perception/baldor/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('CMAKE_PREFIX_PATH', '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing')]), 'shell': False}
+[0.068825] (ground_plane_estimator) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.099540] (-) TimerEvent: {}
+[0.108827] (ground_plane_estimator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199678] (-) TimerEvent: {}
+[0.300111] (-) TimerEvent: {}
+[0.382961] (ground_plane_estimator) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.390612] (ground_plane_estimator) StdoutLine: {'line': b'-- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[0.400223] (-) TimerEvent: {}
+[0.406726] (ground_plane_estimator) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[0.435159] (ground_plane_estimator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[0.437592] (ground_plane_estimator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.459802] (ground_plane_estimator) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[0.464154] (ground_plane_estimator) StdoutLine: {'line': b'-- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)\n'}
+[0.465996] (ground_plane_estimator) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[0.476886] (ground_plane_estimator) StdoutLine: {'line': b'-- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)\n'}
+[0.491864] (ground_plane_estimator) StdoutLine: {'line': b'-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)\n'}
+[0.500342] (-) TimerEvent: {}
+[0.501235] (ground_plane_estimator) StdoutLine: {'line': b'-- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)\n'}
+[0.514719] (ground_plane_estimator) StdoutLine: {'line': b'-- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)\n'}
+[0.516641] (ground_plane_estimator) StdoutLine: {'line': b'-- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)\n'}
+[0.556933] (ground_plane_estimator) StdoutLine: {'line': b'-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)\n'}
+[0.572936] (ground_plane_estimator) StdoutLine: {'line': b'-- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)\n'}
+[0.588057] (ground_plane_estimator) StdoutLine: {'line': b'-- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)\n'}
+[0.589607] (ground_plane_estimator) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/dashing/share/pcl_msgs/cmake)\n'}
+[0.600483] (-) TimerEvent: {}
+[0.624724] (ground_plane_estimator) StdoutLine: {'line': b'-- Boost version: 1.65.1\n'}
+[0.625193] (ground_plane_estimator) StdoutLine: {'line': b'-- Found the following Boost libraries:\n'}
+[0.625443] (ground_plane_estimator) StdoutLine: {'line': b'--   system\n'}
+[0.625674] (ground_plane_estimator) StdoutLine: {'line': b'--   filesystem\n'}
+[0.625896] (ground_plane_estimator) StdoutLine: {'line': b'--   thread\n'}
+[0.626154] (ground_plane_estimator) StdoutLine: {'line': b'--   chrono\n'}
+[0.626410] (ground_plane_estimator) StdoutLine: {'line': b'--   date_time\n'}
+[0.626622] (ground_plane_estimator) StdoutLine: {'line': b'--   atomic\n'}
+[0.659506] (ground_plane_estimator) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.700673] (-) TimerEvent: {}
+[0.742644] (ground_plane_estimator) StdoutLine: {'line': b'--   Found eigen3, version 3.3.4\n'}
+[0.800780] (-) TimerEvent: {}
+[0.802202] (ground_plane_estimator) StdoutLine: {'line': b'-- Found eigen: /usr/include/eigen3  \n'}
+[0.897342] (ground_plane_estimator) StdoutLine: {'line': b'-- Boost version: 1.65.1\n'}
+[0.897882] (ground_plane_estimator) StdoutLine: {'line': b'-- Found the following Boost libraries:\n'}
+[0.898213] (ground_plane_estimator) StdoutLine: {'line': b'--   system\n'}
+[0.898591] (ground_plane_estimator) StdoutLine: {'line': b'--   filesystem\n'}
+[0.898833] (ground_plane_estimator) StdoutLine: {'line': b'--   thread\n'}
+[0.899055] (ground_plane_estimator) StdoutLine: {'line': b'--   date_time\n'}
+[0.899272] (ground_plane_estimator) StdoutLine: {'line': b'--   iostreams\n'}
+[0.899488] (ground_plane_estimator) StdoutLine: {'line': b'--   serialization\n'}
+[0.899702] (ground_plane_estimator) StdoutLine: {'line': b'--   chrono\n'}
+[0.899915] (ground_plane_estimator) StdoutLine: {'line': b'--   atomic\n'}
+[0.900126] (ground_plane_estimator) StdoutLine: {'line': b'--   regex\n'}
+[0.900338] (ground_plane_estimator) StdoutLine: {'line': b"-- Checking for module 'libopenni'\n"}
+[0.900864] (-) TimerEvent: {}
+[0.935595] (ground_plane_estimator) StdoutLine: {'line': b'--   Found libopenni, version 1.5.4.0\n'}
+[1.001029] (-) TimerEvent: {}
+[1.018429] (ground_plane_estimator) StdoutLine: {'line': b'-- Found openni: /usr/lib/libOpenNI.so  \n'}
+[1.019363] (ground_plane_estimator) StdoutLine: {'line': b"-- Checking for module 'libopenni2'\n"}
+[1.063930] (ground_plane_estimator) StdoutLine: {'line': b'--   Found libopenni2, version 2.2.0.3\n'}
+[1.101163] (-) TimerEvent: {}
+[1.143933] (ground_plane_estimator) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/libOpenNI2.so  \n'}
+[1.153348] (ground_plane_estimator) StdoutLine: {'line': b'-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) \n'}
+[1.153726] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** io features related to ensenso will be disabled\n'}
+[1.157936] (ground_plane_estimator) StdoutLine: {'line': b'-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) \n'}
+[1.158282] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** io features related to davidSDK will be disabled\n'}
+[1.159250] (ground_plane_estimator) StdoutLine: {'line': b'-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) \n'}
+[1.159652] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** io features related to dssdk will be disabled\n'}
+[1.159916] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.160049] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.201253] (-) TimerEvent: {}
+[1.268625] (ground_plane_estimator) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.269006] (ground_plane_estimator) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.269277] (ground_plane_estimator) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.269534] (ground_plane_estimator) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.269735] (ground_plane_estimator) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.270143] (ground_plane_estimator) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.270418] (ground_plane_estimator) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"\n'}
+[1.270682] (ground_plane_estimator) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.270952] (ground_plane_estimator) StdoutLine: {'line': b'\n'}
+[1.271212] (ground_plane_estimator) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.271467] (ground_plane_estimator) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.271721] (ground_plane_estimator) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.271986] (ground_plane_estimator) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.272240] (ground_plane_estimator) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.272493] (ground_plane_estimator) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.272745] (ground_plane_estimator) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"\n'}
+[1.272999] (ground_plane_estimator) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.273253] (ground_plane_estimator) StdoutLine: {'line': b'\n'}
+[1.301402] (-) TimerEvent: {}
+[1.401873] (-) TimerEvent: {}
+[1.502392] (-) TimerEvent: {}
+[1.602896] (-) TimerEvent: {}
+[1.693493] (ground_plane_estimator) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[1.694067] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.694456] (ground_plane_estimator) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.703066] (-) TimerEvent: {}
+[1.743371] (ground_plane_estimator) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.803224] (-) TimerEvent: {}
+[1.832275] (ground_plane_estimator) StdoutLine: {'line': b'-- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  \n'}
+[1.864808] (ground_plane_estimator) StdoutLine: {'line': b'-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) \n'}
+[1.865178] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** visualization features related to ensenso will be disabled\n'}
+[1.868691] (ground_plane_estimator) StdoutLine: {'line': b'-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) \n'}
+[1.869035] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** visualization features related to davidSDK will be disabled\n'}
+[1.869642] (ground_plane_estimator) StdoutLine: {'line': b'-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) \n'}
+[1.869921] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** visualization features related to dssdk will be disabled\n'}
+[1.870659] (ground_plane_estimator) StdoutLine: {'line': b'-- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) \n'}
+[1.871000] (ground_plane_estimator) StderrLine: {'line': b'** WARNING ** visualization features related to rssdk will be disabled\n'}
+[1.903359] (-) TimerEvent: {}
+[1.918361] (ground_plane_estimator) StdoutLine: {'line': b'-- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[1.944758] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.945984] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.946349] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.947171] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.947570] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.948346] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.948757] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.949638] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.950053] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.950955] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.951330] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.952278] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.952640] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.953500] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.953816] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.954159] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.8  \n'}
+[1.954506] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.954892] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.8  \n'}
+[1.955122] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.955873] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.956160] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.957289] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.957483] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.958538] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.958954] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.960117] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.960448] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.961495] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.961712] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.962911] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.963287] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.964378] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.964625] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.965749] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.965941] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.967173] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.967818] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.968980] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.969184] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.970325] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.972674] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.973086] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  \n'}
+[1.973325] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.973597] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.8  \n'}
+[1.973823] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.974347] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  \n'}
+[1.974605] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.975711] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.975986] (ground_plane_estimator) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.977005] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.994451] (ground_plane_estimator) StdoutLine: {'line': b'-- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava (Required is at least version "1.7") \n'}
+[1.994956] (ground_plane_estimator) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[2.003471] (-) TimerEvent: {}
+[2.103887] (-) TimerEvent: {}
+[2.204356] (-) TimerEvent: {}
+[2.235052] (ground_plane_estimator) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[2.235981] (ground_plane_estimator) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.236419] (ground_plane_estimator) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include\n'}
+[2.237146] (ground_plane_estimator) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.237677] (ground_plane_estimator) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.238525] (ground_plane_estimator) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.238939] (ground_plane_estimator) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.241589] (ground_plane_estimator) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.304516] (-) TimerEvent: {}
+[2.346193] (ground_plane_estimator) StdoutLine: {'line': b'-- Generating done\n'}
+[2.348633] (ground_plane_estimator) StdoutLine: {'line': b'-- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator\n'}
+[2.404633] (ground_plane_estimator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ground_plane_estimator_node\x1b[0m\n'}
+[2.405165] (-) TimerEvent: {}
+[2.488451] (ground_plane_estimator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o\x1b[0m\n'}
+[2.505263] (-) TimerEvent: {}
+[2.605612] (-) TimerEvent: {}
+[2.706018] (-) TimerEvent: {}
+[2.806593] (-) TimerEvent: {}
+[2.907085] (-) TimerEvent: {}
+[3.007577] (-) TimerEvent: {}
+[3.108079] (-) TimerEvent: {}
+[3.208579] (-) TimerEvent: {}
+[3.309096] (-) TimerEvent: {}
+[3.409588] (-) TimerEvent: {}
+[3.510117] (-) TimerEvent: {}
+[3.610581] (-) TimerEvent: {}
+[3.711064] (-) TimerEvent: {}
+[3.811556] (-) TimerEvent: {}
+[3.912048] (-) TimerEvent: {}
+[4.012543] (-) TimerEvent: {}
+[4.113044] (-) TimerEvent: {}
+[4.213548] (-) TimerEvent: {}
+[4.314044] (-) TimerEvent: {}
+[4.414548] (-) TimerEvent: {}
+[4.515038] (-) TimerEvent: {}
+[4.615525] (-) TimerEvent: {}
+[4.716018] (-) TimerEvent: {}
+[4.816512] (-) TimerEvent: {}
+[4.917001] (-) TimerEvent: {}
+[5.017495] (-) TimerEvent: {}
+[5.117994] (-) TimerEvent: {}
+[5.218523] (-) TimerEvent: {}
+[5.319013] (-) TimerEvent: {}
+[5.419505] (-) TimerEvent: {}
+[5.519998] (-) TimerEvent: {}
+[5.620499] (-) TimerEvent: {}
+[5.720991] (-) TimerEvent: {}
+[5.821500] (-) TimerEvent: {}
+[5.922007] (-) TimerEvent: {}
+[6.022530] (-) TimerEvent: {}
+[6.123027] (-) TimerEvent: {}
+[6.223530] (-) TimerEvent: {}
+[6.324031] (-) TimerEvent: {}
+[6.424540] (-) TimerEvent: {}
+[6.525043] (-) TimerEvent: {}
+[6.625546] (-) TimerEvent: {}
+[6.726054] (-) TimerEvent: {}
+[6.826543] (-) TimerEvent: {}
+[6.927032] (-) TimerEvent: {}
+[7.027524] (-) TimerEvent: {}
+[7.128010] (-) TimerEvent: {}
+[7.228512] (-) TimerEvent: {}
+[7.329024] (-) TimerEvent: {}
+[7.429516] (-) TimerEvent: {}
+[7.530012] (-) TimerEvent: {}
+[7.630500] (-) TimerEvent: {}
+[7.730994] (-) TimerEvent: {}
+[7.831485] (-) TimerEvent: {}
+[7.931993] (-) TimerEvent: {}
+[8.032496] (-) TimerEvent: {}
+[8.132971] (-) TimerEvent: {}
+[8.233476] (-) TimerEvent: {}
+[8.333975] (-) TimerEvent: {}
+[8.434493] (-) TimerEvent: {}
+[8.534948] (-) TimerEvent: {}
+[8.635423] (-) TimerEvent: {}
+[8.735915] (-) TimerEvent: {}
+[8.836409] (-) TimerEvent: {}
+[8.936899] (-) TimerEvent: {}
+[9.037390] (-) TimerEvent: {}
+[9.137852] (-) TimerEvent: {}
+[9.238238] (-) TimerEvent: {}
+[9.338622] (-) TimerEvent: {}
+[9.438987] (-) TimerEvent: {}
+[9.539432] (-) TimerEvent: {}
+[9.639928] (-) TimerEvent: {}
+[9.740446] (-) TimerEvent: {}
+[9.840957] (-) TimerEvent: {}
+[9.941472] (-) TimerEvent: {}
+[10.022807] (ground_plane_estimator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ground_plane_estimator_node\x1b[0m\n'}
+[10.041616] (-) TimerEvent: {}
+[10.142166] (-) TimerEvent: {}
+[10.242561] (-) TimerEvent: {}
+[10.343008] (-) TimerEvent: {}
+[10.443479] (-) TimerEvent: {}
+[10.543982] (-) TimerEvent: {}
+[10.644488] (-) TimerEvent: {}
+[10.677332] (ground_plane_estimator) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4\n'}
+[10.677683] (ground_plane_estimator) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4\n'}
+[10.677931] (ground_plane_estimator) StderrLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::x>()':\n"}
+[10.678224] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1xEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1xEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'\n"}
+[10.678420] (ground_plane_estimator) StderrLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::y>()':\n"}
+[10.678586] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1yEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1yEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'\n"}
+[10.678812] (ground_plane_estimator) StderrLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::z>()':\n"}
+[10.679054] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1zEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1zEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'\n"}
+[10.679306] (ground_plane_estimator) StderrLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::rgb>()':\n"}
+[10.679578] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields3rgbEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields3rgbEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'\n"}
+[10.679739] (ground_plane_estimator) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[10.682480] (ground_plane_estimator) StderrLine: {'line': b'make[2]: *** [ground_plane_estimator_node] Error 1\n'}
+[10.682590] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/build.make:252: recipe for target 'ground_plane_estimator_node' failed\n"}
+[10.682970] (ground_plane_estimator) StderrLine: {'line': b'make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2\n'}
+[10.683097] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed\n"}
+[10.683253] (ground_plane_estimator) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[10.683408] (ground_plane_estimator) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[10.686652] (ground_plane_estimator) CommandEnded: {'returncode': 2}
+[10.687464] (ground_plane_estimator) JobEnded: {'identifier': 'ground_plane_estimator', 'rc': 2}
+[10.698299] (-) EventReactorShutdown: {}

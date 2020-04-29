@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.170s] [ 50%] [32m[1mLinking CXX executable ground_plane_estimator_node[0m
+[0.738s] /usr/bin/ld: cannot find -lpcl_range_image
+[0.738s] /usr/bin/ld: cannot find -lpcl_range_image_border_extractor
+[0.739s] collect2: error: ld returned 1 exit status
+[0.741s] CMakeFiles/ground_plane_estimator_node.dir/build.make:252: recipe for target 'ground_plane_estimator_node' failed
+[0.741s] make[2]: *** [ground_plane_estimator_node] Error 1
+[0.741s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[0.742s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[0.742s] Makefile:140: recipe for target 'all' failed
+[0.742s] make: *** [all] Error 2
+[0.745s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12

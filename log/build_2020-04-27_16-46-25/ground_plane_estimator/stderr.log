@@ -1,0 +1,19 @@
+[1.613s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[1.614s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:55:162:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.614s]  nsor_msgs::msg::Image::ConstSharedPtr& msg, const sensor_msgs::msg::PointCloud2::ConstSharedPtr & [01;35m[Kpoint_msg[m[K) {
+[1.614s]                                                                                                    [01;35m[K^~~~~~~~~[m[K
+[1.619s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::sidewalkEdgePicking(std::vector<cv::Vec<int, 4> >)[m[K’:
+[1.620s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:117:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx11[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.620s]                  double [01;35m[Kx11[m[K, y11;
+[1.620s]                         [01;35m[K^~~[m[K
+[1.621s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:117:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky11[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.621s]                  double x11, [01;35m[Ky11[m[K;
+[1.621s]                              [01;35m[K^~~[m[K
+[1.622s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:136:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx12[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.622s]                  double [01;35m[Kx12[m[K, y12;
+[1.622s]                         [01;35m[K^~~[m[K
+[1.622s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:136:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky12[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.623s]                  double x12, [01;35m[Ky12[m[K;
+[1.623s]                              [01;35m[K^~~[m[K
+[4.041s] /usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[4.041s] /usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4

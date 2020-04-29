@@ -1,0 +1,7 @@
+[0.437s] CMake Error at /opt/ros/dashing/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:35 (message):
+[0.437s]   ament_target_dependencies() the first argument must be a valid target name
+[0.437s] Call Stack (most recent call first):
+[0.437s]   CMakeLists.txt:31 (ament_target_dependencies)
+[0.438s] 
+[0.438s] 
+[0.440s] make: *** [cmake_check_build_system] Error 1

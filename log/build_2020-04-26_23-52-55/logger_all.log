@@ -1,0 +1,288 @@
+[0.180s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.180s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f25d5d7f7f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f25d5d7f7f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f25d5d7fb38>)
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.227s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/turgay/dev_ws/src/ros2_robot'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'ground_plane_estimator' with type 'ros.ament_cmake' and name 'ground_plane_estimator'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'realsense_t265_node' with type 'ros.ament_cmake' and name 'realsense_t265_node'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'realsense_t265_ros' with type 'ros.ament_cmake' and name 'realsense_t265_ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'remote_control' with type 'ros.ament_python' and name 'remote_control'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'simple_gps' with type 'ros.ament_python' and name 'simple_gps'
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ground_plane_estimator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'ground_plane_estimator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator', 'merge_install': False, 'path': '/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator', 'symlink_install': False, 'test_result_base': None}
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'cmake_target' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_t265_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros', 'merge_install': False, 'path': '/home/turgay/dev_ws/src/ros2_robot/realsense_t265_ros', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'remote_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'remote_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turgay/dev_ws/src/ros2_robot/build/remote_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turgay/dev_ws/src/ros2_robot/install/remote_control', 'merge_install': False, 'path': '/home/turgay/dev_ws/src/ros2_robot/remote_control', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'simple_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'simple_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turgay/dev_ws/src/ros2_robot/build/simple_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps', 'merge_install': False, 'path': '/home/turgay/dev_ws/src/ros2_robot/simple_gps', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'realsense_t265_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_t265_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node', 'merge_install': False, 'path': '/home/turgay/dev_ws/src/ros2_robot/realsense_t265_node', 'symlink_install': False, 'test_result_base': None}
+[0.278s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turgay/dev_ws/src/ros2_robot/realsense_t265_ros' with build type 'ament_cmake'
+[0.288s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turgay/dev_ws/src/ros2_robot/realsense_t265_ros'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception /opt/ros/dashing /opt/ros/dashing /home/turgay/dev_ws/src/ros2_robot/install /opt/robot_devkit/tools /opt/robot_devkit/perception' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.296s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator' with build type 'ament_cmake'
+[0.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.310s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/turgay/dev_ws/src/ros2_robot/remote_control' with build type 'ament_python'
+[0.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_control', 'ament_prefix_path')
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/hook/ament_prefix_path.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/hook/ament_prefix_path.dsv'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/hook/ament_prefix_path.sh'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.325s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/turgay/dev_ws/src/ros2_robot/simple_gps' with build type 'ament_python'
+[0.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_gps', 'ament_prefix_path')
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/hook/ament_prefix_path.ps1'
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/hook/ament_prefix_path.dsv'
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/hook/ament_prefix_path.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros -- -j12 -l12
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.700s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/turgay/dev_ws/src/ros2_robot/remote_control'
+[0.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.710s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.041s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/turgay/dev_ws/src/ros2_robot/simple_gps'
+[1.043s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.047s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros -- -j12 -l12
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turgay/dev_ws/src/ros2_robot/remote_control': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control build --build-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/remote_control --record /home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log --single-version-externally-managed
+[1.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turgay/dev_ws/src/ros2_robot/simple_gps': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/simple_gps build --build-base /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/simple_gps --record /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/install.log --single-version-externally-managed
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros --target install -- -j12 -l12
+[1.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_t265_ros)
+[1.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros --target install -- -j12 -l12
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros' for CMake module files
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros' for CMake config files
+[1.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_t265_ros', 'cmake_prefix_path')
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/hook/cmake_prefix_path.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/hook/cmake_prefix_path.dsv'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/hook/cmake_prefix_path.sh'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib'
+[1.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_t265_ros', 'ld_library_path_lib')
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/hook/ld_library_path_lib.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/hook/ld_library_path_lib.dsv'
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/hook/ld_library_path_lib.sh'
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/bin'
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/pkgconfig/realsense_t265_ros.pc'
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/python3.6/site-packages'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.ps1'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.dsv'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.sh'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.bash'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.zsh'
+[1.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/colcon-core/packages/realsense_t265_ros)
+[1.430s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turgay/dev_ws/src/ros2_robot/realsense_t265_node' with build type 'ament_cmake'
+[1.431s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turgay/dev_ws/src/ros2_robot/realsense_t265_node'
+[1.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.442s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node': CMAKE_PREFIX_PATH=/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node:/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node -- -j12 -l12
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps' for CMake module files
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turgay/dev_ws/src/ros2_robot/simple_gps' returned '0': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/simple_gps build --build-base /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/simple_gps --record /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/install.log --single-version-externally-managed
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps' for CMake config files
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/bin'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/pkgconfig/simple_gps.pc'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages'
+[1.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_gps', 'pythonpath')
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/hook/pythonpath.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/hook/pythonpath.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/hook/pythonpath.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_gps)
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/package.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/package.dsv'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/package.sh'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/package.bash'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/simple_gps/package.zsh'
+[1.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/share/colcon-core/packages/simple_gps)
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/remote_control' for CMake module files
+[1.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turgay/dev_ws/src/ros2_robot/remote_control' returned '0': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control build --build-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/remote_control --record /home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log --single-version-externally-managed
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/remote_control' for CMake config files
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/bin'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/pkgconfig/remote_control.pc'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages'
+[1.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_control', 'pythonpath')
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/hook/pythonpath.ps1'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/hook/pythonpath.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/hook/pythonpath.sh'
+[1.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(remote_control)
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/package.ps1'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/package.dsv'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/package.sh'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/package.bash'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control/package.zsh'
+[1.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/colcon-core/packages/remote_control)
+[1.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node' returned '0': CMAKE_PREFIX_PATH=/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node:/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node -- -j12 -l12
+[1.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node': CMAKE_PREFIX_PATH=/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node:/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node --target install -- -j12 -l12
+[1.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_t265_node)
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node' for CMake module files
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node' returned '0': CMAKE_PREFIX_PATH=/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros:/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node:/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_node --target install -- -j12 -l12
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node' for CMake config files
+[1.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_t265_node', 'cmake_prefix_path')
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/hook/cmake_prefix_path.ps1'
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/hook/cmake_prefix_path.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/hook/cmake_prefix_path.sh'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/lib'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/bin'
+[1.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_t265_node', 'path')
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/hook/path.ps1'
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/hook/path.dsv'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/hook/path.sh'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/lib/pkgconfig/realsense_t265_node.pc'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/lib/python3.6/site-packages'
+[1.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/package.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/package.dsv'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/package.sh'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/package.bash'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/package.zsh'
+[1.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/colcon-core/packages/realsense_t265_node)
+[2.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[2.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.583s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.594s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.598s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turgay/dev_ws/src/ros2_robot/install/local_setup.ps1'
+[2.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/turgay/dev_ws/src/ros2_robot/install/_local_setup_util_ps1.py'
+[2.607s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turgay/dev_ws/src/ros2_robot/install/setup.ps1'
+[2.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turgay/dev_ws/src/ros2_robot/install/local_setup.sh'
+[2.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/turgay/dev_ws/src/ros2_robot/install/_local_setup_util_sh.py'
+[2.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turgay/dev_ws/src/ros2_robot/install/setup.sh'
+[2.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turgay/dev_ws/src/ros2_robot/install/local_setup.bash'
+[2.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turgay/dev_ws/src/ros2_robot/install/setup.bash'
+[2.622s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turgay/dev_ws/src/ros2_robot/install/local_setup.zsh'
+[2.623s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turgay/dev_ws/src/ros2_robot/install/setup.zsh'

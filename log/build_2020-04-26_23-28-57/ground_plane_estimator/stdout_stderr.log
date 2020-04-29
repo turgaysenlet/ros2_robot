@@ -1,0 +1,28 @@
+[0.434s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.436s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.176s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.176s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:16:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport(GroundPlaneEstimatorNode*)[m[K’
+[1.177s]    image_transport::ImageTransport it(this[01;31m[K)[m[K;
+[1.177s]                                           [01;31m[K^[m[K
+[1.177s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:8:0[m[K:
+[1.177s] [01m[K/opt/ros/dashing/include/image_transport/image_transport.h:116:12:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(rclcpp::Node::SharedPtr)
+[1.177s]    explicit [01;36m[KImageTransport[m[K(rclcpp::Node::SharedPtr node);
+[1.177s]             [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.177s] [01m[K/opt/ros/dashing/include/image_transport/image_transport.h:116:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KGroundPlaneEstimatorNode*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr {aka std::shared_ptr<rclcpp::Node>}[m[K’
+[1.213s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:20:53:[m[K [01;31m[Kerror: [m[K‘[01m[KimageCallback[m[K’ was not declared in this scope
+[1.213s]    auto sub = it.subscribe("in_image_base_topic", 1, [01;31m[KimageCallback[m[K);
+[1.213s]                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[1.214s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:20:53:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kimage_callback[m[K’
+[1.216s]    auto sub = it.subscribe("in_image_base_topic", 1, [01;36m[KimageCallback[m[K);
+[1.216s]                                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[1.217s]                                                      [32m[Kimage_callback[m[K
+[1.237s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(const ConstSharedPtr&)[m[K’:
+[1.237s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:37:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.237s]  void GroundPlaneEstimatorNode::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr & [01;35m[Kmsg[m[K) {
+[1.237s]                                                                                                [01;35m[K^~~[m[K
+[2.008s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.008s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.009s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.009s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.010s] make: *** [all] Error 2
+[2.011s] Makefile:140: recipe for target 'all' failed

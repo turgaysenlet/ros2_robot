@@ -1,0 +1,22 @@
+[0.068s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.440s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.441s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.210s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.210s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ does not name a type
+[1.211s]      [01;31m[Kimage_transport[m[K::Subscriber transport_image_subscription_;
+[1.211s]      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.285s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.286s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransport_image_subscription_[m[K’ was not declared in this scope
+[1.286s]    [01;31m[Ktransport_image_subscription_[m[K = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos);
+[1.286s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.291s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kimage_subscription_[m[K’
+[1.292s]    [01;36m[Ktransport_image_subscription_[m[K = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos);
+[1.292s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.292s]    [32m[Kimage_subscription_[m[K
+[2.039s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.040s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.040s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.040s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.041s] Makefile:140: recipe for target 'all' failed
+[2.041s] make: *** [all] Error 2
+[2.044s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12

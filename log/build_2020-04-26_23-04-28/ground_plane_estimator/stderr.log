@@ -1,0 +1,24 @@
+[1.243s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.243s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:30:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[1.243s]      rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[1.243s]                        [01;31m[K^~~~~~~~[m[K
+[1.244s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:30:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.244s]      rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[1.244s]                                             [01;31m[K^[m[K
+[1.245s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:30:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.245s]      rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[1.245s]                                                [01;31m[K^~~~~~~~~[m[K
+[1.246s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:30:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.246s]      rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.246s]                                                          [01;31m[K^~~~~~~~~~[m[K
+[1.246s]                                                          [32m[Krcl_publisher_t[m[K
+[1.246s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:14:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass GroundPlaneEstimatorNode[m[K’
+[1.246s]  class [01;31m[KGroundPlaneEstimatorNode[m[K : public rclcpp::Node
+[1.246s]        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.247s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.247s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:22:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass GroundPlaneEstimatorNode[m[K’
+[1.247s]  class [01;36m[KGroundPlaneEstimatorNode[m[K : public rclcpp::Node
+[1.247s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.416s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[1.417s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[1.417s] make: *** [all] Error 2

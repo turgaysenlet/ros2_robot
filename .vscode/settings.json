@@ -1,0 +1,4 @@
+{
+    "colcon.provideTasks": true,
+    "cmake.configureOnOpen": false
+}

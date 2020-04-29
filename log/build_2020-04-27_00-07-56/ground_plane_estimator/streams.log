@@ -1,0 +1,55 @@
+[0.059s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.469s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.469s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.226s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.226s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ does not name a type
+[1.226s]      [01;31m[Kimage_transport[m[K::Subscriber transport_image_subscription_;
+[1.227s]      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.298s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.299s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransport_image_subscription_[m[K’ was not declared in this scope
+[1.299s]    [01;31m[Ktransport_image_subscription_[m[K = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos);
+[1.300s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.305s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kimage_subscription_[m[K’
+[1.305s]    [01;36m[Ktransport_image_subscription_[m[K = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos);
+[1.305s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.306s]    [32m[Kimage_subscription_[m[K
+[1.335s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.335s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kit[m[K’ was not declared in this scope
+[1.336s]    [01;31m[Kit[m[K = std::make_shared<image_transport::ImageTransport>(node_.get());
+[1.336s]    [01;31m[K^~[m[K
+[1.336s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:63:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kit_[m[K’
+[1.337s]    [01;36m[Kit[m[K = std::make_shared<image_transport::ImageTransport>(node_.get());
+[1.337s]    [01;36m[K^~[m[K
+[1.338s]    [32m[Kit_[m[K
+[1.626s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+[1.626s]                  from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+[1.626s]                  from [01m[K/usr/include/c++/7/string:41[m[K,
+[1.627s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[1.627s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[1.627s]                  from [01m[K/usr/include/c++/7/tuple:39[m[K,
+[1.627s]                  from [01m[K/usr/include/c++/7/functional:54[m[K,
+[1.627s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:3[m[K:
+[1.628s] /usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = image_transport::ImageTransport; _Args = {GroundPlaneEstimatorNode*}; _Tp = image_transport::ImageTransport][m[K’:
+[1.628s] [01m[K/usr/include/c++/7/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = image_transport::ImageTransport; _Args = {GroundPlaneEstimatorNode*}; _Tp = image_transport::ImageTransport; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<image_transport::ImageTransport>][m[K’
+[1.628s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:526:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {GroundPlaneEstimatorNode*}; _Tp = image_transport::ImageTransport; _Alloc = std::allocator<image_transport::ImageTransport>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[1.628s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:637:4:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = image_transport::ImageTransport; _Alloc = std::allocator<image_transport::ImageTransport>; _Args = {GroundPlaneEstimatorNode*}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[1.629s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<image_transport::ImageTransport>; _Args = {GroundPlaneEstimatorNode*}; _Tp = image_transport::ImageTransport; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[1.629s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:344:64:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<image_transport::ImageTransport>; _Args = {GroundPlaneEstimatorNode*}; _Tp = image_transport::ImageTransport][m[K’
+[1.629s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:690:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = image_transport::ImageTransport; _Alloc = std::allocator<image_transport::ImageTransport>; _Args = {GroundPlaneEstimatorNode*}][m[K’
+[1.629s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:706:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = image_transport::ImageTransport; _Args = {GroundPlaneEstimatorNode*}][m[K’
+[1.629s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:63:69:[m[K   required from here
+[1.630s] [01m[K/usr/include/c++/7/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport(GroundPlaneEstimatorNode*)[m[K’
+[1.630s]   { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.630s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.630s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:8:0[m[K:
+[1.630s] [01m[K/opt/ros/dashing/include/image_transport/image_transport.h:116:12:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(rclcpp::Node::SharedPtr)
+[1.631s]    explicit [01;36m[KImageTransport[m[K(rclcpp::Node::SharedPtr node);
+[1.631s]             [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.631s] [01m[K/opt/ros/dashing/include/image_transport/image_transport.h:116:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KGroundPlaneEstimatorNode*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr {aka std::shared_ptr<rclcpp::Node>}[m[K’
+[2.073s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.074s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.074s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.074s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.075s] make: *** [all] Error 2
+[2.075s] Makefile:140: recipe for target 'all' failed
+[2.078s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12

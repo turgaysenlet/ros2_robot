@@ -1,0 +1,21 @@
+[0.707s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/remote_control': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control build --build-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/remote_control --record /home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log --single-version-externally-managed
+[1.047s] running egg_info
+[1.047s] writing /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/PKG-INFO
+[1.048s] writing dependency_links to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/dependency_links.txt
+[1.050s] writing entry points to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/entry_points.txt
+[1.050s] writing requirements to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/requires.txt
+[1.050s] writing top-level names to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/top_level.txt
+[1.085s] reading manifest file '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'
+[1.086s] writing manifest file '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'
+[1.086s] running build
+[1.086s] running build_py
+[1.087s] running install
+[1.087s] running install_lib
+[1.089s] running install_data
+[1.090s] running install_egg_info
+[1.092s] removing '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control-0.0.0-py3.6.egg-info' (and everything under it)
+[1.092s] Copying /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info to /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control-0.0.0-py3.6.egg-info
+[1.093s] running install_scripts
+[1.111s] Installing remote_control_node script to /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/remote_control
+[1.111s] writing list of installed files to '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log'
+[1.138s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/remote_control' returned '0': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control build --build-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/remote_control --record /home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log --single-version-externally-managed

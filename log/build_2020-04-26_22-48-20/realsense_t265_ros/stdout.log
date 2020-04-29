@@ -1,0 +1,57 @@
+[0.422s] -- The C compiler identification is GNU 7.5.0
+[0.424s] -- The CXX compiler identification is GNU 7.5.0
+[0.424s] -- Check for working C compiler: /usr/bin/cc
+[0.426s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.426s] -- Detecting C compiler ABI info
+[0.455s] -- Detecting C compiler ABI info - done
+[0.467s] -- Detecting C compile features
+[0.773s] -- Detecting C compile features - done
+[0.775s] -- Check for working CXX compiler: /usr/bin/c++
+[0.876s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.877s] -- Detecting CXX compiler ABI info
+[0.994s] -- Detecting CXX compiler ABI info - done
+[1.006s] -- Detecting CXX compile features
+[1.548s] -- Detecting CXX compile features - done
+[1.548s] -- Create Debug Build.
+[1.553s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.593s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.593s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.899s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.939s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.000s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.003s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.003s] -- Looking for pthread.h
+[2.122s] -- Looking for pthread.h - found
+[2.123s] -- Looking for pthread_create
+[2.242s] -- Looking for pthread_create - not found
+[2.243s] -- Looking for pthread_create in pthreads
+[2.349s] -- Looking for pthread_create in pthreads - not found
+[2.350s] -- Looking for pthread_create in pthread
+[2.476s] -- Looking for pthread_create in pthread - found
+[2.479s] -- Found Threads: TRUE  
+[2.527s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[2.537s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[2.562s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[2.598s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[2.613s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[2.636s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[2.642s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[2.713s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[2.717s] -- Found realsense_msgs: 2.0.5 (/opt/robot_devkit/perception/realsense_msgs/share/realsense_msgs/cmake)
+[2.827s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.834s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[2.859s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[2.876s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[3.020s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.023s] -- Check if compiler accepts -pthread
+[3.145s] -- Check if compiler accepts -pthread - yes
+[3.377s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[3.378s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.379s] -- Configured cppcheck include dirs: /home/turgay/dev_ws/src/ros2_robot/realsense_t265_ros/include
+[3.380s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.381s] -- Added test 'lint_cmake' to check CMake code style
+[3.383s] -- Added test 'uncrustify' to check C / C++ code style
+[3.383s] -- Added test 'xmllint' to check XML markup files
+[3.388s] -- Configuring done
+[3.493s] -- Generating done
+[3.495s] -- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros

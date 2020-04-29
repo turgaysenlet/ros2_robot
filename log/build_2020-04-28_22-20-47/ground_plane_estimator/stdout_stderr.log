@@ -1,0 +1,29 @@
+[0.104s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.182s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[5.457s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[5.457s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:78:43:[m[K [01;31m[Kerror: [m[K‘[01m[KImageConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[5.458s]      void imageSegment( const sensor_msgs::[01;31m[KImageConstPtr[m[K& msg );
+[5.458s]                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[5.573s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:252:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid GroundPlaneEstimatorNode::imageSegment(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&)[m[K’ does not match any in class ‘[01m[KGroundPlaneEstimatorNode[m[K’
+[5.574s]  void [01;31m[KGroundPlaneEstimatorNode[m[K::imageSegment(sensor_msgs::msg::Image::ConstSharedPtr& msg) {
+[5.574s]       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.574s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[5.574s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:78:10:[m[K [01;31m[Kerror: [m[Kcandidate is: void GroundPlaneEstimatorNode::imageSegment(const int&)
+[5.574s]      void [01;31m[KimageSegment[m[K( const sensor_msgs::ImageConstPtr& msg );
+[5.575s]           [01;31m[K^~~~~~~~~~~~[m[K
+[6.799s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[6.799s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[6.799s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[6.800s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34[m[K,
+[6.800s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.800s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[6.800s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.801s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[6.801s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.801s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.147s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[7.147s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[7.147s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[7.148s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[7.148s] Makefile:140: recipe for target 'all' failed
+[7.148s] make: *** [all] Error 2

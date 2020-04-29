@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000155] (ground_plane_estimator) JobQueued: {'identifier': 'ground_plane_estimator', 'dependencies': OrderedDict()}
+[0.001006] (realsense_t265_ros) JobQueued: {'identifier': 'realsense_t265_ros', 'dependencies': OrderedDict()}
+[0.001364] (remote_control) JobQueued: {'identifier': 'remote_control', 'dependencies': OrderedDict()}
+[0.001501] (simple_gps) JobQueued: {'identifier': 'simple_gps', 'dependencies': OrderedDict()}
+[0.001573] (realsense_t265_node) JobQueued: {'identifier': 'realsense_t265_node', 'dependencies': OrderedDict([('realsense_t265_ros', '/home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros')])}
+[0.001716] (realsense_t265_ros) JobStarted: {'identifier': 'realsense_t265_ros'}
+[0.013570] (ground_plane_estimator) JobStarted: {'identifier': 'ground_plane_estimator'}
+[0.022669] (remote_control) JobStarted: {'identifier': 'remote_control'}
+[0.033120] (simple_gps) JobStarted: {'identifier': 'simple_gps'}
+[0.057684] (realsense_t265_ros) JobProgress: {'identifier': 'realsense_t265_ros', 'progress': 'cmake'}
+[0.058508] (realsense_t265_ros) JobProgress: {'identifier': 'realsense_t265_ros', 'progress': 'build'}
+[0.059229] (realsense_t265_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros', '--', '-j12', '-l12'], 'cwd': '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turgay'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1774'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/robot_devkit/tools/rtmonitor/lib:/opt/robot_devkit/tools/rtmonitor_msgs/lib:/opt/robot_devkit/tools/perf_msgs/lib:/opt/robot_devkit/perception/dynamic_vino_lib/lib:/opt/robot_devkit/perception/vino_param_lib/lib:/opt/robot_devkit/perception/robot_interface/lib:/opt/robot_devkit/perception/realsense_ros/lib:/opt/robot_devkit/perception/realsense_msgs/lib:/opt/robot_devkit/perception/pipeline_srv_msgs/lib:/opt/robot_devkit/perception/grasp_ros2/lib:/opt/robot_devkit/perception/people_msgs/lib:/opt/robot_devkit/perception/object_analytics_node/lib:/opt/robot_devkit/perception/object_analytics_msgs/lib:/opt/robot_devkit/perception/moveit_msgs/lib:/opt/robot_devkit/perception/handeye_tf_service/lib:/opt/robot_devkit/perception/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/turgay/dev_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/turgay'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3158'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('COLCON_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install:/opt/robot_devkit/tools:/opt/robot_devkit/perception'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'turgay'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'turgay'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/robot_devkit/perception/recognize_pick/bin:/opt/robot_devkit/perception/random_pick/bin:/opt/robot_devkit/perception/fixed_position_pick/bin:/opt/robot_devkit/perception/draw_x/bin:/opt/robot_devkit/perception/realsense_node/bin:/opt/robot_devkit/perception/grasp_ros2/bin:/opt/robot_devkit/perception/handeye_dashboard/bin:/opt/ros/dashing/bin:/home/turgay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/turgaydesktop:@/tmp/.ICE-unix/1679,unix/turgaydesktop:/tmp/.ICE-unix/1679'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LIBVA_DRIVER_NAME', 'iHD'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('MFX_HOME', '/opt/intel/mediasdk'), ('TERMINATOR_UUID', 'urn:uuid:d8fee89f-a0e3-44e5-872d-5ed69ae97d2d'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/turgay/dev_ws/src/ros2_robot/build/realsense_t265_ros'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:/opt/robot_devkit/tools/rtmonitor_msgs/lib/python3.6/site-packages:/opt/robot_devkit/tools/rdk_perf/lib/python3.6/site-packages:/opt/robot_devkit/tools/perf_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/realsense_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/pipeline_srv_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/people_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/object_analytics_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/moveit_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_tf_service/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_dashboard/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye/lib/python3.6/site-packages:/opt/robot_devkit/perception/grasp_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/criutils/lib/python3.6/site-packages:/opt/robot_devkit/perception/baldor/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing')]), 'shell': False}
+[0.066447] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'cmake'}
+[0.067610] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'build'}
+[0.068398] (ground_plane_estimator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', '--', '-j12', '-l12'], 'cwd': '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turgay'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1774'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/robot_devkit/tools/rtmonitor/lib:/opt/robot_devkit/tools/rtmonitor_msgs/lib:/opt/robot_devkit/tools/perf_msgs/lib:/opt/robot_devkit/perception/dynamic_vino_lib/lib:/opt/robot_devkit/perception/vino_param_lib/lib:/opt/robot_devkit/perception/robot_interface/lib:/opt/robot_devkit/perception/realsense_ros/lib:/opt/robot_devkit/perception/realsense_msgs/lib:/opt/robot_devkit/perception/pipeline_srv_msgs/lib:/opt/robot_devkit/perception/grasp_ros2/lib:/opt/robot_devkit/perception/people_msgs/lib:/opt/robot_devkit/perception/object_analytics_node/lib:/opt/robot_devkit/perception/object_analytics_msgs/lib:/opt/robot_devkit/perception/moveit_msgs/lib:/opt/robot_devkit/perception/handeye_tf_service/lib:/opt/robot_devkit/perception/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/turgay/dev_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/turgay'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3158'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('COLCON_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install:/opt/robot_devkit/tools:/opt/robot_devkit/perception'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'turgay'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'turgay'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/robot_devkit/perception/recognize_pick/bin:/opt/robot_devkit/perception/random_pick/bin:/opt/robot_devkit/perception/fixed_position_pick/bin:/opt/robot_devkit/perception/draw_x/bin:/opt/robot_devkit/perception/realsense_node/bin:/opt/robot_devkit/perception/grasp_ros2/bin:/opt/robot_devkit/perception/handeye_dashboard/bin:/opt/ros/dashing/bin:/home/turgay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/turgaydesktop:@/tmp/.ICE-unix/1679,unix/turgaydesktop:/tmp/.ICE-unix/1679'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LIBVA_DRIVER_NAME', 'iHD'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('MFX_HOME', '/opt/intel/mediasdk'), ('TERMINATOR_UUID', 'urn:uuid:d8fee89f-a0e3-44e5-872d-5ed69ae97d2d'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:/opt/robot_devkit/tools/rtmonitor_msgs/lib/python3.6/site-packages:/opt/robot_devkit/tools/rdk_perf/lib/python3.6/site-packages:/opt/robot_devkit/tools/perf_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/realsense_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/pipeline_srv_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/people_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/object_analytics_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/moveit_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_tf_service/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_dashboard/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye/lib/python3.6/site-packages:/opt/robot_devkit/perception/grasp_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/criutils/lib/python3.6/site-packages:/opt/robot_devkit/perception/baldor/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing')]), 'shell': False}
+[0.099059] (-) TimerEvent: {}
+[0.199850] (-) TimerEvent: {}
+[0.300206] (-) TimerEvent: {}
+[0.400711] (-) TimerEvent: {}
+[0.501086] (-) TimerEvent: {}
+[0.592037] (realsense_t265_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target realsense_t265_ros\x1b[0m\n'}
+[0.592625] (realsense_t265_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[0.592935] (realsense_t265_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[0.593121] (realsense_t265_ros) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.593284] (realsense_t265_ros) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.593439] (realsense_t265_ros) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_d435i.cpp.o\x1b[0m\n'}
+[0.593588] (realsense_t265_ros) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_d435.cpp.o\x1b[0m\n'}
+[0.593736] (realsense_t265_ros) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_base.cpp.o\x1b[0m\n'}
+[0.593889] (realsense_t265_ros) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_factory.cpp.o\x1b[0m\n'}
+[0.594396] (realsense_t265_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_t265.cpp.o\x1b[0m\n'}
+[0.594565] (ground_plane_estimator) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.594846] (ground_plane_estimator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.595102] (ground_plane_estimator) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.595263] (ground_plane_estimator) StdoutLine: {'line': b'-- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[0.595434] (ground_plane_estimator) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[0.602337] (-) TimerEvent: {}
+[0.603796] (ground_plane_estimator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[0.610158] (ground_plane_estimator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.653059] (ground_plane_estimator) StdoutLine: {'line': b'-- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)\n'}
+[0.655247] (ground_plane_estimator) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[0.675858] (ground_plane_estimator) StdoutLine: {'line': b'-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)\n'}
+[0.702820] (-) TimerEvent: {}
+[0.715501] (ground_plane_estimator) StdoutLine: {'line': b'-- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)\n'}
+[0.742544] (ground_plane_estimator) StdoutLine: {'line': b'-- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)\n'}
+[0.746800] (ground_plane_estimator) StdoutLine: {'line': b'-- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)\n'}
+[0.802921] (-) TimerEvent: {}
+[0.832347] (ground_plane_estimator) StdoutLine: {'line': b'-- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)\n'}
+[0.836043] (ground_plane_estimator) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:35 (message):\n'}
+[0.836348] (ground_plane_estimator) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[0.836504] (ground_plane_estimator) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.836654] (ground_plane_estimator) StderrLine: {'line': b'  CMakeLists.txt:38 (ament_target_dependencies)\n'}
+[0.836797] (ground_plane_estimator) StderrLine: {'line': b'\n'}
+[0.837008] (ground_plane_estimator) StderrLine: {'line': b'\n'}
+[0.837711] (ground_plane_estimator) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.837878] (ground_plane_estimator) StdoutLine: {'line': b'See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeOutput.log".\n'}
+[0.838029] (ground_plane_estimator) StdoutLine: {'line': b'See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeError.log".\n'}
+[0.842327] (ground_plane_estimator) StdoutLine: {'line': b"Makefile:252: recipe for target 'cmake_check_build_system' failed\n"}
+[0.842825] (ground_plane_estimator) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[0.903028] (-) TimerEvent: {}
+[1.003584] (-) TimerEvent: {}
+[1.098897] (remote_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/turgay/dev_ws/src/ros2_robot/build/remote_control', 'build', '--build-base', '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/build', 'install', '--prefix', '/home/turgay/dev_ws/src/ros2_robot/install/remote_control', '--record', '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/turgay/dev_ws/src/ros2_robot/remote_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turgay', 'LIBVA_DRIVERS_PATH': '/opt/intel/mediasdk/lib64', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1774', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/robot_devkit/tools/rtmonitor/lib:/opt/robot_devkit/tools/rtmonitor_msgs/lib:/opt/robot_devkit/tools/perf_msgs/lib:/opt/robot_devkit/perception/dynamic_vino_lib/lib:/opt/robot_devkit/perception/vino_param_lib/lib:/opt/robot_devkit/perception/robot_interface/lib:/opt/robot_devkit/perception/realsense_ros/lib:/opt/robot_devkit/perception/realsense_msgs/lib:/opt/robot_devkit/perception/pipeline_srv_msgs/lib:/opt/robot_devkit/perception/grasp_ros2/lib:/opt/robot_devkit/perception/people_msgs/lib:/opt/robot_devkit/perception/object_analytics_node/lib:/opt/robot_devkit/perception/object_analytics_msgs/lib:/opt/robot_devkit/perception/moveit_msgs/lib:/opt/robot_devkit/perception/handeye_tf_service/lib:/opt/robot_devkit/perception/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'OLDPWD': '/home/turgay/dev_ws/src', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/turgay', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3158', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', 'COLCON_PREFIX_PATH': '/home/turgay/dev_ws/src/ros2_robot/install:/opt/robot_devkit/tools:/opt/robot_devkit/perception', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'turgay', 'GTK_IM_MODULE': 'ibus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USERNAME': 'turgay', 'XDG_SESSION_ID': '1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/opt/robot_devkit/perception/recognize_pick/bin:/opt/robot_devkit/perception/random_pick/bin:/opt/robot_devkit/perception/fixed_position_pick/bin:/opt/robot_devkit/perception/draw_x/bin:/opt/robot_devkit/perception/realsense_node/bin:/opt/robot_devkit/perception/grasp_ros2/bin:/opt/robot_devkit/perception/handeye_dashboard/bin:/opt/ros/dashing/bin:/home/turgay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/turgaydesktop:@/tmp/.ICE-unix/1679,unix/turgaydesktop:/tmp/.ICE-unix/1679', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LIBVA_DRIVER_NAME': 'iHD', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'MFX_HOME': '/opt/intel/mediasdk', 'TERMINATOR_UUID': 'urn:uuid:d8fee89f-a0e3-44e5-872d-5ed69ae97d2d', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '1', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/turgay/dev_ws/src/ros2_robot/build/remote_control', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:/opt/robot_devkit/tools/rtmonitor_msgs/lib/python3.6/site-packages:/opt/robot_devkit/tools/rdk_perf/lib/python3.6/site-packages:/opt/robot_devkit/tools/perf_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/realsense_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/pipeline_srv_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/people_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/object_analytics_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/moveit_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_tf_service/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_dashboard/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye/lib/python3.6/site-packages:/opt/robot_devkit/perception/grasp_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/criutils/lib/python3.6/site-packages:/opt/robot_devkit/perception/baldor/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs'}, 'shell': False}
+[1.103888] (-) TimerEvent: {}
+[1.119928] (ground_plane_estimator) CommandEnded: {'returncode': 2}
+[1.121004] (ground_plane_estimator) JobEnded: {'identifier': 'ground_plane_estimator', 'rc': 2}
+[1.121698] (simple_gps) JobEnded: {'identifier': 'simple_gps', 'rc': 'SIGINT'}
+[1.174328] (realsense_t265_ros) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.203919] (-) TimerEvent: {}
+[1.247968] (realsense_t265_ros) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[1.304046] (-) TimerEvent: {}
+[1.405440] (-) TimerEvent: {}
+[1.505827] (-) TimerEvent: {}
+[1.604276] (remote_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.605300] (remote_control) StdoutLine: {'line': b'writing /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/PKG-INFO\n'}
+[1.605659] (remote_control) StdoutLine: {'line': b'writing dependency_links to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/dependency_links.txt\n'}
+[1.605834] (-) TimerEvent: {}
+[1.606060] (remote_control) StdoutLine: {'line': b'writing entry points to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/entry_points.txt\n'}
+[1.606339] (remote_control) StdoutLine: {'line': b'writing requirements to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/requires.txt\n'}
+[1.606523] (remote_control) StdoutLine: {'line': b'writing top-level names to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/top_level.txt\n'}
+[1.664565] (remote_control) StdoutLine: {'line': b"reading manifest file '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'\n"}
+[1.666737] (remote_control) StdoutLine: {'line': b"writing manifest file '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'\n"}
+[1.667120] (remote_control) StdoutLine: {'line': b'running build\n'}
+[1.667291] (remote_control) StdoutLine: {'line': b'running build_py\n'}
+[1.667794] (remote_control) StdoutLine: {'line': b'running install\n'}
+[1.668433] (remote_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.670510] (remote_control) StdoutLine: {'line': b'running install_data\n'}
+[1.671374] (remote_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.674236] (remote_control) StdoutLine: {'line': b"removing '/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[1.674769] (remote_control) StdoutLine: {'line': b'Copying /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info to /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control-0.0.0-py3.6.egg-info\n'}
+[1.676141] (remote_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.705606] (remote_control) StdoutLine: {'line': b'Installing remote_control_node script to /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/remote_control\n'}
+[1.705900] (-) TimerEvent: {}
+[1.706242] (remote_control) StdoutLine: {'line': b"writing list of installed files to '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log'\n"}
+[1.743137] (remote_control) JobEnded: {'identifier': 'remote_control', 'rc': 'SIGINT'}
+[1.806027] (-) TimerEvent: {}
+[1.906402] (-) TimerEvent: {}
+[2.006793] (-) TimerEvent: {}
+[2.107195] (-) TimerEvent: {}
+[2.207697] (-) TimerEvent: {}
+[2.308044] (-) TimerEvent: {}
+[2.408421] (-) TimerEvent: {}
+[2.508805] (-) TimerEvent: {}
+[2.609198] (-) TimerEvent: {}
+[2.709575] (-) TimerEvent: {}
+[2.809961] (-) TimerEvent: {}
+[2.910354] (-) TimerEvent: {}
+[3.010750] (-) TimerEvent: {}
+[3.111137] (-) TimerEvent: {}
+[3.211518] (-) TimerEvent: {}
+[3.311891] (-) TimerEvent: {}
+[3.393360] (realsense_t265_ros) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[3.412004] (-) TimerEvent: {}
+[3.439341] (realsense_t265_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid realsense::RealSenseBase::calculateTFAndPublish(const rs2::stream_profile&, const rs2::stream_profile&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.439591] (realsense_t265_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turgay/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:279:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kzero_trans\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.439691] (realsense_t265_ros) StderrLine: {'line': b'   Float3 \x1b[01;35m\x1b[Kzero_trans\x1b[m\x1b[K{0, 0, 0};\n'}
+[3.439778] (realsense_t265_ros) StderrLine: {'line': b'          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.512112] (-) TimerEvent: {}
+[3.521913] (realsense_t265_ros) StdoutLine: {'line': b'[ 64%] Built target gtest\n'}
+[3.612233] (-) TimerEvent: {}
+[3.712618] (-) TimerEvent: {}
+[3.812973] (-) TimerEvent: {}
+[3.913345] (-) TimerEvent: {}
+[4.013737] (-) TimerEvent: {}
+[4.114122] (-) TimerEvent: {}
+[4.214519] (-) TimerEvent: {}
+[4.314928] (-) TimerEvent: {}
+[4.415307] (-) TimerEvent: {}
+[4.515684] (-) TimerEvent: {}
+[4.616099] (-) TimerEvent: {}
+[4.716710] (-) TimerEvent: {}
+[4.817248] (-) TimerEvent: {}
+[4.917724] (-) TimerEvent: {}
+[5.018190] (-) TimerEvent: {}
+[5.118568] (-) TimerEvent: {}
+[5.219022] (-) TimerEvent: {}
+[5.319627] (-) TimerEvent: {}
+[5.420100] (-) TimerEvent: {}
+[5.520668] (-) TimerEvent: {}
+[5.621221] (-) TimerEvent: {}
+[5.721592] (-) TimerEvent: {}
+[5.821967] (-) TimerEvent: {}
+[5.922336] (-) TimerEvent: {}
+[6.022711] (-) TimerEvent: {}
+[6.123101] (-) TimerEvent: {}
+[6.223465] (-) TimerEvent: {}
+[6.323834] (-) TimerEvent: {}
+[6.424258] (-) TimerEvent: {}
+[6.524848] (-) TimerEvent: {}
+[6.625218] (-) TimerEvent: {}
+[6.725712] (-) TimerEvent: {}
+[6.826173] (-) TimerEvent: {}
+[6.926676] (-) TimerEvent: {}
+[7.027167] (-) TimerEvent: {}
+[7.127615] (-) TimerEvent: {}
+[7.228018] (-) TimerEvent: {}
+[7.328524] (-) TimerEvent: {}
+[7.429023] (-) TimerEvent: {}
+[7.529465] (-) TimerEvent: {}
+[7.629946] (-) TimerEvent: {}
+[7.730411] (-) TimerEvent: {}
+[7.830888] (-) TimerEvent: {}
+[7.877670] (realsense_t265_ros) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library librealsense_t265_ros.so\x1b[0m\n'}
+[7.931010] (-) TimerEvent: {}
+[8.031418] (-) TimerEvent: {}
+[8.131891] (-) TimerEvent: {}
+[8.232341] (-) TimerEvent: {}
+[8.332953] (-) TimerEvent: {}
+[8.433586] (-) TimerEvent: {}
+[8.534194] (-) TimerEvent: {}
+[8.634750] (-) TimerEvent: {}
+[8.670173] (realsense_t265_ros) StdoutLine: {'line': b'[ 71%] Built target realsense_t265_ros\n'}
+[8.690425] (realsense_t265_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unittest_function\x1b[0m\n'}
+[8.694813] (realsense_t265_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_core\x1b[0m\n'}
+[8.734816] (-) TimerEvent: {}
+[8.767902] (realsense_t265_ros) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/camera_core.dir/tests/camera_core.cpp.o\x1b[0m\n'}
+[8.770247] (realsense_t265_ros) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/unittest_function.dir/tests/unittest_function.cpp.o\x1b[0m\n'}
+[8.834968] (-) TimerEvent: {}
+[8.935458] (-) TimerEvent: {}
+[9.036045] (-) TimerEvent: {}
+[9.136529] (-) TimerEvent: {}
+[9.236915] (-) TimerEvent: {}
+[9.337376] (-) TimerEvent: {}
+[9.437896] (-) TimerEvent: {}
+[9.538408] (-) TimerEvent: {}
+[9.638869] (-) TimerEvent: {}
+[9.739367] (-) TimerEvent: {}
+[9.840033] (-) TimerEvent: {}
+[9.940584] (-) TimerEvent: {}
+[10.041052] (-) TimerEvent: {}
+[10.141472] (-) TimerEvent: {}
+[10.241844] (-) TimerEvent: {}
+[10.342316] (-) TimerEvent: {}
+[10.442877] (-) TimerEvent: {}
+[10.543449] (-) TimerEvent: {}
+[10.644031] (-) TimerEvent: {}
+[10.744542] (-) TimerEvent: {}
+[10.845028] (-) TimerEvent: {}
+[10.945475] (-) TimerEvent: {}
+[11.045846] (-) TimerEvent: {}
+[11.146228] (-) TimerEvent: {}
+[11.246605] (-) TimerEvent: {}
+[11.346994] (-) TimerEvent: {}
+[11.447498] (-) TimerEvent: {}
+[11.547889] (-) TimerEvent: {}
+[11.648264] (-) TimerEvent: {}
+[11.748656] (-) TimerEvent: {}
+[11.849057] (-) TimerEvent: {}
+[11.949452] (-) TimerEvent: {}
+[12.049837] (-) TimerEvent: {}
+[12.128770] (realsense_t265_ros) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable unittest_function\x1b[0m\n'}
+[12.149951] (-) TimerEvent: {}
+[12.250322] (-) TimerEvent: {}
+[12.350705] (-) TimerEvent: {}
+[12.451103] (-) TimerEvent: {}
+[12.551487] (-) TimerEvent: {}
+[12.651870] (-) TimerEvent: {}
+[12.752264] (-) TimerEvent: {}
+[12.852668] (-) TimerEvent: {}
+[12.922861] (realsense_t265_ros) StdoutLine: {'line': b'[ 92%] Built target unittest_function\n'}
+[12.952803] (-) TimerEvent: {}
+[13.053223] (-) TimerEvent: {}
+[13.153604] (-) TimerEvent: {}
+[13.254123] (-) TimerEvent: {}
+[13.354646] (-) TimerEvent: {}
+[13.455140] (-) TimerEvent: {}
+[13.555596] (-) TimerEvent: {}
+[13.656221] (-) TimerEvent: {}
+[13.756636] (-) TimerEvent: {}
+[13.857021] (-) TimerEvent: {}
+[13.957569] (-) TimerEvent: {}
+[14.058067] (-) TimerEvent: {}
+[14.158555] (-) TimerEvent: {}
+[14.259039] (-) TimerEvent: {}
+[14.359513] (-) TimerEvent: {}
+[14.459966] (-) TimerEvent: {}
+[14.560466] (-) TimerEvent: {}
+[14.660941] (-) TimerEvent: {}
+[14.703385] (realsense_t265_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_core\x1b[0m\n'}
+[14.761097] (-) TimerEvent: {}
+[14.861547] (-) TimerEvent: {}
+[14.962029] (-) TimerEvent: {}
+[15.062524] (-) TimerEvent: {}
+[15.163010] (-) TimerEvent: {}
+[15.263479] (-) TimerEvent: {}
+[15.363943] (-) TimerEvent: {}
+[15.464473] (-) TimerEvent: {}
+[15.564928] (-) TimerEvent: {}
+[15.665353] (-) TimerEvent: {}
+[15.670414] (realsense_t265_ros) StdoutLine: {'line': b'[100%] Built target camera_core\n'}
+[15.691482] (realsense_t265_ros) JobEnded: {'identifier': 'realsense_t265_ros', 'rc': 'SIGINT'}
+[15.702843] (realsense_t265_node) JobSkipped: {'identifier': 'realsense_t265_node'}
+[15.702954] (-) EventReactorShutdown: {}

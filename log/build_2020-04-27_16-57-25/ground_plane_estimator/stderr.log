@@ -1,0 +1,14 @@
+[8.441s] /usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[8.442s] /usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[8.442s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::x>()':
+[8.442s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1xEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1xEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[8.443s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::y>()':
+[8.443s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1yEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1yEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[8.443s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::z>()':
+[8.443s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1zEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1zEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[8.443s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::rgb>()':
+[8.443s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields3rgbEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields3rgbEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[8.443s] collect2: error: ld returned 1 exit status
+[8.445s] make[2]: *** [ground_plane_estimator_node] Error 1
+[8.445s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[8.445s] make: *** [all] Error 2

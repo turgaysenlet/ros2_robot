@@ -1,0 +1,15 @@
+[1.226s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.227s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:22:120:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(const ConstSharedPtr&)[m[K’
+[1.227s]    auto sub = image_transport::create_subscription(node_.get(), "in_image_base_topic", image_callback, "raw", custom_qos[01;31m[K)[m[K;
+[1.227s]                                                                                                                         [01;31m[K^[m[K
+[1.227s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.227s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:35:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.228s]      void [01;36m[Kimage_callback[m[K(const sensor_msgs::msg::Image::ConstSharedPtr & msg);
+[1.228s]           [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.238s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(const ConstSharedPtr&)[m[K’:
+[1.238s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:39:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.239s]  void GroundPlaneEstimatorNode::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr & [01;35m[Kmsg[m[K) {
+[1.239s]                                                                                                [01;35m[K^~~[m[K
+[1.986s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[1.987s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[1.988s] make: *** [all] Error 2

@@ -1,0 +1,18 @@
+[0.581s] CMake Error at CMakeLists.txt:27 (find_package):
+[0.581s]   By not providing "Findplc_ros.cmake" in CMAKE_MODULE_PATH this project has
+[0.582s]   asked CMake to find a package configuration file provided by "plc_ros", but
+[0.582s]   CMake did not find one.
+[0.582s] 
+[0.582s]   Could not find a package configuration file provided by "plc_ros" with any
+[0.583s]   of the following names:
+[0.583s] 
+[0.583s]     plc_rosConfig.cmake
+[0.583s]     plc_ros-config.cmake
+[0.583s] 
+[0.584s]   Add the installation prefix of "plc_ros" to CMAKE_PREFIX_PATH or set
+[0.584s]   "plc_ros_DIR" to a directory containing one of the above files.  If
+[0.584s]   "plc_ros" provides a separate development package or SDK, be sure it has
+[0.584s]   been installed.
+[0.585s] 
+[0.585s] 
+[0.586s] make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,47 @@
+[0.099s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[0.268s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[0.268s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:26:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.268s]  #include [01;35m[K"[m[Ksensor_msgs/msg/point_cloud2.hpp>
+[0.269s]           [01;35m[K^[m[K
+[0.269s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:26:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[0.269s]  #include [01;31m[K"sensor_msgs/msg/point_cloud2.hpp>[m[K
+[0.269s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.286s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:44:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[1.286s]      rclcpp::Subscription<sensor_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr point_cloud_subscription_;
+[1.287s]                                             [01;31m[K^~~~~~~~~~~[m[K
+[1.287s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:44:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[1.287s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.287s]      rclcpp::Subscription<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_subscription_;
+[1.288s]                                                        [01;31m[K^[m[K
+[1.288s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.288s]      rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_subscription_;
+[1.288s]                                                           [01;31m[K^~~~~~~~~[m[K
+[1.295s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.295s]      rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_subscription_[m[K;
+[1.296s]                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.296s]                                                                     [32m[Krcl_subscription_t[m[K
+[1.296s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:42:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[1.296s]      rclcpp::Publisher<sensor_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr point_cloud_publisher_;
+[1.297s]                                          [01;31m[K^~~~~~~~~~~[m[K
+[1.297s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:42:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[1.297s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:42:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.297s]      rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_publisher_;
+[1.297s]                                                     [01;31m[K^[m[K
+[1.298s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:42:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.298s]      rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_publisher_;
+[1.298s]                                                        [01;31m[K^~~~~~~~~[m[K
+[1.298s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:42:55:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint GroundPlaneEstimatorNode::SharedPtr[m[K’
+[1.298s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:58:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint GroundPlaneEstimatorNode::SharedPtr[m[K’
+[1.299s]      rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::[01;36m[KSharedPtr[m[K point_cloud_subscription_;
+[1.299s]                                                           [01;36m[K^~~~~~~~~[m[K
+[1.304s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:42:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_count_publishers[m[K’?
+[1.304s]      rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_publisher_[m[K;
+[1.304s]                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.305s]                                                                  [32m[Krmw_count_publishers[m[K
+[2.168s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.169s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.169s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.169s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.170s] Makefile:140: recipe for target 'all' failed
+[2.170s] make: *** [all] Error 2

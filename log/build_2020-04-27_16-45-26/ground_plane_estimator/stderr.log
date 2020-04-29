@@ -1,0 +1,56 @@
+[1.555s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[1.556s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:75:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.556s]    image_pub_->publish( cv_ptr->toImageMsg()[01;35m[K)[m[K;
+[1.557s]                                             [01;35m[K^[m[K
+[1.557s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[1.557s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.557s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.557s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.558s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.558s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.558s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.558s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.559s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[1.559s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[1.559s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.559s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[1.559s]    [01;36m[K^~~~~~~[m[K
+[1.560s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:78:16:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+[1.560s]    sensor_msgs::[01;31m[KPointCloud2[m[K msg_in;
+[1.560s]                 [01;31m[K^~~~~~~~~~~[m[K
+[1.560s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:78:16:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[1.560s] In file included from [01m[K/opt/ros/dashing/include/sensor_msgs/msg/point_cloud2.hpp:7:0[m[K,
+[1.561s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:26[m[K,
+[1.561s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[1.561s] [01m[K/opt/ros/dashing/include/sensor_msgs/msg/point_cloud2__struct.hpp:245:55:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’
+[1.561s]    sensor_msgs::msg::PointCloud2_<std::allocator<void>>[01;36m[K;[m[K
+[1.562s]                                                        [01;36m[K^[m[K
+[1.562s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:79:16:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+[1.562s]    sensor_msgs::[01;31m[KPointCloud2[m[K msg_out;
+[1.562s]                 [01;31m[K^~~~~~~~~~~[m[K
+[1.563s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:79:16:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[1.563s] In file included from [01m[K/opt/ros/dashing/include/sensor_msgs/msg/point_cloud2.hpp:7:0[m[K,
+[1.563s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:26[m[K,
+[1.563s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[1.563s] [01m[K/opt/ros/dashing/include/sensor_msgs/msg/point_cloud2__struct.hpp:245:55:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’
+[1.564s]    sensor_msgs::msg::PointCloud2_<std::allocator<void>>[01;36m[K;[m[K
+[1.564s]                                                        [01;36m[K^[m[K
+[1.564s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:55:162:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.564s]  nsor_msgs::msg::Image::ConstSharedPtr& msg, const sensor_msgs::msg::PointCloud2::ConstSharedPtr & [01;35m[Kpoint_msg[m[K) {
+[1.564s]                                                                                                    [01;35m[K^~~~~~~~~[m[K
+[1.565s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::sidewalkEdgePicking(std::vector<cv::Vec<int, 4> >)[m[K’:
+[1.565s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:117:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx11[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.565s]                  double [01;35m[Kx11[m[K, y11;
+[1.565s]                         [01;35m[K^~~[m[K
+[1.566s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:117:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky11[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.566s]                  double x11, [01;35m[Ky11[m[K;
+[1.566s]                              [01;35m[K^~~[m[K
+[1.566s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:136:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx12[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.566s]                  double [01;35m[Kx12[m[K, y12;
+[1.567s]                         [01;35m[K^~~[m[K
+[1.567s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:136:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky12[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.567s]                  double x12, [01;35m[Ky12[m[K;
+[1.567s]                              [01;35m[K^~~[m[K
+[2.203s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.204s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.205s] make: *** [all] Error 2

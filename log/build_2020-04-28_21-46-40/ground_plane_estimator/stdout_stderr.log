@@ -1,0 +1,129 @@
+[0.695s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.697s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.697s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.700s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.702s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.703s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.703s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.703s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.705s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.705s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.706s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.706s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.708s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.710s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.711s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[0.712s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[0.712s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.712s] -- Found pcl_msgs: 1.0.0 (/opt/ros/dashing/share/pcl_msgs/cmake)
+[0.712s] -- Boost version: 1.65.1
+[0.712s] -- Found the following Boost libraries:
+[0.713s] --   system
+[0.713s] --   filesystem
+[0.713s] --   thread
+[0.713s] --   chrono
+[0.713s] --   date_time
+[0.714s] --   atomic
+[0.770s] -- Boost version: 1.65.1
+[0.771s] -- Found the following Boost libraries:
+[0.771s] --   system
+[0.772s] --   filesystem
+[0.772s] --   thread
+[0.772s] --   date_time
+[0.772s] --   iostreams
+[0.772s] --   serialization
+[0.773s] --   chrono
+[0.773s] --   atomic
+[0.773s] --   regex
+[0.788s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0.789s] ** WARNING ** io features related to ensenso will be disabled
+[0.793s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0.794s] ** WARNING ** io features related to davidSDK will be disabled
+[0.794s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[0.795s] ** WARNING ** io features related to dssdk will be disabled
+[0.795s] ** WARNING ** io features related to pcap will be disabled
+[0.795s] ** WARNING ** io features related to png will be disabled
+[0.858s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.858s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.858s] but this file does not exist.  Possible reasons include:
+[0.859s] * The file was deleted, renamed, or moved to another location.
+[0.859s] * An install or uninstall procedure did not complete successfully.
+[0.859s] * The installation package was faulty and contained
+[0.859s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.859s] but not all the files it references.
+[0.859s] 
+[0.859s] -- The imported target "vtk" references the file
+[0.859s]    "/usr/bin/vtk"
+[0.859s] but this file does not exist.  Possible reasons include:
+[0.859s] * The file was deleted, renamed, or moved to another location.
+[0.859s] * An install or uninstall procedure did not complete successfully.
+[0.860s] * The installation package was faulty and contained
+[0.860s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.860s] but not all the files it references.
+[0.860s] 
+[0.911s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.943s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0.944s] ** WARNING ** visualization features related to ensenso will be disabled
+[0.948s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0.948s] ** WARNING ** visualization features related to davidSDK will be disabled
+[0.949s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[0.949s] ** WARNING ** visualization features related to dssdk will be disabled
+[0.950s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[0.950s] ** WARNING ** visualization features related to rssdk will be disabled
+[1.005s] -- looking for PCL_COMMON
+[1.005s] -- looking for PCL_OCTREE
+[1.005s] -- looking for PCL_IO
+[1.006s] -- looking for PCL_KDTREE
+[1.006s] -- looking for PCL_SEARCH
+[1.007s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.007s] -- looking for PCL_FILTERS
+[1.007s] -- looking for PCL_2D
+[1.008s] -- looking for PCL_GEOMETRY
+[1.008s] -- looking for PCL_FEATURES
+[1.009s] -- looking for PCL_ML
+[1.009s] -- looking for PCL_SEGMENTATION
+[1.010s] -- looking for PCL_VISUALIZATION
+[1.010s] -- looking for PCL_SURFACE
+[1.011s] -- looking for PCL_REGISTRATION
+[1.011s] -- looking for PCL_KEYPOINTS
+[1.012s] -- looking for PCL_TRACKING
+[1.012s] -- looking for PCL_RECOGNITION
+[1.013s] -- looking for PCL_STEREO
+[1.014s] -- looking for PCL_APPS
+[1.016s] -- looking for PCL_IN_HAND_SCANNER
+[1.016s] -- looking for PCL_MODELER
+[1.017s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.017s] -- looking for PCL_OUTOFCORE
+[1.018s] -- looking for PCL_PEOPLE
+[1.037s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.275s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.276s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.277s] -- Configured cppcheck include dirs: /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include
+[1.278s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.279s] -- Added test 'lint_cmake' to check CMake code style
+[1.280s] -- Added test 'uncrustify' to check C / C++ code style
+[1.280s] -- Added test 'xmllint' to check XML markup files
+[1.283s] -- Configuring done
+[1.323s] -- Generating done
+[1.324s] -- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator
+[1.422s] [ 50%] [32m[1mLinking CXX executable ground_plane_estimator_node[0m
+[2.203s] /usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[2.203s] /usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[2.217s] [100%] Built target ground_plane_estimator_node
+[2.393s] [100%] Built target ground_plane_estimator_node
+[2.424s] [36mInstall the project...[0m
+[2.442s] -- Install configuration: ""
+[2.442s] -- Execute custom install script
+[2.443s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/lib/ground_plane_estimator/ground_plane_estimator_node
+[2.444s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/package_run_dependencies/ground_plane_estimator
+[2.444s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/parent_prefix_path/ground_plane_estimator
+[2.445s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/ament_prefix_path.sh
+[2.445s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/environment/path.sh
+[2.446s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.bash
+[2.446s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.sh
+[2.447s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/local_setup.zsh
+[2.447s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ament_index/resource_index/packages/ground_plane_estimator
+[2.448s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig.cmake
+[2.448s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/cmake/ground_plane_estimatorConfig-version.cmake
+[2.448s] -- Up-to-date symlink: /home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator/share/ground_plane_estimator/package.xml

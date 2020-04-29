@@ -1,0 +1,10 @@
+[0.549s] CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.550s]   ament_package_xml() package name 'ground_plane_estimator' in '/package.xml'
+[0.550s]   does not match current PROJECT_NAME 'fr_ros2'.  You must call project()
+[0.550s]   with the same package name before.
+[0.550s] Call Stack (most recent call first):
+[0.550s]   /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.550s]   CMakeLists.txt:21 (ament_lint_auto_find_test_dependencies)
+[0.550s] 
+[0.551s] 
+[0.556s] make: *** [cmake_check_build_system] Error 1

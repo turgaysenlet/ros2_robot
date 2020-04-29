@@ -1,0 +1,18 @@
+[0.407s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.408s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.408s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.409s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.409s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.410s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.437s] CMake Error at /opt/ros/dashing/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:35 (message):
+[0.437s]   ament_target_dependencies() the first argument must be a valid target name
+[0.437s] Call Stack (most recent call first):
+[0.437s]   CMakeLists.txt:31 (ament_target_dependencies)
+[0.438s] 
+[0.438s] 
+[0.438s] -- Configuring incomplete, errors occurred!
+[0.438s] See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeOutput.log".
+[0.438s] See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeError.log".
+[0.440s] Makefile:252: recipe for target 'cmake_check_build_system' failed
+[0.440s] make: *** [cmake_check_build_system] Error 1

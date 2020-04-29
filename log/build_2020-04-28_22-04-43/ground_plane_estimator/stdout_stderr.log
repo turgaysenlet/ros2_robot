@@ -1,0 +1,134 @@
+[0.044s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.323s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.336s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.350s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.381s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.383s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.410s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.415s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.418s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.431s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.447s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.457s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.471s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.473s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.518s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[0.535s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[0.551s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.553s] -- Found pcl_msgs: 1.0.0 (/opt/ros/dashing/share/pcl_msgs/cmake)
+[0.649s] -- Boost version: 1.65.1
+[0.649s] -- Found the following Boost libraries:
+[0.649s] --   system
+[0.649s] --   filesystem
+[0.650s] --   thread
+[0.650s] --   chrono
+[0.650s] --   date_time
+[0.650s] --   atomic
+[0.738s] -- Boost version: 1.65.1
+[0.738s] -- Found the following Boost libraries:
+[0.738s] --   system
+[0.739s] --   filesystem
+[0.739s] --   thread
+[0.739s] --   date_time
+[0.739s] --   iostreams
+[0.739s] --   serialization
+[0.739s] --   chrono
+[0.740s] --   atomic
+[0.740s] --   regex
+[0.753s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0.754s] ** WARNING ** io features related to ensenso will be disabled
+[0.757s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0.757s] ** WARNING ** io features related to davidSDK will be disabled
+[0.758s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[0.758s] ** WARNING ** io features related to dssdk will be disabled
+[0.758s] ** WARNING ** io features related to pcap will be disabled
+[0.759s] ** WARNING ** io features related to png will be disabled
+[0.810s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.811s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.811s] but this file does not exist.  Possible reasons include:
+[0.811s] * The file was deleted, renamed, or moved to another location.
+[0.812s] * An install or uninstall procedure did not complete successfully.
+[0.812s] * The installation package was faulty and contained
+[0.812s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.812s] but not all the files it references.
+[0.813s] 
+[0.813s] -- The imported target "vtk" references the file
+[0.813s]    "/usr/bin/vtk"
+[0.813s] but this file does not exist.  Possible reasons include:
+[0.813s] * The file was deleted, renamed, or moved to another location.
+[0.814s] * An install or uninstall procedure did not complete successfully.
+[0.814s] * The installation package was faulty and contained
+[0.814s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.814s] but not all the files it references.
+[0.815s] 
+[0.859s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.890s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0.890s] ** WARNING ** visualization features related to ensenso will be disabled
+[0.893s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0.894s] ** WARNING ** visualization features related to davidSDK will be disabled
+[0.894s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[0.894s] ** WARNING ** visualization features related to dssdk will be disabled
+[0.895s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[0.896s] ** WARNING ** visualization features related to rssdk will be disabled
+[0.940s] -- looking for PCL_COMMON
+[0.940s] -- looking for PCL_OCTREE
+[0.940s] -- looking for PCL_IO
+[0.941s] -- looking for PCL_KDTREE
+[0.941s] -- looking for PCL_SEARCH
+[0.942s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.942s] -- looking for PCL_FILTERS
+[0.942s] -- looking for PCL_2D
+[0.943s] -- looking for PCL_GEOMETRY
+[0.943s] -- looking for PCL_FEATURES
+[0.944s] -- looking for PCL_ML
+[0.944s] -- looking for PCL_SEGMENTATION
+[0.945s] -- looking for PCL_VISUALIZATION
+[0.945s] -- looking for PCL_SURFACE
+[0.946s] -- looking for PCL_REGISTRATION
+[0.946s] -- looking for PCL_KEYPOINTS
+[0.947s] -- looking for PCL_TRACKING
+[0.947s] -- looking for PCL_RECOGNITION
+[0.948s] -- looking for PCL_STEREO
+[0.949s] -- looking for PCL_APPS
+[0.951s] -- looking for PCL_IN_HAND_SCANNER
+[0.952s] -- looking for PCL_MODELER
+[0.952s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.952s] -- looking for PCL_OUTOFCORE
+[0.953s] -- looking for PCL_PEOPLE
+[0.970s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.202s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.203s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.204s] -- Configured cppcheck include dirs: /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include
+[1.205s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.205s] -- Added test 'lint_cmake' to check CMake code style
+[1.206s] -- Added test 'uncrustify' to check C / C++ code style
+[1.207s] -- Added test 'xmllint' to check XML markup files
+[1.211s] -- Configuring done
+[1.251s] -- Generating done
+[1.253s] -- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator
+[1.351s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[1.455s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[6.529s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[6.529s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:151:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > > {aka class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Kpublish[m[K’
+[6.529s]      pub_depth_in.[01;31m[Kpublish[m[K(msg_in);
+[6.530s]                   [01;31m[K^~~~~~~[m[K
+[6.530s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:152:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > > {aka class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Kpublish[m[K’
+[6.530s]      pub_depth_out.[01;31m[Kpublish[m[K(msg_out);
+[6.530s]                    [01;31m[K^~~~~~~[m[K
+[7.665s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[7.665s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[7.665s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[7.665s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34[m[K,
+[7.666s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.666s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[7.666s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.666s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[7.666s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.666s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.014s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[8.014s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[8.015s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[8.015s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[8.015s] Makefile:140: recipe for target 'all' failed
+[8.015s] make: *** [all] Error 2

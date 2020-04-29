@@ -1,0 +1,10 @@
+[1.239s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:28:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid GroundPlaneEstimatorNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’ does not match any in class ‘[01m[KGroundPlaneEstimatorNode[m[K’
+[1.240s]  void [01;31m[KGroundPlaneEstimatorNode[m[K::topic_callback(const std_msgs::msg::String::SharedPtr msg)
+[1.240s]       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.240s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.240s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34:10:[m[K [01;31m[Kerror: [m[Kcandidate is: void GroundPlaneEstimatorNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const
+[1.240s]      void [01;31m[Ktopic_callback[m[K(const std_msgs::msg::String::SharedPtr msg) const;
+[1.240s]           [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.651s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[1.651s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[1.652s] make: *** [all] Error 2

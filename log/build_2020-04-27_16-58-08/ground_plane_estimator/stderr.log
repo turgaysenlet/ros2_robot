@@ -1,0 +1,17 @@
+[0.621s] CMake Error at CMakeLists.txt:27 (find_package):
+[0.621s]   By not providing "Findpcl.cmake" in CMAKE_MODULE_PATH this project has
+[0.622s]   asked CMake to find a package configuration file provided by "pcl", but
+[0.622s]   CMake did not find one.
+[0.622s] 
+[0.623s]   Could not find a package configuration file provided by "pcl" with any of
+[0.623s]   the following names:
+[0.623s] 
+[0.623s]     pclConfig.cmake
+[0.623s]     pcl-config.cmake
+[0.624s] 
+[0.624s]   Add the installation prefix of "pcl" to CMAKE_PREFIX_PATH or set "pcl_DIR"
+[0.624s]   to a directory containing one of the above files.  If "pcl" provides a
+[0.624s]   separate development package or SDK, be sure it has been installed.
+[0.624s] 
+[0.625s] 
+[0.626s] make: *** [cmake_check_build_system] Error 1

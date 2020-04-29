@@ -1,0 +1,74 @@
+[0.023s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator
+[0.046s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.086s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.336s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.348s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.365s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.396s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.400s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.424s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.430s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.433s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.445s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.462s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.473s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.488s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.491s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.536s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[0.555s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[0.571s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.574s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[0.781s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[0.783s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.783s] -- Configured cppcheck include dirs: /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include
+[0.784s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.785s] -- Added test 'lint_cmake' to check CMake code style
+[0.787s] -- Added test 'uncrustify' to check C / C++ code style
+[0.787s] -- Added test 'xmllint' to check XML markup files
+[0.790s] -- Configuring done
+[0.818s] -- Generating done
+[0.819s] -- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator
+[0.824s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator
+[0.833s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.900s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.952s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[2.093s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[2.094s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.094s]      rclcpp::Subscription<std_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr point_cloud_subscription_;
+[2.094s]                                          [01;31m[K^~~~~~~~~~~[m[K
+[2.094s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.095s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.095s]      rclcpp::Subscription<std_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_subscription_;
+[2.095s]                                                     [01;31m[K^[m[K
+[2.095s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.096s]      rclcpp::Subscription<std_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_subscription_;
+[2.096s]                                                        [01;31m[K^~~~~~~~~[m[K
+[2.102s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.102s]      rclcpp::Subscription<std_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_subscription_[m[K;
+[2.103s]                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.103s]                                                                  [32m[Krcl_subscription_t[m[K
+[2.103s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.103s]      rclcpp::Publisher<std_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr point_cloud_publisher_;
+[2.103s]                                       [01;31m[K^~~~~~~~~~~[m[K
+[2.104s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.104s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.104s]      rclcpp::Publisher<std_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_publisher_;
+[2.104s]                                                  [01;31m[K^[m[K
+[2.104s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.104s]      rclcpp::Publisher<std_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_publisher_;
+[2.105s]                                                     [01;31m[K^~~~~~~~~[m[K
+[2.105s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:52:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint GroundPlaneEstimatorNode::SharedPtr[m[K’
+[2.105s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:40:55:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint GroundPlaneEstimatorNode::SharedPtr[m[K’
+[2.105s]      rclcpp::Subscription<std_msgs::msg::PointCloud2>::[01;36m[KSharedPtr[m[K point_cloud_subscription_;
+[2.105s]                                                        [01;36m[K^~~~~~~~~[m[K
+[2.111s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:41:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_count_publishers[m[K’?
+[2.111s]      rclcpp::Publisher<std_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_publisher_[m[K;
+[2.111s]                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.111s]                                                               [32m[Krmw_count_publishers[m[K
+[2.955s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.955s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.956s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.956s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.957s] Makefile:140: recipe for target 'all' failed
+[2.957s] make: *** [all] Error 2
+[2.959s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12

@@ -1,0 +1,43 @@
+[0.024s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.066s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.108s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.360s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.373s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.417s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.444s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.449s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.451s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.462s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.478s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.488s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.502s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.504s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.548s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[0.565s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[0.581s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.582s] -- Found pcl_msgs: 1.0.0 (/opt/ros/dashing/share/pcl_msgs/cmake)
+[0.603s] CMake Error at CMakeLists.txt:27 (find_package):
+[0.604s]   By not providing "Findplc_ros.cmake" in CMAKE_MODULE_PATH this project has
+[0.604s]   asked CMake to find a package configuration file provided by "plc_ros", but
+[0.604s]   CMake did not find one.
+[0.605s] 
+[0.605s]   Could not find a package configuration file provided by "plc_ros" with any
+[0.605s]   of the following names:
+[0.605s] 
+[0.606s]     plc_rosConfig.cmake
+[0.606s]     plc_ros-config.cmake
+[0.606s] 
+[0.606s]   Add the installation prefix of "plc_ros" to CMAKE_PREFIX_PATH or set
+[0.606s]   "plc_ros_DIR" to a directory containing one of the above files.  If
+[0.607s]   "plc_ros" provides a separate development package or SDK, be sure it has
+[0.607s]   been installed.
+[0.607s] 
+[0.608s] 
+[0.608s] -- Configuring incomplete, errors occurred!
+[0.608s] See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeOutput.log".
+[0.608s] See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeError.log".
+[0.609s] Makefile:252: recipe for target 'cmake_check_build_system' failed
+[0.609s] make: *** [cmake_check_build_system] Error 1
+[0.612s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12

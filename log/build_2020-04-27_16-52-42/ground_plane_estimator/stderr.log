@@ -1,0 +1,17 @@
+[1.772s] /usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[1.773s] /usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[1.773s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `__static_initialization_and_destruction_0(int, int)':
+[1.773s] ground_plane_estimator_node.cpp:(.text+0x2caa): undefined reference to `boost::system::generic_category()'
+[1.774s] ground_plane_estimator_node.cpp:(.text+0x2cb6): undefined reference to `boost::system::generic_category()'
+[1.774s] ground_plane_estimator_node.cpp:(.text+0x2cc2): undefined reference to `boost::system::system_category()'
+[1.774s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `boost::system::error_category::std_category::equivalent(int, std::error_condition const&) const':
+[1.774s] ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentEiRKSt15error_condition[_ZNK5boost6system14error_category12std_category10equivalentEiRKSt15error_condition]+0xb8): undefined reference to `boost::system::generic_category()'
+[1.775s] ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentEiRKSt15error_condition[_ZNK5boost6system14error_category12std_category10equivalentEiRKSt15error_condition]+0xf3): undefined reference to `boost::system::generic_category()'
+[1.775s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `boost::system::error_category::std_category::equivalent(std::error_code const&, int) const':
+[1.775s] ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei[_ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei]+0xb8): undefined reference to `boost::system::generic_category()'
+[1.775s] ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei[_ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei]+0xf3): undefined reference to `boost::system::generic_category()'
+[1.776s] ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei[_ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei]+0x1d2): undefined reference to `boost::system::generic_category()'
+[1.776s] collect2: error: ld returned 1 exit status
+[1.777s] make[2]: *** [ground_plane_estimator_node] Error 1
+[1.777s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[1.777s] make: *** [all] Error 2

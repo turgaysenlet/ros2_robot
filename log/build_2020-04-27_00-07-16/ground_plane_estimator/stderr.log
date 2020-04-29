@@ -1,0 +1,24 @@
+[1.184s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.184s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ does not name a type
+[1.184s]      [01;31m[Kimage_transport[m[K::Subscriber transport_image_subscription_;
+[1.184s]      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.245s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.245s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransport_image_subscription_[m[K’ was not declared in this scope
+[1.245s]    [01;31m[Ktransport_image_subscription_[m[K = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos);
+[1.246s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.251s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kimage_subscription_[m[K’
+[1.251s]    [01;36m[Ktransport_image_subscription_[m[K = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos);
+[1.251s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.251s]    [32m[Kimage_subscription_[m[K
+[1.274s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.275s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:63:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport(std::__shared_ptr<GroundPlaneEstimatorNode, (__gnu_cxx::_Lock_policy)2>::element_type*)[m[K’
+[1.275s]    image_transport::ImageTransport it(node_.get()[01;31m[K)[m[K;
+[1.275s]                                                  [01;31m[K^[m[K
+[1.277s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:8:0[m[K:
+[1.277s] [01m[K/opt/ros/dashing/include/image_transport/image_transport.h:116:12:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(rclcpp::Node::SharedPtr)
+[1.277s]    explicit [01;36m[KImageTransport[m[K(rclcpp::Node::SharedPtr node);
+[1.277s]             [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.278s] [01m[K/opt/ros/dashing/include/image_transport/image_transport.h:116:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr<GroundPlaneEstimatorNode, (__gnu_cxx::_Lock_policy)2>::element_type* {aka GroundPlaneEstimatorNode*}[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr {aka std::shared_ptr<rclcpp::Node>}[m[K’
+[1.984s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[1.986s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[1.986s] make: *** [all] Error 2

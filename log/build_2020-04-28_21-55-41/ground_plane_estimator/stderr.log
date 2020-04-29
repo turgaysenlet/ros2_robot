@@ -1,0 +1,8 @@
+[2.064s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[2.064s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:32:10:[m[K [01;31m[Kfatal error: [m[Kpcl_ros/transforms.h: No such file or directory
+[2.064s]  #include [01;31m[K<pcl_ros/transforms.h>[m[K
+[2.064s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.065s] compilation terminated.
+[2.078s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.080s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.080s] make: *** [all] Error 2

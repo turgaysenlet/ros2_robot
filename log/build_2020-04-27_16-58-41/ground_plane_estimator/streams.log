@@ -1,0 +1,59 @@
+[0.027s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.065s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.105s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.349s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.364s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.378s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.410s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.413s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.436s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.441s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.443s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.455s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.471s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.482s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.496s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.498s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.543s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[0.560s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[0.576s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.578s] -- Found pcl_msgs: 1.0.0 (/opt/ros/dashing/share/pcl_msgs/cmake)
+[0.595s] -- Found perception_pcl: 2.0.0 (/opt/ros/dashing/share/perception_pcl/cmake)
+[0.620s] -- Boost version: 1.65.1
+[0.620s] -- Found the following Boost libraries:
+[0.620s] --   system
+[0.621s] --   filesystem
+[0.621s] --   thread
+[0.621s] --   chrono
+[0.622s] --   date_time
+[0.622s] --   atomic
+[0.622s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[0.858s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[0.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.860s] -- Configured cppcheck include dirs: /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include
+[0.860s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.861s] -- Added test 'lint_cmake' to check CMake code style
+[0.862s] -- Added test 'uncrustify' to check C / C++ code style
+[0.862s] -- Added test 'xmllint' to check XML markup files
+[0.864s] -- Configuring done
+[0.898s] -- Generating done
+[0.899s] -- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator
+[1.001s] [ 50%] [32m[1mLinking CXX executable ground_plane_estimator_node[0m
+[1.648s] /usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[1.648s] /usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[1.649s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::x>()':
+[1.649s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1xEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1xEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[1.649s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::y>()':
+[1.649s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1yEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1yEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[1.650s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::z>()':
+[1.650s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1zEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1zEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[1.650s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::rgb>()':
+[1.650s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields3rgbEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields3rgbEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[1.651s] collect2: error: ld returned 1 exit status
+[1.652s] CMakeFiles/ground_plane_estimator_node.dir/build.make:249: recipe for target 'ground_plane_estimator_node' failed
+[1.652s] make[2]: *** [ground_plane_estimator_node] Error 1
+[1.653s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[1.653s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[1.653s] Makefile:140: recipe for target 'all' failed
+[1.653s] make: *** [all] Error 2
+[1.655s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12

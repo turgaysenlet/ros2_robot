@@ -1,0 +1,6 @@
+[0.858s] CMake Error at CMakeLists.txt:42 (target_link_libraries):
+[0.858s]   Cannot specify link libraries for target "target" which is not built by
+[0.858s]   this project.
+[0.859s] 
+[0.859s] 
+[0.863s] make: *** [cmake_check_build_system] Error 1

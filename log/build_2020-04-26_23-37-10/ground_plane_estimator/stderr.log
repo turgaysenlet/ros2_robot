@@ -1,0 +1,22 @@
+[1.143s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In function ‘[01m[Kvoid image_callback_static(const ConstSharedPtr&)[m[K’:
+[1.143s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:15:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.144s]  void image_callback_static(const sensor_msgs::msg::Image::ConstSharedPtr & [01;35m[Kmsg[m[K) {
+[1.144s]                                                                             [01;35m[K^~~[m[K
+[1.184s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.184s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:26:129:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&GroundPlaneEstimatorNode::image_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.184s]    auto sub = image_transport::create_subscription(node_.get(), "in_image_base_topic", &(GroundPlaneEstimatorNode::image_callback[01;31m[K)[m[K, "raw", custom_qos);
+[1.184s]                                                                                                                                  [01;31m[K^[m[K
+[1.189s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:26:149:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst Callback& {aka const std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>&}[m[K’ from expression of type ‘[01m[Kvoid (GroundPlaneEstimatorNode::*)(const ConstSharedPtr&) {aka void (GroundPlaneEstimatorNode::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)}[m[K’
+[1.189s]    auto sub = image_transport::create_subscription(node_.get(), "in_image_base_topic", &(GroundPlaneEstimatorNode::image_callback), "raw", custom_qos[01;31m[K)[m[K;
+[1.189s]                                                                                                                                                      [01;31m[K^[m[K
+[1.189s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:8:0[m[K:
+[1.189s] [01m[K/opt/ros/dashing/include/image_transport/image_transport.h:68:12:[m[K [01;36m[Knote: [m[Kin passing argument 3 of ‘[01m[Kimage_transport::Subscriber image_transport::create_subscription(rclcpp::Node*, const string&, const Callback&, const string&, rmw_qos_profile_t)[m[K’
+[1.189s]  Subscriber [01;36m[Kcreate_subscription[m[K(
+[1.189s]             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.204s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(const ConstSharedPtr&)[m[K’:
+[1.205s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:43:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.205s]  void GroundPlaneEstimatorNode::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr & [01;35m[Kmsg[m[K) {
+[1.205s]                                                                                                [01;35m[K^~~[m[K
+[1.957s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[1.958s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[1.958s] make: *** [all] Error 2

@@ -1,0 +1,34 @@
+[0.043s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12
+[0.131s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.195s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.613s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[1.613s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+[1.613s]    [01;31m[Kimage_pub_[m[K.publish( cv_ptr->toImageMsg() );
+[1.614s]    [01;31m[K^~~~~~~~~~[m[K
+[1.617s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:75:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KimageAcuting[m[K’
+[1.617s]    [01;36m[Kimage_pub_[m[K.publish( cv_ptr->toImageMsg() );
+[1.617s]    [01;36m[K^~~~~~~~~~[m[K
+[1.617s]    [32m[KimageAcuting[m[K
+[1.617s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:55:162:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.617s]  nsor_msgs::msg::Image::ConstSharedPtr& msg, const sensor_msgs::msg::PointCloud2::ConstSharedPtr & [01;35m[Kpoint_msg[m[K) {
+[1.617s]                                                                                                    [01;35m[K^~~~~~~~~[m[K
+[1.624s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::sidewalkEdgePicking(std::vector<cv::Vec<int, 4> >)[m[K’:
+[1.625s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:113:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx11[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.625s]                  double [01;35m[Kx11[m[K, y11;
+[1.625s]                         [01;35m[K^~~[m[K
+[1.625s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:113:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky11[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.625s]                  double x11, [01;35m[Ky11[m[K;
+[1.625s]                              [01;35m[K^~~[m[K
+[1.626s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:132:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx12[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.626s]                  double [01;35m[Kx12[m[K, y12;
+[1.626s]                         [01;35m[K^~~[m[K
+[1.626s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:132:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky12[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.626s]                  double x12, [01;35m[Ky12[m[K;
+[1.626s]                              [01;35m[K^~~[m[K
+[2.273s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.274s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.274s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.275s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.275s] Makefile:140: recipe for target 'all' failed
+[2.276s] make: *** [all] Error 2
+[2.278s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake --build /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator -- -j12 -l12

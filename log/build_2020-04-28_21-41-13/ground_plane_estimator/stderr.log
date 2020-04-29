@@ -1,0 +1,24 @@
+[4.151s] ** WARNING ** io features related to ensenso will be disabled
+[4.156s] ** WARNING ** io features related to davidSDK will be disabled
+[4.157s] ** WARNING ** io features related to dssdk will be disabled
+[4.158s] ** WARNING ** io features related to pcap will be disabled
+[4.158s] ** WARNING ** io features related to png will be disabled
+[4.747s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[4.782s] ** WARNING ** visualization features related to ensenso will be disabled
+[4.786s] ** WARNING ** visualization features related to davidSDK will be disabled
+[4.787s] ** WARNING ** visualization features related to dssdk will be disabled
+[4.788s] ** WARNING ** visualization features related to rssdk will be disabled
+[9.458s] /usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[9.458s] /usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[9.459s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::x>()':
+[9.459s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1xEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1xEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[9.459s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::y>()':
+[9.459s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1yEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1yEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[9.460s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::z>()':
+[9.460s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1zEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields1zEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[9.460s] CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `void pcl::detail::FieldMapper<pcl::PointXYZRGB>::operator()<pcl::fields::rgb>()':
+[9.460s] ground_plane_estimator_node.cpp:(.text._ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields3rgbEEEvv[_ZN3pcl6detail11FieldMapperINS_11PointXYZRGBEEclINS_6fields3rgbEEEvv]+0x1b6): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[9.460s] collect2: error: ld returned 1 exit status
+[9.461s] make[2]: *** [ground_plane_estimator_node] Error 1
+[9.462s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[9.462s] make: *** [all] Error 2

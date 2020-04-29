@@ -1,0 +1,7 @@
+[0.697s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kground_plane_estimator_node.hpp: No such file or directory
+[0.698s]  #include [01;31m[K"ground_plane_estimator_node.hpp"[m[K
+[0.698s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.698s] compilation terminated.
+[0.699s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[0.699s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[0.700s] make: *** [all] Error 2

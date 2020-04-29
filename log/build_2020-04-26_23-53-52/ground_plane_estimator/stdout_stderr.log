@@ -1,0 +1,24 @@
+[0.510s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.510s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.275s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In function ‘[01m[Kvoid image_callback_static(const ConstSharedPtr&)[m[K’:
+[1.275s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:15:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.275s]  void image_callback_static(const sensor_msgs::msg::Image::ConstSharedPtr & [01;35m[Kmsg[m[K) {
+[1.275s]                                                                             [01;35m[K^~~[m[K
+[1.334s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.335s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:25:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcustom_qos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.335s]    rmw_qos_profile_t [01;35m[Kcustom_qos[m[K = rmw_qos_profile_default;
+[1.335s]                      [01;35m[K^~~~~~~~~~[m[K
+[1.349s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In static member function ‘[01m[Kstatic void GroundPlaneEstimatorNode::image_callback_static(const ConstSharedPtr&)[m[K’:
+[1.349s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:48:4:[m[K [01;31m[Kerror: [m[K‘[01m[KCLCPP_INFO[m[K’ was not declared in this scope
+[1.349s]     [01;31m[KCLCPP_INFO[m[K(node_->get_logger(), "Image arrived '%dx%d'", msg->width, msg->height);
+[1.350s]     [01;31m[K^~~~~~~~~~[m[K
+[1.351s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:48:4:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KRCLCPP_INFO[m[K’
+[1.351s]     [01;36m[KCLCPP_INFO[m[K(node_->get_logger(), "Image arrived '%dx%d'", msg->width, msg->height);
+[1.351s]     [01;36m[K^~~~~~~~~~[m[K
+[1.352s]     [32m[KRCLCPP_INFO[m[K
+[2.321s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.322s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.322s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.322s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.323s] Makefile:140: recipe for target 'all' failed
+[2.324s] make: *** [all] Error 2

@@ -1,0 +1,104 @@
+[0.048s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.332s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.347s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.361s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.393s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.396s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.430s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.434s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.436s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.448s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.465s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.476s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.495s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.497s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.542s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[0.560s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[0.576s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.578s] -- Found pcl_msgs: 1.0.0 (/opt/ros/dashing/share/pcl_msgs/cmake)
+[0.673s] -- Boost version: 1.65.1
+[0.674s] -- Found the following Boost libraries:
+[0.674s] --   system
+[0.675s] --   filesystem
+[0.675s] --   thread
+[0.675s] --   chrono
+[0.676s] --   date_time
+[0.676s] --   atomic
+[0.761s] -- Boost version: 1.65.1
+[0.761s] -- Found the following Boost libraries:
+[0.762s] --   system
+[0.762s] --   filesystem
+[0.762s] --   thread
+[0.763s] --   date_time
+[0.763s] --   iostreams
+[0.763s] --   serialization
+[0.764s] --   chrono
+[0.764s] --   atomic
+[0.764s] --   regex
+[0.776s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0.780s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0.781s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[0.835s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.836s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.836s] but this file does not exist.  Possible reasons include:
+[0.837s] * The file was deleted, renamed, or moved to another location.
+[0.837s] * An install or uninstall procedure did not complete successfully.
+[0.837s] * The installation package was faulty and contained
+[0.838s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.838s] but not all the files it references.
+[0.838s] 
+[0.839s] -- The imported target "vtk" references the file
+[0.839s]    "/usr/bin/vtk"
+[0.839s] but this file does not exist.  Possible reasons include:
+[0.840s] * The file was deleted, renamed, or moved to another location.
+[0.840s] * An install or uninstall procedure did not complete successfully.
+[0.840s] * The installation package was faulty and contained
+[0.841s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.841s] but not all the files it references.
+[0.842s] 
+[0.916s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0.919s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0.921s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[0.923s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[0.969s] -- looking for PCL_COMMON
+[0.970s] -- looking for PCL_OCTREE
+[0.971s] -- looking for PCL_IO
+[0.971s] -- looking for PCL_KDTREE
+[0.972s] -- looking for PCL_SEARCH
+[0.973s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.974s] -- looking for PCL_FILTERS
+[0.974s] -- looking for PCL_2D
+[0.975s] -- looking for PCL_GEOMETRY
+[0.976s] -- looking for PCL_FEATURES
+[0.977s] -- looking for PCL_ML
+[0.978s] -- looking for PCL_SEGMENTATION
+[0.979s] -- looking for PCL_VISUALIZATION
+[0.980s] -- looking for PCL_SURFACE
+[0.980s] -- looking for PCL_REGISTRATION
+[0.982s] -- looking for PCL_KEYPOINTS
+[0.983s] -- looking for PCL_TRACKING
+[0.984s] -- looking for PCL_RECOGNITION
+[0.985s] -- looking for PCL_STEREO
+[0.986s] -- looking for PCL_APPS
+[0.989s] -- looking for PCL_IN_HAND_SCANNER
+[0.990s] -- looking for PCL_MODELER
+[0.990s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.991s] -- looking for PCL_OUTOFCORE
+[0.992s] -- looking for PCL_PEOPLE
+[1.014s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.250s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.251s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.251s] -- Configured cppcheck include dirs: /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include
+[1.252s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.252s] -- Added test 'lint_cmake' to check CMake code style
+[1.253s] -- Added test 'uncrustify' to check C / C++ code style
+[1.254s] -- Added test 'xmllint' to check XML markup files
+[1.256s] -- Configuring done
+[1.294s] -- Generating done
+[1.296s] -- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator
+[1.420s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[1.546s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[11.880s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[11.880s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[11.881s] Makefile:140: recipe for target 'all' failed

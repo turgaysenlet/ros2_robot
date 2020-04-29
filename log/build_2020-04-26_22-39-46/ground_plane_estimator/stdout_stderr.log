@@ -1,0 +1,54 @@
+[0.151s] -- The C compiler identification is GNU 7.5.0
+[0.228s] -- The CXX compiler identification is GNU 7.5.0
+[0.237s] -- Check for working C compiler: /usr/bin/cc
+[0.369s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.370s] -- Detecting C compiler ABI info
+[0.516s] -- Detecting C compiler ABI info - done
+[0.521s] -- Detecting C compile features
+[0.884s] -- Detecting C compile features - done
+[0.887s] -- Check for working CXX compiler: /usr/bin/c++
+[0.995s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.996s] -- Detecting CXX compiler ABI info
+[1.111s] -- Detecting CXX compiler ABI info - done
+[1.122s] -- Detecting CXX compile features
+[1.654s] -- Detecting CXX compile features - done
+[1.662s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.716s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.717s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.944s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.018s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.059s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.122s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.126s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.127s] -- Looking for pthread.h
+[2.246s] -- Looking for pthread.h - found
+[2.246s] -- Looking for pthread_create
+[2.363s] -- Looking for pthread_create - not found
+[2.363s] -- Looking for pthread_create in pthreads
+[2.461s] -- Looking for pthread_create in pthreads - not found
+[2.461s] -- Looking for pthread_create in pthread
+[2.579s] -- Looking for pthread_create in pthread - found
+[2.580s] -- Found Threads: TRUE  
+[2.646s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.782s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.784s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.784s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include>
+[2.785s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.787s] -- Added test 'lint_cmake' to check CMake code style
+[2.788s] -- Added test 'uncrustify' to check C / C++ code style
+[2.789s] -- Added test 'xmllint' to check XML markup files
+[2.793s] -- Configuring done
+[2.796s] -- Generating done
+[2.803s] -- Build files have been written to: /home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator
+[2.881s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[2.898s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[2.941s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kground_plane_estimator_node.hpp: No such file or directory
+[2.941s]  #include [01;31m[K"ground_plane_estimator_node.hpp"[m[K
+[2.941s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.941s] compilation terminated.
+[2.943s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.943s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.944s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.944s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.944s] Makefile:140: recipe for target 'all' failed
+[2.944s] make: *** [all] Error 2

@@ -1,0 +1,37 @@
+[0.403s] [ 14%] Built target gtest_main
+[0.405s] [ 28%] Built target gtest
+[0.405s] [ 71%] Built target realsense_t265_ros
+[0.406s] [ 85%] Built target camera_core
+[0.409s] [100%] Built target unittest_function
+[0.839s] [ 14%] Built target gtest_main
+[0.845s] [ 28%] Built target gtest
+[0.873s] [ 71%] Built target realsense_t265_ros
+[0.923s] [ 85%] Built target unittest_function
+[0.936s] [100%] Built target camera_core
+[0.965s] [36mInstall the project...[0m
+[0.977s] -- Install configuration: ""
+[0.977s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/lib/librealsense_t265_ros.so
+[0.978s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include
+[0.979s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense
+[0.979s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_base.hpp
+[0.980s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_t265.hpp
+[0.980s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435i.hpp
+[0.980s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_factory.hpp
+[0.981s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_d435.hpp
+[0.981s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_constants.hpp
+[0.982s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/include/realsense/rs_t265_factory.hpp
+[0.982s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/library_path.sh
+[0.983s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/package_run_dependencies/realsense_t265_ros
+[0.986s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/parent_prefix_path/realsense_t265_ros
+[0.987s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/ament_prefix_path.sh
+[0.987s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/environment/path.sh
+[0.987s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.bash
+[0.988s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.sh
+[0.988s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/local_setup.zsh
+[0.988s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/packages/realsense_t265_ros
+[0.988s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/ament_index/resource_index/rclcpp_components/realsense_t265_ros
+[0.989s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.989s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.990s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig.cmake
+[0.990s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/cmake/realsense_t265_rosConfig-version.cmake
+[0.990s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_ros/share/realsense_t265_ros/package.xml

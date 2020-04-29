@@ -1,0 +1,87 @@
+[6.935s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list']
+[6.936s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['.'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fe81417d400>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, paths=None, paths_only=False, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fe81417d400>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe81418d4e0>)
+[8.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.620s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/turgay/dev_ws/src/ros2_robot'
+[8.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.755s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.755s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.756s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.756s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extensions ['ignore', 'ignore_ament_install']
+[8.756s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'ignore'
+[8.756s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'ignore_ament_install'
+[8.756s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extensions ['colcon_pkg']
+[8.756s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'colcon_pkg'
+[8.757s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extensions ['colcon_meta']
+[8.757s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'colcon_meta'
+[8.757s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extensions ['ros']
+[8.757s] Level 1:colcon.colcon_core.package_identification:_identify(ground_plane_estimator) by extension 'ros'
+[8.839s] DEBUG:colcon.colcon_core.package_identification:Package 'ground_plane_estimator' with type 'ros.ament_cmake' and name 'ground_plane_estimator'
+[8.839s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.839s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.839s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.840s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.840s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.840s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.840s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extensions ['ignore', 'ignore_ament_install']
+[8.840s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'ignore'
+[8.840s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'ignore_ament_install'
+[8.840s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extensions ['colcon_pkg']
+[8.841s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'colcon_pkg'
+[8.841s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extensions ['colcon_meta']
+[8.841s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'colcon_meta'
+[8.841s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extensions ['ros']
+[8.841s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_node) by extension 'ros'
+[8.909s] DEBUG:colcon.colcon_core.package_identification:Package 'realsense_t265_node' with type 'ros.ament_cmake' and name 'realsense_t265_node'
+[8.910s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extensions ['ignore', 'ignore_ament_install']
+[8.910s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'ignore'
+[8.910s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'ignore_ament_install'
+[8.911s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extensions ['colcon_pkg']
+[8.911s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'colcon_pkg'
+[8.911s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extensions ['colcon_meta']
+[8.911s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'colcon_meta'
+[8.911s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extensions ['ros']
+[8.911s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_t265_ros) by extension 'ros'
+[8.927s] DEBUG:colcon.colcon_core.package_identification:Package 'realsense_t265_ros' with type 'ros.ament_cmake' and name 'realsense_t265_ros'
+[8.927s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extensions ['ignore', 'ignore_ament_install']
+[8.928s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'ignore'
+[8.928s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'ignore_ament_install'
+[8.928s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extensions ['colcon_pkg']
+[8.928s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'colcon_pkg'
+[8.928s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extensions ['colcon_meta']
+[8.928s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'colcon_meta'
+[8.928s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extensions ['ros']
+[8.928s] Level 1:colcon.colcon_core.package_identification:_identify(remote_control) by extension 'ros'
+[9.014s] DEBUG:colcon.colcon_core.package_identification:Package 'remote_control' with type 'ros.ament_python' and name 'remote_control'
+[9.015s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extensions ['ignore', 'ignore_ament_install']
+[9.015s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'ignore'
+[9.015s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'ignore_ament_install'
+[9.015s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extensions ['colcon_pkg']
+[9.015s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'colcon_pkg'
+[9.016s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extensions ['colcon_meta']
+[9.016s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'colcon_meta'
+[9.016s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extensions ['ros']
+[9.016s] Level 1:colcon.colcon_core.package_identification:_identify(simple_gps) by extension 'ros'
+[9.087s] DEBUG:colcon.colcon_core.package_identification:Package 'simple_gps' with type 'ros.ament_python' and name 'simple_gps'
+[9.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[9.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[9.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[9.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[9.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults

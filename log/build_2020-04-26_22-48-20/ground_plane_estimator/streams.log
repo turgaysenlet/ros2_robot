@@ -1,0 +1,25 @@
+[0.060s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator -DCMAKE_INSTALL_PREFIX=/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator
+[0.410s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.410s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.410s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.411s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.411s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.440s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.490s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.499s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.522s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.556s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.578s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.587s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.661s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.665s] CMake Error at /opt/ros/dashing/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:35 (message):
+[0.665s]   ament_target_dependencies() the first argument must be a valid target name
+[0.665s] Call Stack (most recent call first):
+[0.665s]   CMakeLists.txt:38 (ament_target_dependencies)
+[0.665s] 
+[0.665s] 
+[0.666s] -- Configuring incomplete, errors occurred!
+[0.667s] See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeOutput.log".
+[0.667s] See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeError.log".
+[0.779s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turgay/dev_ws/src/ros2_robot/install/simple_gps:/home/turgay/dev_ws/src/ros2_robot/install/remote_control:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing /usr/bin/cmake /home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator -DCMAKE_INSTALL_PREFIX=/home/turgay/dev_ws/src/ros2_robot/install/ground_plane_estimator

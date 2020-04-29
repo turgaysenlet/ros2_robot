@@ -1,0 +1,28 @@
+[0.590s] [35m[1mScanning dependencies of target realsense_t265_ros[0m
+[0.591s] [35m[1mScanning dependencies of target gtest[0m
+[0.591s] [35m[1mScanning dependencies of target gtest_main[0m
+[0.591s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.592s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.592s] [ 21%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_d435i.cpp.o[0m
+[0.592s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_d435.cpp.o[0m
+[0.592s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_base.cpp.o[0m
+[0.592s] [ 35%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_factory.cpp.o[0m
+[0.593s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense_t265_ros.dir/src/rs_t265_t265.cpp.o[0m
+[1.173s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.246s] [ 57%] Built target gtest_main
+[3.392s] [ 64%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.438s] [01m[K/home/turgay/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:[m[K In member function ‘[01m[Kvoid realsense::RealSenseBase::calculateTFAndPublish(const rs2::stream_profile&, const rs2::stream_profile&)[m[K’:
+[3.438s] [01m[K/home/turgay/dev_ws/src/ros2_robot/realsense_t265_ros/src/rs_t265_base.cpp:279:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzero_trans[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.438s]    Float3 [01;35m[Kzero_trans[m[K{0, 0, 0};
+[3.438s]           [01;35m[K^~~~~~~~~~[m[K
+[3.520s] [ 64%] Built target gtest
+[7.876s] [ 71%] [32m[1mLinking CXX shared library librealsense_t265_ros.so[0m
+[8.668s] [ 71%] Built target realsense_t265_ros
+[8.689s] [35m[1mScanning dependencies of target unittest_function[0m
+[8.693s] [35m[1mScanning dependencies of target camera_core[0m
+[8.766s] [ 78%] [32mBuilding CXX object CMakeFiles/camera_core.dir/tests/camera_core.cpp.o[0m
+[8.769s] [ 85%] [32mBuilding CXX object CMakeFiles/unittest_function.dir/tests/unittest_function.cpp.o[0m
+[12.127s] [ 92%] [32m[1mLinking CXX executable unittest_function[0m
+[12.921s] [ 92%] Built target unittest_function
+[14.702s] [100%] [32m[1mLinking CXX executable camera_core[0m
+[15.669s] [100%] Built target camera_core

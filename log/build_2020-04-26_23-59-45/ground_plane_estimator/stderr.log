@@ -1,0 +1,51 @@
+[1.313s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.313s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:181:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >::SharedPtr {aka std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >}[m[K’ and ‘[01m[Kimage_transport::Subscriber[m[K’)
+[1.313s]  image_subscription_ = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos[01;31m[K)[m[K;
+[1.313s]                                                                                                                                                                                    [01;31m[K^[m[K
+[1.314s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[1.314s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4[m[K:
+[1.314s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:296:19:[m[K [01;36m[Knote: [m[Kcandidate: std::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >]
+[1.314s]        shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[1.314s]                    [01;36m[K^~~~~~~~[m[K
+[1.314s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:296:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_transport::Subscriber[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >&[m[K’
+[1.315s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:300:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >]
+[1.315s]   [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[1.315s]   [01;36m[K^~~~~~~~[m[K
+[1.315s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:300:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.315s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:181:[m[K [01;36m[Knote: [m[K  ‘[01m[Kimage_transport::Subscriber[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[1.315s]  image_subscription_ = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos[01;36m[K)[m[K;
+[1.315s]                                                                                                                                                                                    [01;36m[K^[m[K
+[1.316s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[1.316s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4[m[K:
+[1.316s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:309:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >]
+[1.316s]   [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[1.316s]   [01;36m[K^~~~~~~~[m[K
+[1.316s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:309:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.317s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:181:[m[K [01;36m[Knote: [m[K  ‘[01m[Kimage_transport::Subscriber[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[1.317s]  image_subscription_ = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos[01;36m[K)[m[K;
+[1.317s]                                                                                                                                                                                    [01;36m[K^[m[K
+[1.317s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[1.317s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4[m[K:
+[1.317s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:317:7:[m[K [01;36m[Knote: [m[Kcandidate: std::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >]
+[1.318s]        [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[1.318s]        [01;36m[K^~~~~~~~[m[K
+[1.318s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:317:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kimage_transport::Subscriber[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >&&[m[K’
+[1.318s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:325:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >]
+[1.318s]   [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[1.318s]   [01;36m[K^~~~~~~~[m[K
+[1.318s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:325:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.319s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:181:[m[K [01;36m[Knote: [m[K  ‘[01m[Kimage_transport::Subscriber[m[K’ is not derived from ‘[01m[Kstd::shared_ptr<_Tp>[m[K’
+[1.319s]  image_subscription_ = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos[01;36m[K)[m[K;
+[1.319s]                                                                                                                                                                                    [01;36m[K^[m[K
+[1.319s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[1.319s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:4[m[K:
+[1.319s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:333:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >]
+[1.320s]   [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[1.320s]   [01;36m[K^~~~~~~~[m[K
+[1.320s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:333:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.320s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:181:[m[K [01;36m[Knote: [m[K  ‘[01m[Kimage_transport::Subscriber[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[1.320s]  image_subscription_ = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos[01;36m[K)[m[K;
+[1.320s]                                                                                                                                                                                    [01;36m[K^[m[K
+[2.087s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.088s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.089s] make: *** [all] Error 2

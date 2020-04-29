@@ -1,0 +1,30 @@
+[0.790s] ** WARNING ** io features related to ensenso will be disabled
+[0.794s] ** WARNING ** io features related to davidSDK will be disabled
+[0.795s] ** WARNING ** io features related to dssdk will be disabled
+[0.795s] ** WARNING ** io features related to pcap will be disabled
+[0.795s] ** WARNING ** io features related to png will be disabled
+[0.901s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.934s] ** WARNING ** visualization features related to ensenso will be disabled
+[0.937s] ** WARNING ** visualization features related to davidSDK will be disabled
+[0.938s] ** WARNING ** visualization features related to dssdk will be disabled
+[0.939s] ** WARNING ** visualization features related to rssdk will be disabled
+[6.510s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[6.511s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_depth_in[m[K’ was not declared in this scope
+[6.511s]      [01;31m[Kpub_depth_in[m[K.publish(msg_in);
+[6.512s]      [01;31m[K^~~~~~~~~~~~[m[K
+[6.518s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_depth_out[m[K’ was not declared in this scope
+[6.518s]      [01;31m[Kpub_depth_out[m[K.publish(msg_out);
+[6.518s]      [01;31m[K^~~~~~~~~~~~~[m[K
+[7.663s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[7.663s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[7.663s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[7.663s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34[m[K,
+[7.663s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.664s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[7.664s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.664s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[7.664s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.664s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.993s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[7.994s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[7.994s] make: *** [all] Error 2

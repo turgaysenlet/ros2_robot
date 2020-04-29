@@ -1,0 +1,8 @@
+[0.440s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[0.441s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/std_msgs.hpp: No such file or directory
+[0.441s]  #include [01;31m[K"std_msgs/std_msgs.hpp"[m[K
+[0.441s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.442s] compilation terminated.
+[0.442s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[0.444s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[0.444s] make: *** [all] Error 2

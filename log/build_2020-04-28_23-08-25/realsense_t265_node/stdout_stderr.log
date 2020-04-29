@@ -1,0 +1,17 @@
+[0.126s] [100%] Built target realsense_t265_node
+[0.287s] [100%] Built target realsense_t265_node
+[0.311s] [36mInstall the project...[0m
+[0.326s] -- Install configuration: ""
+[0.326s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/lib/realsense_t265_node/realsense_t265_node
+[0.327s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/bin/realsense_t265_node
+[0.327s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/ament_index/resource_index/package_run_dependencies/realsense_t265_node
+[0.327s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/ament_index/resource_index/parent_prefix_path/realsense_t265_node
+[0.327s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/environment/path.sh
+[0.328s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/local_setup.bash
+[0.328s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/local_setup.sh
+[0.328s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/local_setup.zsh
+[0.328s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/ament_index/resource_index/packages/realsense_t265_node
+[0.328s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/cmake/realsense_t265_nodeConfig.cmake
+[0.328s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/cmake/realsense_t265_nodeConfig-version.cmake
+[0.329s] -- Up-to-date: /home/turgay/dev_ws/src/ros2_robot/install/realsense_t265_node/share/realsense_t265_node/package.xml

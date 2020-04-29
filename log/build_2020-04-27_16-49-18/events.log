@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000272] (-) JobUnselected: {'identifier': 'realsense_t265_node'}
+[0.000318] (-) JobUnselected: {'identifier': 'realsense_t265_ros'}
+[0.000394] (-) JobUnselected: {'identifier': 'remote_control'}
+[0.000598] (-) JobUnselected: {'identifier': 'simple_gps'}
+[0.000895] (ground_plane_estimator) JobQueued: {'identifier': 'ground_plane_estimator', 'dependencies': OrderedDict()}
+[0.000958] (ground_plane_estimator) JobStarted: {'identifier': 'ground_plane_estimator'}
+[0.043151] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'cmake'}
+[0.053688] (ground_plane_estimator) JobProgress: {'identifier': 'ground_plane_estimator', 'progress': 'build'}
+[0.056142] (ground_plane_estimator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', '--', '-j12', '-l12'], 'cwd': '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turgay'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1818'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/robot_devkit/tools/rtmonitor/lib:/opt/robot_devkit/tools/rtmonitor_msgs/lib:/opt/robot_devkit/tools/perf_msgs/lib:/opt/robot_devkit/perception/dynamic_vino_lib/lib:/opt/robot_devkit/perception/vino_param_lib/lib:/opt/robot_devkit/perception/robot_interface/lib:/opt/robot_devkit/perception/realsense_ros/lib:/opt/robot_devkit/perception/realsense_msgs/lib:/opt/robot_devkit/perception/pipeline_srv_msgs/lib:/opt/robot_devkit/perception/grasp_ros2/lib:/opt/robot_devkit/perception/people_msgs/lib:/opt/robot_devkit/perception/object_analytics_node/lib:/opt/robot_devkit/perception/object_analytics_msgs/lib:/opt/robot_devkit/perception/moveit_msgs/lib:/opt/robot_devkit/perception/handeye_tf_service/lib:/opt/robot_devkit/perception/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/turgay'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.44.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4752'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('COLCON_PREFIX_PATH', '/opt/robot_devkit/tools:/opt/robot_devkit/perception'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'turgay'), ('GTK_IM_MODULE', 'ibus'), ('_', '/snap/code/31/usr/share/code/code'), ('ROS_VERSION', '2'), ('USERNAME', 'turgay'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/turgay/.local/bin:/opt/robot_devkit/perception/recognize_pick/bin:/opt/robot_devkit/perception/random_pick/bin:/opt/robot_devkit/perception/fixed_position_pick/bin:/opt/robot_devkit/perception/draw_x/bin:/opt/robot_devkit/perception/realsense_node/bin:/opt/robot_devkit/perception/grasp_ros2/bin:/opt/robot_devkit/perception/handeye_dashboard/bin:/opt/ros/dashing/bin:/home/turgay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/turgay/.dotnet/tools:/home/turgay/.dotnet/tools'), ('SESSION_MANAGER', 'local/turgaydesktop:@/tmp/.ICE-unix/1671,unix/turgaydesktop:/tmp/.ICE-unix/1671'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000/snap.code'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LIBVA_DRIVER_NAME', 'iHD'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/31/usr/share/glib-2.0/schemas'), ('MFX_HOME', '/opt/intel/mediasdk'), ('AMENT_PREFIX_PATH', '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing'), ('DISABLE_WAYLAND', '1'), ('SHELL', '/bin/bash'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/31/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GDK_PIXBUF_MODULE_FILE', '/home/turgay/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/robot_devkit/tools/rtmonitor_msgs/lib/python3.6/site-packages:/opt/robot_devkit/tools/rdk_perf/lib/python3.6/site-packages:/opt/robot_devkit/tools/perf_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/realsense_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/pipeline_srv_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/people_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/object_analytics_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/moveit_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_tf_service/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye_dashboard/lib/python3.6/site-packages:/opt/robot_devkit/perception/handeye/lib/python3.6/site-packages:/opt/robot_devkit/perception/grasp_msgs/lib/python3.6/site-packages:/opt/robot_devkit/perception/criutils/lib/python3.6/site-packages:/opt/robot_devkit/perception/baldor/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('CMAKE_PREFIX_PATH', '/opt/robot_devkit/tools/rtmonitor_test:/opt/robot_devkit/tools/rtmonitor:/opt/robot_devkit/tools/rtmonitor_msgs:/opt/robot_devkit/tools/perf_msgs:/opt/robot_devkit/perception/dynamic_vino_sample:/opt/robot_devkit/perception/dynamic_vino_lib:/opt/robot_devkit/perception/vino_param_lib:/opt/robot_devkit/perception/ur_description:/opt/robot_devkit/perception/recognize_pick:/opt/robot_devkit/perception/random_pick:/opt/robot_devkit/perception/fixed_position_pick:/opt/robot_devkit/perception/draw_x:/opt/robot_devkit/perception/robot_interface:/opt/robot_devkit/perception/realsense_examples:/opt/robot_devkit/perception/realsense_node:/opt/robot_devkit/perception/realsense_ros:/opt/robot_devkit/perception/realsense_msgs:/opt/robot_devkit/perception/pipeline_srv_msgs:/opt/robot_devkit/perception/grasp_ros2:/opt/robot_devkit/perception/people_msgs:/opt/robot_devkit/perception/object_analytics_rviz:/opt/robot_devkit/perception/object_analytics_node:/opt/robot_devkit/perception/object_analytics_msgs:/opt/robot_devkit/perception/moveit_msgs:/opt/robot_devkit/perception/handeye_tf_service:/opt/robot_devkit/perception/handeye_target_detection:/opt/robot_devkit/perception/grasp_tutorials:/opt/robot_devkit/perception/grasp_msgs:/opt/robot_devkit/tools/rdk_perf:/opt/robot_devkit/perception/handeye_dashboard:/opt/robot_devkit/perception/handeye:/opt/robot_devkit/perception/criutils:/opt/robot_devkit/perception/baldor:/opt/ros/dashing')]), 'shell': False}
+[0.099844] (-) TimerEvent: {}
+[0.146452] (ground_plane_estimator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ground_plane_estimator_node\x1b[0m\n'}
+[0.199987] (-) TimerEvent: {}
+[0.300475] (-) TimerEvent: {}
+[0.400926] (-) TimerEvent: {}
+[0.501291] (-) TimerEvent: {}
+[0.601824] (-) TimerEvent: {}
+[0.702345] (-) TimerEvent: {}
+[0.802853] (-) TimerEvent: {}
+[0.903355] (-) TimerEvent: {}
+[1.003860] (-) TimerEvent: {}
+[1.104468] (-) TimerEvent: {}
+[1.204901] (-) TimerEvent: {}
+[1.305352] (-) TimerEvent: {}
+[1.405774] (-) TimerEvent: {}
+[1.506269] (-) TimerEvent: {}
+[1.606793] (-) TimerEvent: {}
+[1.707255] (-) TimerEvent: {}
+[1.807751] (-) TimerEvent: {}
+[1.908298] (-) TimerEvent: {}
+[2.008777] (-) TimerEvent: {}
+[2.109224] (-) TimerEvent: {}
+[2.209696] (-) TimerEvent: {}
+[2.310171] (-) TimerEvent: {}
+[2.410666] (-) TimerEvent: {}
+[2.511135] (-) TimerEvent: {}
+[2.611610] (-) TimerEvent: {}
+[2.712047] (-) TimerEvent: {}
+[2.812530] (-) TimerEvent: {}
+[2.913054] (-) TimerEvent: {}
+[3.013565] (-) TimerEvent: {}
+[3.114025] (-) TimerEvent: {}
+[3.214455] (-) TimerEvent: {}
+[3.314910] (-) TimerEvent: {}
+[3.415387] (-) TimerEvent: {}
+[3.515853] (-) TimerEvent: {}
+[3.616328] (-) TimerEvent: {}
+[3.716791] (-) TimerEvent: {}
+[3.817275] (-) TimerEvent: {}
+[3.917771] (-) TimerEvent: {}
+[4.018245] (-) TimerEvent: {}
+[4.118737] (-) TimerEvent: {}
+[4.219225] (-) TimerEvent: {}
+[4.319728] (-) TimerEvent: {}
+[4.420202] (-) TimerEvent: {}
+[4.520668] (-) TimerEvent: {}
+[4.621134] (-) TimerEvent: {}
+[4.721620] (-) TimerEvent: {}
+[4.822102] (-) TimerEvent: {}
+[4.826787] (ground_plane_estimator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o\x1b[0m\n'}
+[4.922293] (-) TimerEvent: {}
+[5.022853] (-) TimerEvent: {}
+[5.123374] (-) TimerEvent: {}
+[5.223928] (-) TimerEvent: {}
+[5.324469] (-) TimerEvent: {}
+[5.425030] (-) TimerEvent: {}
+[5.525574] (-) TimerEvent: {}
+[5.626135] (-) TimerEvent: {}
+[5.726720] (-) TimerEvent: {}
+[5.827292] (-) TimerEvent: {}
+[5.927826] (-) TimerEvent: {}
+[6.028319] (-) TimerEvent: {}
+[6.128815] (-) TimerEvent: {}
+[6.229322] (-) TimerEvent: {}
+[6.329839] (-) TimerEvent: {}
+[6.430352] (-) TimerEvent: {}
+[6.530903] (-) TimerEvent: {}
+[6.631462] (-) TimerEvent: {}
+[6.732034] (-) TimerEvent: {}
+[6.832570] (-) TimerEvent: {}
+[6.933130] (-) TimerEvent: {}
+[7.033605] (-) TimerEvent: {}
+[7.134153] (-) TimerEvent: {}
+[7.234733] (-) TimerEvent: {}
+[7.335284] (-) TimerEvent: {}
+[7.435797] (-) TimerEvent: {}
+[7.536381] (-) TimerEvent: {}
+[7.636905] (-) TimerEvent: {}
+[7.737463] (-) TimerEvent: {}
+[7.838027] (-) TimerEvent: {}
+[7.938762] (-) TimerEvent: {}
+[8.039315] (-) TimerEvent: {}
+[8.139845] (-) TimerEvent: {}
+[8.240347] (-) TimerEvent: {}
+[8.340761] (-) TimerEvent: {}
+[8.441278] (-) TimerEvent: {}
+[8.541783] (-) TimerEvent: {}
+[8.642296] (-) TimerEvent: {}
+[8.742748] (-) TimerEvent: {}
+[8.843231] (-) TimerEvent: {}
+[8.943708] (-) TimerEvent: {}
+[9.044178] (-) TimerEvent: {}
+[9.144672] (-) TimerEvent: {}
+[9.245162] (-) TimerEvent: {}
+[9.345664] (-) TimerEvent: {}
+[9.446147] (-) TimerEvent: {}
+[9.546682] (-) TimerEvent: {}
+[9.647179] (-) TimerEvent: {}
+[9.747689] (-) TimerEvent: {}
+[9.848182] (-) TimerEvent: {}
+[9.948682] (-) TimerEvent: {}
+[10.049186] (-) TimerEvent: {}
+[10.149686] (-) TimerEvent: {}
+[10.250187] (-) TimerEvent: {}
+[10.350673] (-) TimerEvent: {}
+[10.451167] (-) TimerEvent: {}
+[10.551660] (-) TimerEvent: {}
+[10.652153] (-) TimerEvent: {}
+[10.752646] (-) TimerEvent: {}
+[10.853198] (-) TimerEvent: {}
+[10.953682] (-) TimerEvent: {}
+[11.054160] (-) TimerEvent: {}
+[11.154644] (-) TimerEvent: {}
+[11.255107] (-) TimerEvent: {}
+[11.355606] (-) TimerEvent: {}
+[11.456108] (-) TimerEvent: {}
+[11.556614] (-) TimerEvent: {}
+[11.657115] (-) TimerEvent: {}
+[11.757621] (-) TimerEvent: {}
+[11.858125] (-) TimerEvent: {}
+[11.958621] (-) TimerEvent: {}
+[12.059122] (-) TimerEvent: {}
+[12.159586] (-) TimerEvent: {}
+[12.260127] (-) TimerEvent: {}
+[12.360612] (-) TimerEvent: {}
+[12.461102] (-) TimerEvent: {}
+[12.561555] (-) TimerEvent: {}
+[12.662010] (-) TimerEvent: {}
+[12.762505] (-) TimerEvent: {}
+[12.862994] (-) TimerEvent: {}
+[12.963463] (-) TimerEvent: {}
+[13.063946] (-) TimerEvent: {}
+[13.164433] (-) TimerEvent: {}
+[13.264911] (-) TimerEvent: {}
+[13.365384] (-) TimerEvent: {}
+[13.465787] (-) TimerEvent: {}
+[13.566298] (-) TimerEvent: {}
+[13.666748] (-) TimerEvent: {}
+[13.767219] (-) TimerEvent: {}
+[13.867698] (-) TimerEvent: {}
+[13.968173] (-) TimerEvent: {}
+[14.041811] (ground_plane_estimator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ground_plane_estimator_node\x1b[0m\n'}
+[14.068309] (-) TimerEvent: {}
+[14.168791] (-) TimerEvent: {}
+[14.269291] (-) TimerEvent: {}
+[14.369795] (-) TimerEvent: {}
+[14.470324] (-) TimerEvent: {}
+[14.570822] (-) TimerEvent: {}
+[14.658044] (ground_plane_estimator) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4\n'}
+[14.658780] (ground_plane_estimator) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4\n'}
+[14.659332] (ground_plane_estimator) StderrLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `__static_initialization_and_destruction_0(int, int)':\n"}
+[14.659768] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text+0x2caa): undefined reference to `boost::system::generic_category()'\n"}
+[14.660038] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text+0x2cb6): undefined reference to `boost::system::generic_category()'\n"}
+[14.660235] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text+0x2cc2): undefined reference to `boost::system::system_category()'\n"}
+[14.660357] (ground_plane_estimator) StderrLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `boost::system::error_category::std_category::equivalent(int, std::error_condition const&) const':\n"}
+[14.660481] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentEiRKSt15error_condition[_ZNK5boost6system14error_category12std_category10equivalentEiRKSt15error_condition]+0xb8): undefined reference to `boost::system::generic_category()'\n"}
+[14.660603] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentEiRKSt15error_condition[_ZNK5boost6system14error_category12std_category10equivalentEiRKSt15error_condition]+0xf3): undefined reference to `boost::system::generic_category()'\n"}
+[14.660717] (ground_plane_estimator) StderrLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o: In function `boost::system::error_category::std_category::equivalent(std::error_code const&, int) const':\n"}
+[14.660835] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei[_ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei]+0xb8): undefined reference to `boost::system::generic_category()'\n"}
+[14.660963] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei[_ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei]+0xf3): undefined reference to `boost::system::generic_category()'\n"}
+[14.661077] (ground_plane_estimator) StderrLine: {'line': b"ground_plane_estimator_node.cpp:(.text._ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei[_ZNK5boost6system14error_category12std_category10equivalentERKSt10error_codei]+0x1d2): undefined reference to `boost::system::generic_category()'\n"}
+[14.661193] (ground_plane_estimator) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[14.662764] (ground_plane_estimator) StderrLine: {'line': b'make[2]: *** [ground_plane_estimator_node] Error 1\n'}
+[14.662880] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/ground_plane_estimator_node.dir/build.make:242: recipe for target 'ground_plane_estimator_node' failed\n"}
+[14.663132] (ground_plane_estimator) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed\n"}
+[14.663275] (ground_plane_estimator) StderrLine: {'line': b'make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2\n'}
+[14.663621] (ground_plane_estimator) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[14.663718] (ground_plane_estimator) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[14.666783] (ground_plane_estimator) CommandEnded: {'returncode': 2}
+[14.667553] (ground_plane_estimator) JobEnded: {'identifier': 'ground_plane_estimator', 'rc': 2}
+[14.670881] (-) TimerEvent: {}
+[14.678597] (-) EventReactorShutdown: {}

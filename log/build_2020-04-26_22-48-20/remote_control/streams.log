@@ -1,0 +1,45 @@
+[0.767s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/remote_control': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control build --build-base /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/remote_control --record /home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log --single-version-externally-managed
+[1.105s] running egg_info
+[1.106s] creating /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info
+[1.106s] writing /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/PKG-INFO
+[1.106s] writing dependency_links to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/dependency_links.txt
+[1.107s] writing entry points to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/entry_points.txt
+[1.107s] writing requirements to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/requires.txt
+[1.107s] writing top-level names to /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/top_level.txt
+[1.107s] writing manifest file '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'
+[1.138s] reading manifest file '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'
+[1.139s] writing manifest file '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info/SOURCES.txt'
+[1.140s] running build
+[1.140s] running build_py
+[1.140s] creating /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build
+[1.140s] creating /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib
+[1.140s] creating /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control
+[1.140s] copying remote_control/__init__.py -> /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control
+[1.141s] copying remote_control/remote_control_node.py -> /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control
+[1.141s] copying remote_control/robot.py -> /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control
+[1.141s] copying remote_control/umaestro.py -> /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control
+[1.141s] copying remote_control/maestro.py -> /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control
+[1.141s] running install
+[1.142s] running install_lib
+[1.142s] creating /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control
+[1.142s] copying /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control/__init__.py -> /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control
+[1.143s] copying /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control/remote_control_node.py -> /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control
+[1.143s] copying /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control/robot.py -> /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control
+[1.143s] copying /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control/umaestro.py -> /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control
+[1.143s] copying /home/turgay/dev_ws/src/ros2_robot/build/remote_control/build/lib/remote_control/maestro.py -> /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control
+[1.144s] byte-compiling /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control/__init__.py to __init__.cpython-36.pyc
+[1.144s] byte-compiling /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control/remote_control_node.py to remote_control_node.cpython-36.pyc
+[1.146s] byte-compiling /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control/robot.py to robot.cpython-36.pyc
+[1.147s] byte-compiling /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control/umaestro.py to umaestro.cpython-36.pyc
+[1.147s] byte-compiling /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control/maestro.py to maestro.cpython-36.pyc
+[1.148s] running install_data
+[1.149s] creating /home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/ament_index
+[1.150s] creating /home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/ament_index/resource_index
+[1.150s] creating /home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/ament_index/resource_index/packages
+[1.150s] copying resource/remote_control -> /home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/ament_index/resource_index/packages
+[1.150s] copying package.xml -> /home/turgay/dev_ws/src/ros2_robot/install/remote_control/share/remote_control
+[1.150s] running install_egg_info
+[1.152s] Copying /home/turgay/dev_ws/src/ros2_robot/build/remote_control/remote_control.egg-info to /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/python3.6/site-packages/remote_control-0.0.0-py3.6.egg-info
+[1.154s] running install_scripts
+[1.183s] Installing remote_control_node script to /home/turgay/dev_ws/src/ros2_robot/install/remote_control/lib/remote_control
+[1.183s] writing list of installed files to '/home/turgay/dev_ws/src/ros2_robot/build/remote_control/install.log'

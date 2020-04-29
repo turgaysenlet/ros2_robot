@@ -1,0 +1,6 @@
+[0.101s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.180s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[7.778s] [100%] [32m[1mLinking CXX executable ground_plane_estimator_node[0m
+[8.444s] CMakeFiles/ground_plane_estimator_node.dir/build.make:249: recipe for target 'ground_plane_estimator_node' failed
+[8.445s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[8.445s] Makefile:140: recipe for target 'all' failed

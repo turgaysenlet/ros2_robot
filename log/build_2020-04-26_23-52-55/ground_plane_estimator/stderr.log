@@ -1,0 +1,19 @@
+[1.250s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In function ‘[01m[Kvoid image_callback_static(const ConstSharedPtr&)[m[K’:
+[1.251s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:15:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.251s]  void image_callback_static(const sensor_msgs::msg::Image::ConstSharedPtr & [01;35m[Kmsg[m[K) {
+[1.251s]                                                                             [01;35m[K^~~[m[K
+[1.301s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.301s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:25:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcustom_qos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.301s]    rmw_qos_profile_t [01;35m[Kcustom_qos[m[K = rmw_qos_profile_default;
+[1.302s]                      [01;35m[K^~~~~~~~~~[m[K
+[1.316s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K At global scope:
+[1.316s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:52:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(const ConstSharedPtr&)[m[K’ does not match any in class ‘[01m[KGroundPlaneEstimatorNode[m[K’
+[1.316s]  void [01;31m[KGroundPlaneEstimatorNode[m[K::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr & msg) {
+[1.316s]       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.317s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.317s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:36:10:[m[K [01;31m[Kerror: [m[Kcandidate is: void GroundPlaneEstimatorNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)
+[1.317s]      void [01;31m[Kimage_callback[m[K(const sensor_msgs::msg::Image::SharedPtr msg);
+[1.317s]           [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.267s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.267s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.267s] make: *** [all] Error 2

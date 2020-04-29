@@ -1,0 +1,6 @@
+[0.738s] /usr/bin/ld: cannot find -lpcl_range_image
+[0.738s] /usr/bin/ld: cannot find -lpcl_range_image_border_extractor
+[0.739s] collect2: error: ld returned 1 exit status
+[0.741s] make[2]: *** [ground_plane_estimator_node] Error 1
+[0.742s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[0.742s] make: *** [all] Error 2

@@ -1,0 +1,21 @@
+[0.857s] Invoking command in '/home/turgay/dev_ws/src/ros2_robot/simple_gps': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/simple_gps build --build-base /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/simple_gps --record /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/install.log --single-version-externally-managed
+[1.176s] running egg_info
+[1.177s] writing /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/PKG-INFO
+[1.177s] writing dependency_links to /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/dependency_links.txt
+[1.178s] writing entry points to /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/entry_points.txt
+[1.178s] writing requirements to /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/requires.txt
+[1.178s] writing top-level names to /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/top_level.txt
+[1.214s] reading manifest file '/home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/SOURCES.txt'
+[1.215s] writing manifest file '/home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info/SOURCES.txt'
+[1.215s] running build
+[1.216s] running build_py
+[1.216s] running install
+[1.217s] running install_lib
+[1.220s] running install_data
+[1.225s] running install_egg_info
+[1.225s] removing '/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps-0.0.0-py3.6.egg-info' (and everything under it)
+[1.226s] Copying /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/simple_gps.egg-info to /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages/simple_gps-0.0.0-py3.6.egg-info
+[1.228s] running install_scripts
+[1.256s] Installing simple_gps_node script to /home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/simple_gps
+[1.257s] writing list of installed files to '/home/turgay/dev_ws/src/ros2_robot/build/simple_gps/install.log'
+[1.289s] Invoked command in '/home/turgay/dev_ws/src/ros2_robot/simple_gps' returned '0': PYTHONPATH=/home/turgay/dev_ws/src/ros2_robot/install/simple_gps/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/turgay/dev_ws/src/ros2_robot/build/simple_gps build --build-base /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/build install --prefix /home/turgay/dev_ws/src/ros2_robot/install/simple_gps --record /home/turgay/dev_ws/src/ros2_robot/build/simple_gps/install.log --single-version-externally-managed

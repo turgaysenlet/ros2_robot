@@ -1,0 +1,10 @@
+[1.312s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.313s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:50:54:[m[K [01;31m[Kerror: [m[K‘[01m[KImageConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[1.313s]      void imageColorEdgeDetection( const sensor_msgs::[01;31m[KImageConstPtr[m[K& msg,
+[1.313s]                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.313s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:51:50:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2ConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[1.314s]                                const sensor_msgs::[01;31m[KPointCloud2ConstPtr[m[K& point_msg );
+[1.314s]                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.160s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.161s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.162s] make: *** [all] Error 2

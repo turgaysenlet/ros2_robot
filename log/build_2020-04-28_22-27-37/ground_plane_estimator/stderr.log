@@ -1,0 +1,75 @@
+[5.498s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[5.499s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:27:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+[5.499s]      image_pub_ = [01;31m[Knh[m[K.advertise<sensor_msgs::Image>( "/sidewalk_detector/color/image_raw", 1 );
+[5.499s]                   [01;31m[K^~[m[K
+[5.500s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:27:44:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+[5.501s]      image_pub_ = nh.advertise<sensor_msgs::[01;31m[KImage[m[K>( "/sidewalk_detector/color/image_raw", 1 );
+[5.501s]                                             [01;31m[K^~~~~[m[K
+[5.501s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:27:44:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[5.501s] In file included from [01m[K/opt/ros/dashing/include/sensor_msgs/msg/image.hpp:7:0[m[K,
+[5.502s]                  from [01m[K/opt/ros/dashing/include/image_transport/camera_publisher.h:41[m[K,
+[5.502s]                  from [01m[K/opt/ros/dashing/include/image_transport/image_transport.h:45[m[K,
+[5.502s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:20[m[K,
+[5.502s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[5.502s] [01m[K/opt/ros/dashing/include/sensor_msgs/msg/image__struct.hpp:218:49:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::Image[m[K’
+[5.503s]    sensor_msgs::msg::Image_<std::allocator<void>>[01;36m[K;[m[K
+[5.503s]                                                  [01;36m[K^[m[K
+[5.503s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:27:90:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[5.503s]      image_pub_ = nh.advertise<sensor_msgs::Image>( "/sidewalk_detector/color/image_raw", [01;35m[K1[m[K );
+[5.503s]                                                                                           [01;35m[K^[m[K
+[5.504s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:28:46:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+[5.504s]      pub_depth_in = nh.advertise<sensor_msgs::[01;31m[KPointCloud2[m[K>("/sidewalk_detector/depth/points_in", 1);
+[5.504s]                                               [01;31m[K^~~~~~~~~~~[m[K
+[5.504s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:28:46:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[5.505s] In file included from [01m[K/opt/ros/dashing/include/sensor_msgs/msg/point_cloud2.hpp:7:0[m[K,
+[5.505s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:26[m[K,
+[5.505s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[5.505s] [01m[K/opt/ros/dashing/include/sensor_msgs/msg/point_cloud2__struct.hpp:245:55:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’
+[5.505s]    sensor_msgs::msg::PointCloud2_<std::allocator<void>>[01;36m[K;[m[K
+[5.506s]                                                        [01;36m[K^[m[K
+[5.506s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:28:97:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[5.506s]      pub_depth_in = nh.advertise<sensor_msgs::PointCloud2>("/sidewalk_detector/depth/points_in", [01;35m[K1[m[K);
+[5.506s]                                                                                                  [01;35m[K^[m[K
+[5.506s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:29:47:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+[5.507s]      pub_depth_out = nh.advertise<sensor_msgs::[01;31m[KPointCloud2[m[K>("/sidewalk_detector/depth/points_out", 1);
+[5.507s]                                                [01;31m[K^~~~~~~~~~~[m[K
+[5.507s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:29:47:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[5.507s] In file included from [01m[K/opt/ros/dashing/include/sensor_msgs/msg/point_cloud2.hpp:7:0[m[K,
+[5.507s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:26[m[K,
+[5.508s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[5.508s] [01m[K/opt/ros/dashing/include/sensor_msgs/msg/point_cloud2__struct.hpp:245:55:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’
+[5.508s]    sensor_msgs::msg::PointCloud2_<std::allocator<void>>[01;36m[K;[m[K
+[5.508s]                                                        [01;36m[K^[m[K
+[5.508s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:29:99:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[5.509s]      pub_depth_out = nh.advertise<sensor_msgs::PointCloud2>("/sidewalk_detector/depth/points_out", [01;35m[K1[m[K);
+[5.509s]                                                                                                    [01;35m[K^[m[K
+[5.579s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageSegment(const ConstSharedPtr&)[m[K’:
+[5.579s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:351:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’ is deprecated: publishing an unique_ptr is prefered when using intra process communication. If using a shared_ptr, use publish(*msg). [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.579s]      image_pub_->publish( cv_ptr->toImageMsg() [01;35m[K)[m[K;
+[5.579s]                                                [01;35m[K^[m[K
+[5.579s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[5.579s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[5.580s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.580s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.580s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[5.580s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[5.580s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[5.580s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[5.581s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[5.581s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[5.581s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.581s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[5.581s]    [01;36m[K^~~~~~~[m[K
+[6.802s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[6.803s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[6.803s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[6.803s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34[m[K,
+[6.803s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[6.804s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[6.804s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.804s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[6.804s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.804s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.152s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[7.153s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[7.154s] make: *** [all] Error 2

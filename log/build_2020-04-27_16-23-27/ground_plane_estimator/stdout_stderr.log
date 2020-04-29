@@ -1,0 +1,13 @@
+[0.100s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[0.270s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[0.271s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:27:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image_encodings.hpp: No such file or directory
+[0.271s]  #include [01;31m[K<sensor_msgs/msg/image_encodings.hpp>[m[K
+[0.271s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.271s] compilation terminated.
+[0.273s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[0.273s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[0.273s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[0.273s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[0.273s] Makefile:140: recipe for target 'all' failed
+[0.274s] make: *** [all] Error 2

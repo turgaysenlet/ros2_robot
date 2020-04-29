@@ -1,0 +1,144 @@
+[0.103s] [35m[1mScanning dependencies of target ground_plane_estimator_node[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o[0m
+[1.569s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[1.570s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+[1.570s]    [01;31m[Kimage_pub_[m[K.publish( cv_ptr->toImageMsg() );
+[1.570s]    [01;31m[K^~~~~~~~~~[m[K
+[1.573s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:75:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KimageAcuting[m[K’
+[1.573s]    [01;36m[Kimage_pub_[m[K.publish( cv_ptr->toImageMsg() );
+[1.574s]    [01;36m[K^~~~~~~~~~[m[K
+[1.574s]    [32m[KimageAcuting[m[K
+[1.574s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:55:162:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.574s]  nsor_msgs::msg::Image::ConstSharedPtr& msg, const sensor_msgs::msg::PointCloud2::ConstSharedPtr & [01;35m[Kpoint_msg[m[K) {
+[1.574s]                                                                                                    [01;35m[K^~~~~~~~~[m[K
+[1.578s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::sidewalkEdgePicking(std::vector<cv::Vec<int, 4> >)[m[K’:
+[1.579s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:105:19:[m[K [01;31m[Kerror: [m[K‘[01m[KWIDTH[m[K’ was not declared in this scope
+[1.579s]      double lmin = [01;31m[KWIDTH[m[K/2, rmax = WIDTH/2;
+[1.579s]                    [01;31m[K^~~~~[m[K
+[1.581s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:114:31:[m[K [01;31m[Kerror: [m[K‘[01m[KHEIGHT[m[K’ was not declared in this scope
+[1.581s]                  double x21 = ([01;31m[KHEIGHT[m[K/2 - b) / tan(alpha);
+[1.581s]                                [01;31m[K^~~~~~[m[K
+[1.582s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:116:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krmax[m[K’ was not declared in this scope
+[1.582s]                  if (x21 < [01;31m[Krmax[m[K) {
+[1.583s]                            [01;31m[K^~~~[m[K
+[1.583s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:116:27:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfmax[m[K’
+[1.583s]                  if (x21 < [01;36m[Krmax[m[K) {
+[1.584s]                            [01;36m[K^~~~[m[K
+[1.584s]                            [32m[Kfmax[m[K
+[1.584s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:119:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krmax[m[K’ was not declared in this scope
+[1.584s]                  [01;31m[Krmax[m[K = x21;
+[1.584s]                  [01;31m[K^~~~[m[K
+[1.585s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:119:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfmax[m[K’
+[1.585s]                  [01;36m[Krmax[m[K = x21;
+[1.585s]                  [01;36m[K^~~~[m[K
+[1.586s]                  [32m[Kfmax[m[K
+[1.586s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:120:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_x2[m[K’ was not declared in this scope
+[1.586s]                  [01;31m[Krp_x2[m[K = x21;
+[1.586s]                  [01;31m[K^~~~~[m[K
+[1.587s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:121:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_y2[m[K’ was not declared in this scope
+[1.587s]                  [01;31m[Krp_y2[m[K = y21;
+[1.587s]                  [01;31m[K^~~~~[m[K
+[1.588s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:123:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_x1[m[K’ was not declared in this scope
+[1.588s]                      [01;31m[Krp_x1[m[K = WIDTH;
+[1.588s]                      [01;31m[K^~~~~[m[K
+[1.588s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:124:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_y1[m[K’ was not declared in this scope
+[1.589s]                      [01;31m[Krp_y1[m[K = tan(alpha) * rp_x1 + b;
+[1.589s]                      [01;31m[K^~~~~[m[K
+[1.589s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:124:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__y1[m[K’
+[1.589s]                      [01;36m[Krp_y1[m[K = tan(alpha) * rp_x1 + b;
+[1.590s]                      [01;36m[K^~~~~[m[K
+[1.590s]                      [32m[K__y1[m[K
+[1.590s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:126:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_x1[m[K’ was not declared in this scope
+[1.590s]                      [01;31m[Krp_x1[m[K = (HEIGHT - b) / tan(alpha);
+[1.591s]                      [01;31m[K^~~~~[m[K
+[1.591s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:127:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_y1[m[K’ was not declared in this scope
+[1.591s]                      [01;31m[Krp_y1[m[K = HEIGHT;
+[1.592s]                      [01;31m[K^~~~~[m[K
+[1.592s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:127:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__y1[m[K’
+[1.592s]                      [01;36m[Krp_y1[m[K = HEIGHT;
+[1.592s]                      [01;36m[K^~~~~[m[K
+[1.593s]                      [32m[K__y1[m[K
+[1.593s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:113:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx11[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.593s]                  double [01;35m[Kx11[m[K, y11;
+[1.594s]                         [01;35m[K^~~[m[K
+[1.594s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:113:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky11[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.594s]                  double x11, [01;35m[Ky11[m[K;
+[1.594s]                              [01;35m[K^~~[m[K
+[1.594s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:133:31:[m[K [01;31m[Kerror: [m[K‘[01m[KHEIGHT[m[K’ was not declared in this scope
+[1.594s]                  double x22 = ([01;31m[KHEIGHT[m[K/2 - b) / tan(alpha);
+[1.594s]                                [01;31m[K^~~~~~[m[K
+[1.594s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:139:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_x2[m[K’ was not declared in this scope
+[1.594s]                  [01;31m[Klp_x2[m[K = x22;
+[1.594s]                  [01;31m[K^~~~~[m[K
+[1.595s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:140:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_y2[m[K’ was not declared in this scope
+[1.595s]                  [01;31m[Klp_y2[m[K = y22;
+[1.595s]                  [01;31m[K^~~~~[m[K
+[1.595s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:142:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_x1[m[K’ was not declared in this scope
+[1.595s]                      [01;31m[Klp_x1[m[K = 0.0;
+[1.595s]                      [01;31m[K^~~~~[m[K
+[1.595s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:143:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_y1[m[K’ was not declared in this scope
+[1.595s]                      [01;31m[Klp_y1[m[K = b;
+[1.595s]                      [01;31m[K^~~~~[m[K
+[1.596s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:143:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__y1[m[K’
+[1.596s]                      [01;36m[Klp_y1[m[K = b;
+[1.596s]                      [01;36m[K^~~~~[m[K
+[1.596s]                      [32m[K__y1[m[K
+[1.596s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:145:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_x1[m[K’ was not declared in this scope
+[1.596s]                      [01;31m[Klp_x1[m[K = (HEIGHT - b) / tan(alpha);
+[1.596s]                      [01;31m[K^~~~~[m[K
+[1.596s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:146:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_y1[m[K’ was not declared in this scope
+[1.596s]                      [01;31m[Klp_y1[m[K = HEIGHT;
+[1.596s]                      [01;31m[K^~~~~[m[K
+[1.596s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:146:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__y1[m[K’
+[1.597s]                      [01;36m[Klp_y1[m[K = HEIGHT;
+[1.597s]                      [01;36m[K^~~~~[m[K
+[1.597s]                      [32m[K__y1[m[K
+[1.597s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:132:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx12[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.597s]                  double [01;35m[Kx12[m[K, y12;
+[1.597s]                         [01;35m[K^~~[m[K
+[1.597s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:132:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky12[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.597s]                  double x12, [01;35m[Ky12[m[K;
+[1.597s]                              [01;35m[K^~~[m[K
+[1.597s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kcv_bridge::CvImagePtr GroundPlaneEstimatorNode::showImageWithMark(cv_bridge::CvImagePtr)[m[K’:
+[1.597s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:155:36:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_y1[m[K’ was not declared in this scope
+[1.598s]      polygon[0][0] = cv::Point(0.0, [01;31m[Klp_y1[m[K);
+[1.598s]                                     [01;31m[K^~~~~[m[K
+[1.598s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:155:36:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__y1[m[K’
+[1.598s]      polygon[0][0] = cv::Point(0.0, [01;36m[Klp_y1[m[K);
+[1.598s]                                     [01;36m[K^~~~~[m[K
+[1.598s]                                     [32m[K__y1[m[K
+[1.598s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:156:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_x2[m[K’ was not declared in this scope
+[1.598s]      polygon[0][1] = cv::Point([01;31m[Klp_x2[m[K, lp_y2);
+[1.598s]                                [01;31m[K^~~~~[m[K
+[1.598s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:156:38:[m[K [01;31m[Kerror: [m[K‘[01m[Klp_y2[m[K’ was not declared in this scope
+[1.598s]      polygon[0][1] = cv::Point(lp_x2, [01;31m[Klp_y2[m[K);
+[1.599s]                                       [01;31m[K^~~~~[m[K
+[1.599s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:157:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_x2[m[K’ was not declared in this scope
+[1.599s]      polygon[0][2] = cv::Point([01;31m[Krp_x2[m[K, rp_y2);
+[1.599s]                                [01;31m[K^~~~~[m[K
+[1.599s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:157:38:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_y2[m[K’ was not declared in this scope
+[1.599s]      polygon[0][2] = cv::Point(rp_x2, [01;31m[Krp_y2[m[K);
+[1.599s]                                       [01;31m[K^~~~~[m[K
+[1.599s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:158:31:[m[K [01;31m[Kerror: [m[K‘[01m[KWIDTH[m[K’ was not declared in this scope
+[1.599s]      polygon[0][3] = cv::Point([01;31m[KWIDTH[m[K, rp_y1);
+[1.599s]                                [01;31m[K^~~~~[m[K
+[1.600s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:158:38:[m[K [01;31m[Kerror: [m[K‘[01m[Krp_y1[m[K’ was not declared in this scope
+[1.600s]      polygon[0][3] = cv::Point(WIDTH, [01;31m[Krp_y1[m[K);
+[1.600s]                                       [01;31m[K^~~~~[m[K
+[1.601s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:158:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__y1[m[K’
+[1.601s]      polygon[0][3] = cv::Point(WIDTH, [01;36m[Krp_y1[m[K);
+[1.601s]                                       [01;36m[K^~~~~[m[K
+[1.601s]                                       [32m[K__y1[m[K
+[1.601s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:166:16:[m[K [01;31m[Kerror: [m[K‘[01m[KOPENCV_WINDOW[m[K’ was not declared in this scope
+[1.601s]      cv::imshow([01;31m[KOPENCV_WINDOW[m[K, cv_ptr->image);
+[1.601s]                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.606s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:166:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KOPENCV_ERROR[m[K’
+[1.606s]      cv::imshow([01;36m[KOPENCV_WINDOW[m[K, cv_ptr->image);
+[1.606s]                 [01;36m[K^~~~~~~~~~~~~[m[K
+[1.606s]                 [32m[KOPENCV_ERROR[m[K
+[2.245s] CMakeFiles/ground_plane_estimator_node.dir/build.make:62: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o' failed
+[2.246s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.246s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ground_plane_estimator_node.dir/all' failed
+[2.246s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.247s] make: *** [all] Error 2
+[2.247s] Makefile:140: recipe for target 'all' failed

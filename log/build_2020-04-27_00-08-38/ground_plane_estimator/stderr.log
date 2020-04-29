@@ -1,0 +1,15 @@
+[1.210s] In file included from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7:0[m[K:
+[1.210s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ does not name a type
+[1.211s]      [01;31m[Kimage_transport[m[K::Subscriber transport_image_subscription_;
+[1.211s]      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.285s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.286s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransport_image_subscription_[m[K’ was not declared in this scope
+[1.286s]    [01;31m[Ktransport_image_subscription_[m[K = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos);
+[1.286s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.291s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:23:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kimage_subscription_[m[K’
+[1.292s]    [01;36m[Ktransport_image_subscription_[m[K = image_transport::create_subscription(node_.get(), "/d435/camera/aligned_depth_to_color", &GroundPlaneEstimatorNode::image_callback_static, "raw", custom_qos);
+[1.292s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.292s]    [32m[Kimage_subscription_[m[K
+[2.040s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.040s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.041s] make: *** [all] Error 2

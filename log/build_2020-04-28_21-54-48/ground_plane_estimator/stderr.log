@@ -1,0 +1,43 @@
+[0.776s] ** WARNING ** io features related to ensenso will be disabled
+[0.780s] ** WARNING ** io features related to davidSDK will be disabled
+[0.781s] ** WARNING ** io features related to dssdk will be disabled
+[0.781s] ** WARNING ** io features related to pcap will be disabled
+[0.781s] ** WARNING ** io features related to png will be disabled
+[0.884s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.916s] ** WARNING ** visualization features related to ensenso will be disabled
+[0.920s] ** WARNING ** visualization features related to davidSDK will be disabled
+[0.921s] ** WARNING ** visualization features related to dssdk will be disabled
+[0.923s] ** WARNING ** visualization features related to rssdk will be disabled
+[10.413s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[10.413s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:91:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl::ModelCoefficients[m[K’ has not been declared
+[10.413s]      pcl::[01;31m[KModelCoefficients[m[K::Ptr coefficients (new pcl::ModelCoefficients());
+[10.413s]           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[10.414s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:93:10:[m[K [01;31m[Kerror: [m[K‘[01m[KExtractIndices[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[10.414s]      pcl::[01;31m[KExtractIndices[m[K<pcl::PointXYZRGB> extract_in;
+[10.414s]           [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.414s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:93:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KPointIndices[m[K’
+[10.414s]      pcl::[01;36m[KExtractIndices[m[K<pcl::PointXYZRGB> extract_in;
+[10.415s]           [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.415s]           [32m[KPointIndices[m[K
+[10.415s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:93:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[10.415s]      pcl::ExtractIndices<pcl::PointXYZRGB[01;31m[K>[m[K extract_in;
+[10.415s]                                          [01;31m[K^[m[K
+[10.416s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:93:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kextract_in[m[K’ was not declared in this scope
+[10.416s]      pcl::ExtractIndices<pcl::PointXYZRGB> [01;31m[Kextract_in[m[K;
+[10.416s]                                            [01;31m[K^~~~~~~~~~[m[K
+[10.418s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:94:10:[m[K [01;31m[Kerror: [m[K‘[01m[KExtractIndices[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[10.419s]      pcl::[01;31m[KExtractIndices[m[K<pcl::PointXYZRGB> extract_out;
+[10.419s]           [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.419s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:94:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KPointIndices[m[K’
+[10.419s]      pcl::[01;36m[KExtractIndices[m[K<pcl::PointXYZRGB> extract_out;
+[10.419s]           [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.419s]           [32m[KPointIndices[m[K
+[10.420s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:94:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[10.420s]      pcl::ExtractIndices<pcl::PointXYZRGB[01;31m[K>[m[K extract_out;
+[10.420s]                                          [01;31m[K^[m[K
+[10.420s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:94:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kextract_out[m[K’ was not declared in this scope
+[10.420s]      pcl::ExtractIndices<pcl::PointXYZRGB> [01;31m[Kextract_out[m[K;
+[10.420s]                                            [01;31m[K^~~~~~~~~~~[m[K
+[11.879s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[11.881s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[11.881s] make: *** [all] Error 2

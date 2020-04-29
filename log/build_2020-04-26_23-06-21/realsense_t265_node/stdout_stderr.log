@@ -1,0 +1,4 @@
+[0.089s] [35m[1mScanning dependencies of target realsense_t265_node[0m
+[0.183s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense_t265_node.dir/src/realsense_t265_node.cpp.o[0m
+[2.912s] [100%] [32m[1mLinking CXX executable realsense_t265_node[0m
+[3.405s] [100%] Built target realsense_t265_node

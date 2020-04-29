@@ -1,0 +1,33 @@
+[1.254s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In constructor ‘[01m[KGroundPlaneEstimatorNode::GroundPlaneEstimatorNode()[m[K’:
+[1.254s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:20:51:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope
+[1.255s]    auto sub = image_transport::create_subscription([01;31m[Knode_[m[K.get(), "in_image_base_topic", image_callback, "raw", custom_qos);
+[1.255s]                                                    [01;31m[K^~~~~[m[K
+[1.255s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:20:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KNode[m[K’
+[1.255s]    auto sub = image_transport::create_subscription([01;36m[Knode_[m[K.get(), "in_image_base_topic", image_callback, "raw", custom_qos);
+[1.255s]                                                    [01;36m[K^~~~~[m[K
+[1.255s]                                                    [32m[KNode[m[K
+[1.266s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::image_callback(const ConstSharedPtr&)[m[K’:
+[1.267s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:37:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.267s]  void GroundPlaneEstimatorNode::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr & [01;35m[Kmsg[m[K) {
+[1.267s]                                                                                                [01;35m[K^~~[m[K
+[1.269s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.269s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:49:80:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<GroundPlaneEstimatorNode>[m[K’ to ‘[01m[KGroundPlaneEstimatorNode*[m[K’ in initialization
+[1.269s]    GroundPlaneEstimatorNode* node_ = std::make_shared<GroundPlaneEstimatorNode>([01;31m[K)[m[K;
+[1.269s]                                                                                 [01;31m[K^[m[K
+[1.269s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:51:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(GroundPlaneEstimatorNode*&)[m[K’
+[1.269s]    rclcpp::spin(node_[01;31m[K)[m[K;
+[1.270s]                      [01;31m[K^[m[K
+[1.270s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[1.270s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:18[m[K,
+[1.270s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[1.270s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:44:1:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)
+[1.270s]  [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.270s]  [01;36m[K^~~~[m[K
+[1.271s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:44:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KGroundPlaneEstimatorNode*[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr {aka std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>}[m[K’
+[1.271s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:48:1:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::spin(rclcpp::Node::SharedPtr)
+[1.271s]  [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.271s]  [01;36m[K^~~~[m[K
+[1.271s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:48:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KGroundPlaneEstimatorNode*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr {aka std::shared_ptr<rclcpp::Node>}[m[K’
+[1.999s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[2.000s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[2.000s] make: *** [all] Error 2

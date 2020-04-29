@@ -1,0 +1,30 @@
+[0.754s] ** WARNING ** io features related to ensenso will be disabled
+[0.757s] ** WARNING ** io features related to davidSDK will be disabled
+[0.758s] ** WARNING ** io features related to dssdk will be disabled
+[0.758s] ** WARNING ** io features related to pcap will be disabled
+[0.759s] ** WARNING ** io features related to png will be disabled
+[0.859s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.890s] ** WARNING ** visualization features related to ensenso will be disabled
+[0.894s] ** WARNING ** visualization features related to davidSDK will be disabled
+[0.894s] ** WARNING ** visualization features related to dssdk will be disabled
+[0.896s] ** WARNING ** visualization features related to rssdk will be disabled
+[6.529s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneEstimatorNode::imageColorEdgeDetection(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[6.529s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:151:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > > {aka class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Kpublish[m[K’
+[6.529s]      pub_depth_in.[01;31m[Kpublish[m[K(msg_in);
+[6.530s]                   [01;31m[K^~~~~~~[m[K
+[6.530s] [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:152:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > > {aka class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Kpublish[m[K’
+[6.530s]      pub_depth_out.[01;31m[Kpublish[m[K(msg_out);
+[6.530s]                    [01;31m[K^~~~~~~[m[K
+[7.665s] In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+[7.665s]                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+[7.665s]                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+[7.665s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/include/ground_plane_estimator/ground_plane_estimator_node.hpp:34[m[K,
+[7.666s]                  from [01m[K/home/turgay/dev_ws/src/ros2_robot/ground_plane_estimator/src/ground_plane_estimator_node.cpp:7[m[K:
+[7.666s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[7.666s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.666s]    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+[7.666s]    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.666s] [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.014s] make[2]: *** [CMakeFiles/ground_plane_estimator_node.dir/src/ground_plane_estimator_node.cpp.o] Error 1
+[8.015s] make[1]: *** [CMakeFiles/ground_plane_estimator_node.dir/all] Error 2
+[8.015s] make: *** [all] Error 2

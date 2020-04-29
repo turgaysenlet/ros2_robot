@@ -1,0 +1,25 @@
+[0.400s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.401s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.401s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.401s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.412s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.441s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.443s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.465s] -- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.467s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.478s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.498s] -- Found cv_bridge: 2.1.4 (/opt/ros/dashing/share/cv_bridge/cmake)
+[0.512s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.514s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.555s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[0.557s] CMake Error at /opt/ros/dashing/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:35 (message):
+[0.558s]   ament_target_dependencies() the first argument must be a valid target name
+[0.558s] Call Stack (most recent call first):
+[0.558s]   CMakeLists.txt:38 (ament_target_dependencies)
+[0.558s] 
+[0.559s] 
+[0.559s] -- Configuring incomplete, errors occurred!
+[0.559s] See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeOutput.log".
+[0.559s] See also "/home/turgay/dev_ws/src/ros2_robot/build/ground_plane_estimator/CMakeFiles/CMakeError.log".
+[0.561s] Makefile:252: recipe for target 'cmake_check_build_system' failed
+[0.561s] make: *** [cmake_check_build_system] Error 1
